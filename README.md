@@ -1,4 +1,4 @@
-# Proudly Serving - Public Service in the Digital Age
+# Proudly Serving - Public service in the digital age
 
 Official repository for Proudly Serving - Public Service in the Digital Age.
 
