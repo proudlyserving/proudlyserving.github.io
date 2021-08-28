@@ -1,9 +1,5 @@
 # Proudly Serving - Public service in the digital age
 
 * [Website](https://proudlyservingbook.com)
-* [Manuscript](https://docs.google.com/document/d/1oWuhH1d02Z0IxaDAdcFBp7wZUaoFtwn9VBLxEXAjDgg/edit?usp=sharing) \(working\)
+* [Manuscript](https://proudlyservingbook.com/download/) \(work in progress\)
 * [Project board](https://github.com/proudlyserving/book/projects/1)
-* [Drive](https://drive.google.com/drive/folders/14flitXfkAn8SvRZCiWiQ-Sq83syo9RT3)
-
-
-
