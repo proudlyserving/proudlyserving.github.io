@@ -13,7 +13,7 @@ C = Contributors
 Reference: 
 
 * [Chapter doc](LINKTOCHAPTERDOC)
-* Questions? Ask in chapter doc using comments feature or via [contact form)](https://proudlyservingbook.com/contact).
+* Questions? Ask in chapter doc using comments feature or via [contact form](https://proudlyservingbook.com/contact)
 
 ## To do
 
@@ -30,17 +30,17 @@ Reference:
 - [ ] Review [style guide](https://proudlyservingbook.com/style) (C)
 - [ ] Review [code of conduct](https://proudlyservingbook.com/conduct) (C)
 - [ ] Add headshots to GitHub issue (C)
+- [ ] Add contributor(s) to contributor list ([doc](https://docs.google.com/document/d/1rruJsEF8-E3qTVCv0Giw2mK43HcNS4d7233rgGk9wjw/edit?usp=sharing)/[GitBook](https://proudly-serving.gitbook.io/proudly-serving/)/[website](https://proudlyservingbook.com/people/) (M)
+- [ ] Add 'Proudly Serving contributor' to LinkedIn profile (C)
 - [ ] Send contributors 'Kick-off follow-up' email (M)
 
 ### Write draft
 
 - [ ] Add bios/social media links to ‘Contributors’ section (C)
-- [ ] Add contributor(s) to contributor list ([doc](https://docs.google.com/document/d/1rruJsEF8-E3qTVCv0Giw2mK43HcNS4d7233rgGk9wjw/edit?usp=sharing)/[GitBook)[https://proudly-serving.gitbook.io/proudly-serving/)/[website](https://proudlyservingbook.com/people/) (M)
-- [ ] Add 'Proudly Serving contributor' to LinkedIn profile (C)
 - [ ] Complete first draft (C)
 - [ ] When ready for review, highlight doc h1, add a ‘Ready for review’ comment and assign it to proudlyservingbook@gmail.com (C)
 - [ ] Review/edit/comment (M)
-- [ ] Select [icon](https://thenounproject.com/), add to [colophon](https://proudlyservingbook.com/colophon (M)
+- [ ] Select [icon](https://thenounproject.com/), add to [colophon](https://proudlyservingbook.com/colophon) (M)
 - [ ] Notify contributors to review/approve final edits (M)
 - [ ] When ready for public feedback, highlight doc h1, add a ‘Ready for feedback' comment and assign it to proudlyservingbook@gmail.com (C)
 
@@ -48,6 +48,7 @@ Reference:
 
 * [Content templates](https://docs.google.com/document/d/1JzJrG2J7WzbtGK-A3TgSVCkyXHJJFuqriVn_vIxTj-8/edit#heading=h.1yfb0xjocjrm)
 
+- [ ] [Set two-week calendar reminder in Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (M)
 - [ ] [Blog](https://proudlyservingbook.com/updates/) (M)
 - [ ] [Substack](https://proudlyserving.substack.com/) (M)
 - [ ] [Twitter](https://twitter.com/proudly_serving) (M)
