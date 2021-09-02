@@ -35,7 +35,7 @@ Reference:
 ### Write draft
 
 - [ ] Add bios/social media links to ‘Contributors’ section (C)
-- [ ] Add contributor(s) to contributor list ([doc)[https://docs.google.com/document/d/1rruJsEF8-E3qTVCv0Giw2mK43HcNS4d7233rgGk9wjw/edit?usp=sharing]/[GitBook)[https://proudly-serving.gitbook.io/proudly-serving/]/[website)[https://proudlyservingbook.com/people/] (M)
+- [ ] Add contributor(s) to contributor list ([doc](https://docs.google.com/document/d/1rruJsEF8-E3qTVCv0Giw2mK43HcNS4d7233rgGk9wjw/edit?usp=sharing)/[GitBook)[https://proudly-serving.gitbook.io/proudly-serving/)/[website](https://proudlyservingbook.com/people/) (M)
 - [ ] Add 'Proudly Serving contributor' to LinkedIn profile (C)
 - [ ] Complete first draft (C)
 - [ ] When ready for review, highlight doc h1, add a ‘Ready for review’ comment and assign it to proudlyservingbook@gmail.com (C)
