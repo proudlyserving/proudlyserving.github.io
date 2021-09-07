@@ -7,10 +7,10 @@ assignees: lukefretwell, rebeccawoodbury
 
 ---
 
+## Reference
+
 M = Maintainers (@rebeccawoodbury @lukefretwell)
 C = Contributors
-
-Reference:
 
 * [Chapter doc](LINKTOCHAPTERDOC)
 * Questions? Ask in chapter doc using comments feature or via [contact form](https://proudlyservingbook.com/contact)
