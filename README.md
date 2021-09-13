@@ -1,4 +1,4 @@
-# Proudly Serving - Public service in the digital age
+# Proudly Serving: Public service in the digital age
 
 * [Website](https://proudlyservingbook.com)
 * [Manuscript](https://proudlyservingbook.com/download/) \(work in progress\)
