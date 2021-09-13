@@ -7,10 +7,10 @@ assignees: lukefretwell, rebeccawoodbury
 
 ---
 
-## Reference
-
-M = Maintainers (@rebeccawoodbury @lukefretwell)
+M = Maintainers (@rebeccawoodbury @lukefretwell @marlena-medford)
 C = Contributors
+
+Reference:
 
 * [Chapter doc](LINKTOCHAPTERDOC)
 * Questions? Ask in chapter doc using comments feature or via [contact form](https://proudlyservingbook.com/contact)
@@ -21,9 +21,13 @@ C = Contributors
 
 - [ ] Review contributor request (M - @rebeccawoodbury, @lukefretwell)
 - [ ] Send contributors 'Welcome contributors' email (M - @rebeccawoodbury)
+- [ ] Schedule kick-off meeting (C)
 - [ ] Create new chapter doc from [chapter template](https://docs.google.com/document/d/16oS3naY8zCbcjr2QoJ6JvOk8YeJPsQ0ZENFec8gMshQ/edit?usp=sharing) (M - @rebeccawoodbury)
 - [ ] In file title and doc h1, replace 'TITLE' with the title of the chapter (example chapter) (M - @rebeccawoodbury)
+- [ ]Add link to GitHub issue in chapter doc (@rebeccawoodbury)
+- [ ] Meet for kick-off (C / M - @rebeccawoodbury @lukefretwell @marlena-medford)
 - [ ] Share edit rights with contributors (M - @rebeccawoodbury)
+- [ ] [Set two-week calendar deadline reminder (+ add contributors  in Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (M - @rebeccawoodbury)
 - [ ] Add contributors to [GitHub contributors team](https://github.com/orgs/proudlyserving/teams/proudly-serving-contributors) (M - @lukefretwell)
 - [ ] Add contributors to this GitHub issue (M - @lukefretwell)
 - [ ] Add doc link to this issue 'Reference' above (M - @lukefretwell)
@@ -37,7 +41,7 @@ C = Contributors
 ### Write draft
 
 - [ ] Add bios/social media links to ‘Contributors’ section (C)
-- [ ] Complete first draft (C)
+- [ ] Complete first draft (2 weeks after kick-off)  (C)
 - [ ] When ready for review, highlight doc h1, add a ‘Ready for review’ comment and assign it to proudlyservingbook@gmail.com (C)
 - [ ] Review/edit/comment (M - @rebeccawoodbury, @lukefretwell)
 - [ ] Select [icon](https://thenounproject.com/), add to [colophon](https://proudlyservingbook.com/colophon) (M - @lukefretwell)
@@ -48,7 +52,7 @@ C = Contributors
 
 * [Content templates](https://docs.google.com/document/d/1JzJrG2J7WzbtGK-A3TgSVCkyXHJJFuqriVn_vIxTj-8/edit#heading=h.1yfb0xjocjrm)
 
-- [ ] [Set two-week calendar reminder in Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (M - @rebeccawoodbury)
+- [ ] [Set two-week calendar deadline reminder (+ add contributors  in Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (M - @rebeccawoodbury)
 - [ ] [Blog](https://proudlyservingbook.com/updates/) (M - @rebeccawoodbury)
 - [ ] [Substack](https://proudlyserving.substack.com/) (M - @rebeccawoodbury)
 - [ ] [Twitter](https://twitter.com/proudly_serving) (M - @rebeccawoodbury)
@@ -56,9 +60,10 @@ C = Contributors
 
 ### Finalize feedback
 
-- [ ] Respond to all comments and incorporate where appropriate (C)
+- [ ] Respond to all comments and incorporate where appropriate ©
+- [ ] [Set two-week calendar deadline reminder (+ add contributors  in Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (M - @rebeccawoodbury)
 - [ ] When ready for final publish, highlight doc h1, add a ‘Ready to publish' comment and assign it to proudlyservingbook@gmail.com (C)
-- [ ] Depreciate doc (set to view only, add ‘This document has been depreciated. Visit the Proudly Serving website (https://proudlyservingbook.com/) to learn how to give feedback on this chapter.‘) (M - @lukefretwell)
+- [ ] Depreciate doc (set to view only, add ‘This document has been deprecated. Visit the Proudly Serving website (https://proudlyservingbook.com/) to learn how to give feedback on this chapter.‘) (M - @lukefretwell)
 
 ### Publish
 
