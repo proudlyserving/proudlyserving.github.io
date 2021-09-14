@@ -60,7 +60,7 @@ Reference:
 
 ### Finalize feedback
 
-- [ ] Respond to all comments and incorporate where appropriate ©
+- [ ] Respond to all comments and incorporate where appropriate (C)
 - [ ] [Set two-week calendar deadline reminder (+ add contributors  in Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (M - @rebeccawoodbury)
 - [ ] When ready for final publish, highlight doc h1, add a ‘Ready to publish' comment and assign it to proudlyservingbook@gmail.com (C)
 - [ ] Depreciate doc (set to view only, add ‘This document has been deprecated. Visit the Proudly Serving website (https://proudlyservingbook.com/) to learn how to give feedback on this chapter.‘) (M - @lukefretwell)
