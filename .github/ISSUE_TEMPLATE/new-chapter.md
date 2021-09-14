@@ -27,7 +27,10 @@ Reference:
 - [ ]Add link to GitHub issue in chapter doc (@rebeccawoodbury)
 - [ ] Meet for kick-off (C / M - @rebeccawoodbury @lukefretwell @marlena-medford)
 - [ ] Share edit rights with contributors (M - @rebeccawoodbury)
-- [ ] [Set two-week calendar deadline reminder (+ add contributors  in Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (M - @rebeccawoodbury)
+- [ ] [Set two-week calendar deadline reminder for writing chapter draft (+ add contributors in Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (M - @rebeccawoodbury)
+- [ ] [Set three-week calendar deadline reminder for maintainer review (+ add contributors in Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (M - @rebeccawoodbury)
+- [ ] [Set five-week calendar deadline reminder for public feedback (+ add contributors in Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (M - @rebeccawoodbury)
+- [ ] [Set six-week calendar deadline reminder to finalize chapter (+ add contributors in Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (M - @rebeccawoodbury)
 - [ ] Add contributors to [GitHub contributors team](https://github.com/orgs/proudlyserving/teams/proudly-serving-contributors) (M - @lukefretwell)
 - [ ] Add contributors to this GitHub issue (M - @lukefretwell)
 - [ ] Add doc link to this issue 'Reference' above (M - @lukefretwell)
@@ -52,7 +55,6 @@ Reference:
 
 * [Content templates](https://docs.google.com/document/d/1JzJrG2J7WzbtGK-A3TgSVCkyXHJJFuqriVn_vIxTj-8/edit#heading=h.1yfb0xjocjrm)
 
-- [ ] [Set two-week calendar deadline reminder (+ add contributors  in Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (M - @rebeccawoodbury)
 - [ ] [Blog](https://proudlyservingbook.com/updates/) (M - @rebeccawoodbury)
 - [ ] [Substack](https://proudlyserving.substack.com/) (M - @rebeccawoodbury)
 - [ ] [Twitter](https://twitter.com/proudly_serving) (M - @rebeccawoodbury)
@@ -61,7 +63,6 @@ Reference:
 ### Finalize feedback
 
 - [ ] Respond to all comments and incorporate where appropriate (C)
-- [ ] [Set two-week calendar deadline reminder (+ add contributors  in Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (M - @rebeccawoodbury)
 - [ ] When ready for final publish, highlight doc h1, add a ‘Ready to publish' comment and assign it to proudlyservingbook@gmail.com (C)
 - [ ] Depreciate doc (set to view only, add ‘This document has been deprecated. Visit the Proudly Serving website (https://proudlyservingbook.com/) to learn how to give feedback on this chapter.‘) (M - @lukefretwell)
 
