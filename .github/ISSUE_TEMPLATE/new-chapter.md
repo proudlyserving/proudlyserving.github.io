@@ -19,12 +19,12 @@ Reference:
 
 ### Set-up
 
-- [ ] Review contributor request (M - @rebeccawoodbury, @lukefretwell)
+- [ ] Review contributor request (M - @rebeccawoodbury, @lukefretwell @marlena-medford)
 - [ ] Send contributors 'Welcome contributors' email (M - @rebeccawoodbury)
 - [ ] Schedule kick-off meeting (C)
 - [ ] Create new chapter doc from [chapter template](https://docs.google.com/document/d/16oS3naY8zCbcjr2QoJ6JvOk8YeJPsQ0ZENFec8gMshQ/edit?usp=sharing) (M - @rebeccawoodbury)
 - [ ] In file title and doc h1, replace 'TITLE' with the title of the chapter (example chapter) (M - @rebeccawoodbury)
-- [ ]Add link to GitHub issue in chapter doc (@rebeccawoodbury)
+- [ ] Add link to GitHub issue in chapter doc (@rebeccawoodbury)
 - [ ] Meet for kick-off (C / M - @rebeccawoodbury @lukefretwell @marlena-medford)
 - [ ] Share edit rights with contributors (M - @rebeccawoodbury)
 - [ ] [Set two-week calendar deadline reminder for writing chapter draft (+ add contributors in Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (M - @rebeccawoodbury)
@@ -46,7 +46,7 @@ Reference:
 - [ ] Add bios/social media links to ‘Contributors’ section (C)
 - [ ] Complete first draft (2 weeks after kick-off)  (C)
 - [ ] When ready for review, highlight doc h1, add a ‘Ready for review’ comment and assign it to proudlyservingbook@gmail.com (C)
-- [ ] Review/edit/comment (M - @rebeccawoodbury, @lukefretwell)
+- [ ] Review/edit/comment (M - @rebeccawoodbury, @lukefretwell @marlena-medford)
 - [ ] Select [icon](https://thenounproject.com/), add to [colophon](https://proudlyservingbook.com/colophon) (M - @lukefretwell)
 - [ ] Notify contributors to review/approve final edits (M - @rebeccawoodbury)
 - [ ] When ready for public feedback, highlight doc h1, add a ‘Ready for feedback' comment and assign it to proudlyservingbook@gmail.com (C)
