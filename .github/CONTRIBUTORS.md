@@ -2,7 +2,7 @@
 
 ## Special thanks for all the people who had helped this project so far:
 
-* [Luke Fretwell](https://github.com/rebeccawoodbury)
+* [Luke Fretwell](https://github.com/lukefretwell)
 * [Rebecca Woodbury](https://github.com/rebeccawoodbury)
 * [Marlena Medford](https://github.com/Marlena-Medford)
 
