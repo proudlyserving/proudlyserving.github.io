@@ -4,7 +4,7 @@
 
 * [Luke Fretwell](https://github.com/rebeccawoodbury)
 * [Rebecca Woodbury](https://github.com/rebeccawoodbury)
-* [Marlena Medford](https://github.com/lukefretwell)
+* [Marlena Medford](https://github.com/Marlena-Medford)
 
 ## I would like to join this list. How can I help the project?
 
