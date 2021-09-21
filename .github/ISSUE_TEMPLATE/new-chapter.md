@@ -27,7 +27,7 @@ Reference:
 - [ ] In file title and doc h1, replace 'TITLE' with the title of the chapter (example chapter) (M - @rebeccawoodbury)
 - [ ] Add link to GitHub issue in chapter doc (@rebeccawoodbury)
 - [ ] Meet for kick-off (C / M - @rebeccawoodbury @lukefretwell @marlena-medford)
-- [ ] Share edit rights with contributors (M - @rebeccawoodbury)
+- [ ] Share edit rights with contributors and maintainers (M - @rebeccawoodbury)
 - [ ] Set two-week [calendar deadline reminder for writing chapter draft (+ add contributors in [Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)) (M - @rebeccawoodbury)
 - [ ] Set three-week calendar deadline reminder for maintainer review (+ add contributors in [Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)) (M - @rebeccawoodbury)
 - [ ] Set five-week calendar deadline reminder for public feedback (+ add contributors in [Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)) (M - @rebeccawoodbury)
