@@ -4,6 +4,10 @@ about: Start and manage chapter production
 title: 'Chapter: [TITLE]'
 labels: content
 assignees: lukefretwell, rebeccawoodbury, Marlena-Medford
+projects:
+  name: Proudly Serving book
+milestones:
+  name: Proudly Serving chapters
 
 ---
 
