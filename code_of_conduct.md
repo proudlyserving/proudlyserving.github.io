@@ -1,6 +1,6 @@
 # Code of conduct
 
-(Modified from [Geek Feminism](https://geekfeminism.wikia.org/wiki/Community_anti-harassment/Policy))
+_\(Modified from_ [_Geek Feminism_](https://geekfeminism.wikia.org/wiki/Community_anti-harassment/Policy)_\)_
 
 Proudly Serving is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form.
 
@@ -10,11 +10,11 @@ Some Proudly Serving spaces may have additional rules in place, which will be ma
 
 Harassment includes:
 
-* Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, age, race, or religion.
+* Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro\(a\)typicality, physical appearance, body size, age, race, or religion.
 * Unwelcome comments regarding a person’s lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment.
 * Deliberate misgendering or use of ‘dead’ or rejected names.
 * Gratuitous or off-topic sexual images or behaviour in spaces where they’re not appropriate.
-* Physical contact and simulated physical contact (eg, textual descriptions like “*hug*” or “*backrub*”) without consent or after a request to stop.
+* Physical contact and simulated physical contact \(eg, textual descriptions like “_hug_” or “_backrub_”\) without consent or after a request to stop.
 * Threats of violence.
 * Incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm.
 * Deliberate intimidation.
@@ -49,3 +49,4 @@ We will respect confidentiality requests for the purpose of protecting victims o
 Participants asked to stop any harassing behavior are expected to comply immediately.
 
 If a participant engages in harassing behavior, maintainers may take any action they deem appropriate, up to and including expulsion from all Proudly Serving spaces and identification of the participant as a harasser to other Proudly Serving members or the general public.
+
