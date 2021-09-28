@@ -14,7 +14,7 @@ Delivering services in the digital age is not reserved for technologists. It is 
 
 Together, we can and must build a government for, by and with all people.
 
-### Swear yourself in
+#### Swear yourself in
 
 Before getting started with this playbook, swear yourself in.
 
