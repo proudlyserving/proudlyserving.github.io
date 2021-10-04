@@ -20,9 +20,10 @@ Reference:
 ### Set-up
 
 - [ ] Review contributor request (M - @rebeccawoodbury, @lukefretwell @marlena-medford)
+- [ ] Create a [new issue](https://github.com/proudlyserving/book/issues/new?assignees=lukefretwell%2C+rebeccawoodbury%2C+Marlena-Medford&labels=content&template=new-chapter.md&title=Chapter%3A+%5BTITLE%5D) (M - @lukefretwell)
 - [ ] Send contributors 'Welcome contributors' email (M - @rebeccawoodbury)
 - [ ] Schedule kick-off meeting (C)
-- [ ] Add @rebeccawoodbury @lukefretwell @Marlena-Medford to invite (M)
+- [ ] Add @rebeccawoodbury @lukefretwell @Marlena-Medford to meeting invite (M - @rebeccawoodbury)
 - [ ] Create new chapter doc from [chapter template](https://docs.google.com/document/d/16oS3naY8zCbcjr2QoJ6JvOk8YeJPsQ0ZENFec8gMshQ/edit?usp=sharing) (M - @rebeccawoodbury)
 - [ ] In file title and doc h1, replace 'TITLE' with the title of the chapter (example chapter) (M - @rebeccawoodbury)
 - [ ] Add link to GitHub issue in chapter doc (@rebeccawoodbury)
