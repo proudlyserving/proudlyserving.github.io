@@ -66,6 +66,7 @@ Reference:
 
 - [ ] Respond to all comments and incorporate where appropriate (C)
 - [ ] When ready for final publish, highlight doc h1, add a ‘Ready to publish' comment and assign it to proudlyservingbook@gmail.com (C)
+- [ ] Review for copy edits ( M - @marlena-medford)
 - [ ] Deprecate doc (set to view only, add ‘This document has been deprecated. Visit the Proudly Serving website (https://proudlyservingbook.com/) to learn how to give feedback on this chapter.‘) (M - @lukefretwell)
 
 ### Publish
