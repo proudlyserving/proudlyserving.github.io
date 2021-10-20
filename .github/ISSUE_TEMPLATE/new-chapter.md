@@ -61,6 +61,8 @@ Reference:
 - [ ] [Substack](https://proudlyserving.substack.com/) (M - @rebeccawoodbury)
 - [ ] [Twitter](https://twitter.com/proudly_serving) (M - @rebeccawoodbury)
 - [ ] [LinkedIn](https://www.linkedin.com/company/proudlyserving) (M - @rebeccawoodbury)
+- [ ] Send email to Contributor asking them to help promote on social (M - @rebeccawoodbury)
+- [ ] Share on social (C)
 
 ### Finalize feedback
 
@@ -82,4 +84,6 @@ Reference:
 - [ ] [Substack](https://proudlyserving.substack.com/) (M - @rebeccawoodbury)
 - [ ] [Twitter](https://twitter.com/proudly_serving) (M - @rebeccawoodbury)
 - [ ] [LinkedIn](https://www.linkedin.com/company/proudlyserving) (M - @rebeccawoodbury)
+- [ ] Send email to Contributor asking them to help promote on social (M - @rebeccawoodbury)
+- [ ] Share on social (C)
 - [ ] Send contributors 'Thank you' email (M - @rebeccawoodbury)
