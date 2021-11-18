@@ -75,6 +75,7 @@ Reference:
 
 - [ ] [Doc](https://docs.google.com/document/d/1rruJsEF8-E3qTVCv0Giw2mK43HcNS4d7233rgGk9wjw/edit?usp=sharing) (M - @lukefretwell)
 - [ ] [GitBook](https://proudly-serving.gitbook.io/proudly-serving/) (M - @lukefretwell)
+- [ ] Add to [/contents](https://proudlyservingbook.com/contents/) page (M - @lukefretwell)
 
 ### Promote published
 
