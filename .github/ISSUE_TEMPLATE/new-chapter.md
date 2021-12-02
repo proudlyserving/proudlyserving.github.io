@@ -57,6 +57,7 @@ Reference:
 
 * [Content templates](https://docs.google.com/document/d/1JzJrG2J7WzbtGK-A3TgSVCkyXHJJFuqriVn_vIxTj-8/edit#heading=h.1yfb0xjocjrm)
 
+- [ ] Add chapter to [feedback page](https://proudlyservingbook.com/feedback) on website (M - @rebeccawoodbury)
 - [ ] [Blog](https://proudlyservingbook.com/updates/) (M - @rebeccawoodbury)
 - [ ] [Substack](https://proudlyserving.substack.com/) (M - @rebeccawoodbury)
 - [ ] [Twitter](https://twitter.com/proudly_serving) (M - @marlena-medford)
