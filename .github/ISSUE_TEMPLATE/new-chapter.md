@@ -52,6 +52,7 @@ Reference:
 - [ ] Select [icon](https://thenounproject.com/), add to [colophon](https://proudlyservingbook.com/colophon) (M - @lukefretwell)
 - [ ] Notify contributors to review/approve final edits (M - @rebeccawoodbury)
 - [ ] When ready for public feedback, highlight doc h1, add a ‘Ready for feedback' comment and assign it to proudlyservingbook@gmail.com (C)
+- [ ] Set up chapter page on website ([example](https://proudlyservingbook.com/default-to-open)) (M - @lukefretwell)
 
 ### Promote feedback
 
@@ -76,6 +77,7 @@ Reference:
 
 - [ ] [Doc](https://docs.google.com/document/d/1rruJsEF8-E3qTVCv0Giw2mK43HcNS4d7233rgGk9wjw/edit?usp=sharing) (M - @lukefretwell)
 - [ ] [GitBook](https://proudly-serving.gitbook.io/proudly-serving/) (M - @lukefretwell)
+- [ ] Up chapter page on website (M - @lukefretwell)
 - [ ] Add to [/contents](https://proudlyservingbook.com/contents/) page (M - @lukefretwell)
 
 ### Promote published
