@@ -8,3 +8,4 @@
 * [People](people.md)
 * [Code of conduct](code\_of\_conduct.md)
 * [License](license.md)
+* [Think exponential](think-exponential.md)
