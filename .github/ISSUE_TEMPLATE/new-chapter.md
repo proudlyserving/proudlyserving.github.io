@@ -84,10 +84,10 @@ Reference:
 
 * [Content templates](https://docs.google.com/document/d/1JzJrG2J7WzbtGK-A3TgSVCkyXHJJFuqriVn_vIxTj-8/edit#heading=h.1yfb0xjocjrm)
 
-- [ ] [Blog](https://proudlyservingbook.com/updates/) (M - @rebeccawoodbury)
-- [ ] [Substack](https://proudlyserving.substack.com/) (M - @rebeccawoodbury)
 - [ ] [Twitter](https://twitter.com/proudly_serving) (M - @marlena-medford)
 - [ ] [LinkedIn](https://www.linkedin.com/company/proudlyserving) (M - @marlena-medford)
+- [ ] [Blog](https://proudlyservingbook.com/updates/) (M - @rebeccawoodbury)
+- [ ] [Substack](https://proudlyserving.substack.com/) (M - @rebeccawoodbury)
 - [ ] Send email to Contributor asking them to help promote on social (M - @rebeccawoodbury)
 - [ ] Share on social (C)
 - [ ] Send contributors 'Thank you' email (M - @rebeccawoodbury)
