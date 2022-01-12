@@ -5,7 +5,7 @@
 * [Call to action](call-to-action.md)
 * [Default to open](default-to-open.md)
 * [Think exponential](think-exponential.md)
-* [Share the Done/doing](share-the-done-doing.md)
+* [Share the done/doing](share-the-done-doing.md)
 * [Collaborate](collaborate.md)
 * [People](people.md)
 * [Code of conduct](code\_of\_conduct.md)
