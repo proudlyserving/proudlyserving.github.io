@@ -29,6 +29,7 @@ Reference:
 - [ ] Add link to GitHub issue in chapter doc (@rebeccawoodbury)
 - [ ] Meet for kick-off (C / M - @rebeccawoodbury @lukefretwell @marlena-medford)
 - [ ] Share edit rights with contributors and maintainers (M - @rebeccawoodbury)
+- [ ] Invite to [Slack community](https://proudlyserving.slack.com) (M - @lukefretwell)
 - [ ] Set two-week [calendar deadline reminder for writing chapter draft (+ add contributors in [Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) / [template text](https://docs.google.com/document/d/1JzJrG2J7WzbtGK-A3TgSVCkyXHJJFuqriVn_vIxTj-8/edit#heading=h.wxmd11mqg67) (M - @rebeccawoodbury)
 - [ ] Set three-week calendar deadline reminder for maintainer review (+ add contributors in [Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) / [template text](https://docs.google.com/document/d/1JzJrG2J7WzbtGK-A3TgSVCkyXHJJFuqriVn_vIxTj-8/edit#heading=h.wxmd11mqg67)) (M - @rebeccawoodbury)
 - [ ] Set five-week calendar deadline reminder for public feedback (+ add contributors in [Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) / [template text](https://docs.google.com/document/d/1JzJrG2J7WzbtGK-A3TgSVCkyXHJJFuqriVn_vIxTj-8/edit#heading=h.wxmd11mqg67)) (M - @rebeccawoodbury)
