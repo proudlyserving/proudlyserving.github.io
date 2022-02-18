@@ -6,6 +6,7 @@
 * [Default to open](default-to-open.md)
 * [Think exponential](think-exponential.md)
 * [Share the done/doing](share-the-done-doing.md)
+* [Go .gov](go-.gov.md)
 * [Collaborate](collaborate.md)
 * [People](people.md)
 * [Code of conduct](code\_of\_conduct.md)
