@@ -36,6 +36,7 @@ Reference:
 - [ ] Add doc link to this issue 'Reference' above (M - @lukefretwell)
 - [ ] Review [style guide](https://proudlyservingbook.com/style) (C)
 - [ ] Review [code of conduct](https://proudlyservingbook.com/conduct) (C)
+- [ ] Take the Proudly Serving pledge ([team agreement](https://proudlyservingbook.com/team-agreement))
 - [ ] Add headshots to GitHub issue (C)
 - [ ] Add contributor(s) to contributor list ([doc](https://docs.google.com/document/d/1rruJsEF8-E3qTVCv0Giw2mK43HcNS4d7233rgGk9wjw/edit?usp=sharing)/[GitBook](https://proudly-serving.gitbook.io/proudly-serving/)/[website](https://proudlyservingbook.com/people/) (M - @lukefretwell)
 - [ ] Add 'Proudly Serving contributor' to LinkedIn profile (C)
