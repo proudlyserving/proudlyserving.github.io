@@ -11,3 +11,4 @@
 * [People](people.md)
 * [Code of conduct](code\_of\_conduct.md)
 * [License](license.md)
+* [Remember why you do this](remember-why-you-do-this.md)
