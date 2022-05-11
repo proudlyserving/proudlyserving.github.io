@@ -38,8 +38,6 @@ Reference:
 - [ ] Review [code of conduct](https://proudlyservingbook.com/conduct) (C)
 - [ ] Take the Proudly Serving pledge ([team agreement](https://proudlyservingbook.com/team-agreement))
 - [ ] Send contributors 'Kick-off follow-up' email (M - @rebeccawoodbury)
-- [ ] Add 'Proudly Serving contributor' to LinkedIn profile (C)
-- [ ] Add contributor(s) to contributor list ([doc](https://docs.google.com/document/d/1rruJsEF8-E3qTVCv0Giw2mK43HcNS4d7233rgGk9wjw/edit?usp=sharing)/[GitBook](https://proudly-serving.gitbook.io/proudly-serving/)/[website](https://proudlyservingbook.com/people/) (M - @lukefretwell)
 
 ### Write draft
 
@@ -76,6 +74,8 @@ Reference:
 
 ### Publish
 
+- [ ] Add 'Proudly Serving contributor' to LinkedIn profile (C)
+- [ ] Add contributor(s) to contributor list ([doc](https://docs.google.com/document/d/1rruJsEF8-E3qTVCv0Giw2mK43HcNS4d7233rgGk9wjw/edit?usp=sharing)/[GitBook](https://proudly-serving.gitbook.io/proudly-serving/)/[website](https://proudlyservingbook.com/people/) (M - @lukefretwell)
 - [ ] [Doc](https://docs.google.com/document/d/1rruJsEF8-E3qTVCv0Giw2mK43HcNS4d7233rgGk9wjw/edit?usp=sharing) (M - @lukefretwell)
 - [ ] [GitBook](https://proudly-serving.gitbook.io/proudly-serving/) (M - @lukefretwell)
 - [ ] Update chapter page on website (M - @lukefretwell)
