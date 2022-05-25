@@ -5,6 +5,7 @@
 * [Call to action](call-to-action.md)
 * [Default to open](default-to-open.md)
 * [Think exponential](think-exponential.md)
+* [Innovate with purpose](innovate-with-purpose.md)
 * [Spark community joy](spark-community-joy.md)
 * [Share the done/doing](share-the-done-doing.md)
 * [Go .gov](go-.gov.md)
