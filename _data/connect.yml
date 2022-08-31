@@ -1,0 +1,127 @@
+# Icon sizes
+
+sm: "fa-lg"
+md: "fa-2x"
+lg: "fa-3x"
+xl: "fa-4x"
+
+# Social media icons
+
+website: &website "fas fa-window-maximize"
+email: &email "fas fa-at"
+calendar: &calendar "fa-solid fa-calendar"
+subscribe: &subscribe "fa-solid fa-envelope"
+patreon: &patreon "fab fa-patreon"
+twitter: &twitter "fab fa-twitter"
+linkedin: &linkedin "fab fa-linkedin"
+facebook: &facebook "fab fa-facebook"
+github: &github "fab fa-github"
+medium: &medium "fab fa-medium"
+youtube: &youtube "fab fa-youtube"
+vimeo: &vimeo "fab fa-vimeo"
+instagram: &instagram "fa-brands fa-instagram-square"
+flickr: &flickr "fab fa-flickr"
+figma: &figma "fab fa-figma"
+tumblr: &tumblr "fab fa-tumblr"
+library: &library "fas fa-book-reader"
+bookshop: &bookshop "fas fa-book"
+goodreads: &goodreads "fab fa-goodreads"
+amazon: &amazon "fab fa-amazon"
+apple: &apple "fab fa-apple"
+spotify: &spotify "fab fa-spotify"
+rss: &rss "fas fa-rss"
+discord: &discord "fab fa-discord"
+
+# Site social media links
+
+docs_list_title: connect
+docs:
+
+  - name: Website
+    url: https://proudlyservingbook.com
+    icon: *website
+
+  - name: Email
+    url: mailto:proudlyservingbook@gmail.com
+    icon: *email
+
+  - name: Subscribe
+    url: https://proudlyservingbook.com/subscribe
+    icon: *subscribe
+
+  - name: Patreon
+    url: 
+    icon: *patreon
+
+  - name: Discord
+    url: 
+    icon: *discord
+
+  - name: Twitter 
+    url: https://twitter.com/proudly_serving
+    icon: *twitter
+
+  - name: LinkedIn
+    url: https://www.linkedin.com/company/proudlyserving
+    icon: *linkedin
+
+  - name:  Facebook
+    url: 
+    icon: *facebook
+
+  - name: GitHub
+    url: https://github.com/proudlyserving/book
+    icon: *github
+
+  - name: Medium
+    url: 
+    icon: *medium
+
+  - name: YouTube
+    url: 
+    icon: *youtube
+
+  - name: Vimeo
+    url: 
+    icon: *vimeo
+   
+  - name: Instagram
+    url: 
+    icon: *instagram
+ 
+  - name: Flickr
+    url: 
+    icon: *flickr
+
+  - name: Figma
+    url: https://www.figma.com/@proudlyserving
+    icon: *figma
+
+  - name: Tumblr
+    url: 
+    icon: *tumblr
+
+  - name: Library
+    url: 
+    icon: *library
+
+  - name: GoodReads
+    url: 
+    icon: *goodreads
+
+  - name: Amazon
+    url: 
+    icon: *amazon
+ 
+  - name: Apple
+    url: 
+    icon: *apple 
+    
+  - name: Spotify
+    url: 
+    icon: *spotify
+
+  - name: RSS
+    url: https://proudlyservingbook.com/feed.xml
+    icon: *rss
+    

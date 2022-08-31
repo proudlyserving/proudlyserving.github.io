@@ -1,0 +1,15 @@
+<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+    <div class="card">
+        <div class="card-body">
+            <div class="card-icon">
+                <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link"></a><i class="{{ item.icon }} fa-4x"></i></a>
+            </div>
+            <h3>
+                <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+            </h2>
+            <p>
+                <small>{% include date.html %}</small>
+            </p>
+        </div>
+    </div>
+</div>

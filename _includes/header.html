@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Meta tags --> <meta charset="utf-8">
+        <meta
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+            name="viewport">
+        <meta name="description" content="{{ page.description }}">
+        <meta content="" name="keywords">
+        <meta name="author" content="{{ site.name }}"> <!-- Title -->
+        <title>{{ page.title }} - {{ site.title }}</title>
+        <!-- Favicon --> {% include favicon.html %} <!-- Social media --> <meta content="{{ site.baseurl }}{{ page.url }}" property="og:url">
+        <meta content="website" property="og:type">
+        <meta property="og:title" content="{{ page.title }}">
+        <meta property="og:description" content="{{ page.description }}">
+        {% if page.img-feat %}
+            <meta
+                content="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
+                property="twitter:image">
+            <meta
+                content="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
+                property="og:image">
+            {% if page.img-alt %}
+                <meta content="{{ page.img-alt }}" property="og:image:alt">
+            {% else %}
+                <meta content="{{ page.title }} image" property="og:image:alt">
+            {% endif %}
+        {% else %}
+            <meta content="{{ site.baseurl }}/assets/img/avatar.png" property="og:image">
+        {% endif %}
+        <!-- CSS --> {% include style.html %} <!-- Fonts --> {% include fonts.html %}
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+                                                                                                                                                <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+                                                                                                                                                <!-- SEO -->
+        {% seo %}
+    </head>
+    <body class="{{ page.parent }}">
+        <a class="sr-only sr-only-focusable skip-link" href="#main-content">
+            Skip to main content
+        </a>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+docs_list_title: nav-about
+docs:
+
+ - title: About
+   url: /about/
+
+ - title: Contents
+   url: /contents/
+
+ - title: Manuscript
+   url: /manuscript/
+
+ - title: Contribute
+   url: /contribute/
+
+ - title: News
+   url: /posts/

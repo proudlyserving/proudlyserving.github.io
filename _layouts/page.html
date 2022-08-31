@@ -1,0 +1,88 @@
+---
+layout: page
+---
+{% include header.html %}
+{% include nav.html %}
+<main>
+    {% include jumbotron.html %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="post">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% if page.launched %}
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Read</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p>Read this chapter in the <a href="{{ site.haseurl }}/manuscript">manuscript</a>.</p>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% if page.feedback %}
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Feedback</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="alert alert-success mt-3">
+                        <p>
+                            <i class="fa-solid fa-comments"></i>
+                            This chapter is open for your feedback.
+                            <a href="{{ page.feedback-link }}" class="stretched-link">Help make it better.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    {% if page.author %}
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Author</h2>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    {% if page.author %}
+        {% for author in page.author %}
+            {% assign author_data = site.people | where:"title", author | first %}
+            {% if author_data.content.size > 1 %}
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            {% if author_data.img %}
+                                <div class="img">
+                                    <img src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}" alt="Photo of {{ author_data.title }}" title="{{ author_data.title }}" class="md rounded-circle">
+                                </div>
+                            {% endif %}
+                        </div>
+                        <div class="col-sm-9">
+                            <h3>{{ author_data.title }}</h3>
+                            <div class="mb-3 mt-3">
+                                {% include role.html %}
+                            </div>
+                            {{ author_data.content }}
+                            {% include social.html size="small" %}
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+</main>
+{% include analytics.html %}
+{% include footer.html %}

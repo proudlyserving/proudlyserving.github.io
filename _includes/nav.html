@@ -1,0 +1,33 @@
+<div class="container-fluid logo">
+    <div class="row">
+        <div class="col-sm-12">
+            <a href="{{ site.baseurl }}/">
+                <img src="{{ site.baseurl }}/assets/img/avatar.png" alt="{{ site.title }}" class="xs">
+            </a>
+            <a href="{{ site.baseurl }}/">
+                {{ site.title }}
+            </a>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        class="navbar-toggler"
+        data-target="#navbarNavAltMarkup"
+        data-toggle="collapse"
+        type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mr-auto">
+            {% for item in site.data.nav.docs %}
+                {% if item.url %}
+                    <a class="nav-item nav-link {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</nav>

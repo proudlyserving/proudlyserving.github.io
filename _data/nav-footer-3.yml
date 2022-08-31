@@ -1,0 +1,14 @@
+docs_list_title: nav-footer-3
+docs:
+
+ - title: Code of conduct
+   url: /conduct/
+
+ - title: Accessibility
+   url: /accessibility/
+
+ - title: License
+   url: /license/
+
+ - title: Colophon
+   url: /colophon/

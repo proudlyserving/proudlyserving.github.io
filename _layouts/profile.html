@@ -1,0 +1,42 @@
+---
+layout: profile
+---
+
+{% include header.html %}
+{% include nav.html %}
+<main>
+    {% include jumbotron.html %}
+    <div class="container section">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <img src="{{ site.baseurl }}/assets/img/people/{{ page.img-feat }}" class="lg rounded-circle" alt="{{ page.title }}">
+            </div>
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                <div class="post">
+                    <div class="mb-4">
+                        {% include role.html %}
+                    </div>
+                    {{ content }}
+                    {% include social.html size="small" %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h2>Chapters</h2>
+                {% assign chapters = site.contents | where: "author", page.title %}
+                {% if chapters.size > 0 %}
+                    <div class="card-deck">
+                        {% for item in chapters %}
+                            {% include card-contents.html %}
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</main>
+{% include analytics.html %}
+{% include footer.html %}

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="col-12">
+    {% for section in site.sections %}
+        {% assign chapters = "" | split: '' %}
+        {% for chapter in site.contents %}
+            {% if chapter[section] == true %}
+                {% assign chapters = chapters | push: chapter %}
+            {% endif %}
+        {% endfor %}
+        {% assign size = chapters | size %}
+        {% if size > 0 %}
+            <h2>{{ section | capitalize }}</h2>
+            <div class="card-deck">
+                {% for item in chapters %}
+                    {% include card-contents.html %}
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
