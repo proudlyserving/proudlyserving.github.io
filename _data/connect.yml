@@ -70,7 +70,7 @@ docs:
     icon: *facebook
 
   - name: GitHub
-    url: https://github.com/proudlyserving/book
+    url: https://github.com/proudlyserving/
     icon: *github
 
   - name: Medium
