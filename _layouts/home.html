@@ -53,14 +53,14 @@ layout: home
                 <div class="col-sm-12">
                     <div class="card-deck">
                         {% for item in site.posts limit:3 %}
-                        {% include card-posts.html %}
+                            {% include card-posts.html %}
                         {% endfor %}
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <a href="{{ site.baseurl }}/posts/" class="btn-primary">News</a>
+                    <a href="{{ site.baseurl }}/news/" class="btn-primary">News</a>
                 </div>
             </div>
         </div>

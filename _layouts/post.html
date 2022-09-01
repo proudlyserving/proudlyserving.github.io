@@ -40,12 +40,14 @@ layout: post
                         <p>
                             Thank you
                             <strong>
+                                {% assign authors = '' | split: '' %}
                                 {% for item in page.author %}
                                     {% capture author %}
-                                        <a href="{{ item }}"></a>
+                                        <a href="/people/{{ item | downcase | replace: ' ', '-'}}">{{ item }}</a>
                                     {% endcapture %}
+                                    {% assign authors = authors | push: author %}
                                 {% endfor %}
-                                {{ page.author | array_to_sentence_string }}
+                                {{ authors | array_to_sentence_string }}
                             </strong>
                             for contributing your wisdom to this chapter!
                         </p>
@@ -59,7 +61,14 @@ layout: post
                             </strong>
                             is ready for public review and feedback. This chapter was written by
                             <strong>
-                                {{ page.author | array_to_sentence_string }}
+                                {% assign authors = '' | split: '' %}
+                                {% for item in page.author %}
+                                    {% capture author %}
+                                        <a href="/people/{{ item | downcase | replace: ' ', '-'}}">{{ item }}</a>
+                                    {% endcapture %}
+                                    {% assign authors = authors | push: author %}
+                                {% endfor %}
+                                {{ authors | array_to_sentence_string }}
                             </strong>.
                         </p>
                         <p>We welcome
