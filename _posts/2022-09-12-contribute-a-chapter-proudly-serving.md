@@ -1,7 +1,7 @@
 ---
 title: "Contribute a chapter to Proudly Serving"
 description: Set guiding principles is now published in Proudly Serving.
-date: 2022-09-11
+date: 2022-09-12
 chapter: 
 chapter-link: 
 icon: fa-solid fa-bullhorn
