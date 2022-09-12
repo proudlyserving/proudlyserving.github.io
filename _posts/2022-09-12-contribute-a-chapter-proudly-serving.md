@@ -1,6 +1,6 @@
 ---
 title: "Contribute a chapter to Proudly Serving"
-description: Set guiding principles is now published in Proudly Serving.
+description: Help write a playbook for local governments about building people-centered digital public services.
 date: 2022-09-12
 chapter: 
 chapter-link: 
