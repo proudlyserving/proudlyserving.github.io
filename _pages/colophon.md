@@ -24,4 +24,4 @@ permalink: /colophon/
 ## Icons
 
 * [Font Awesome](https://fontawesome.com/)
-* [Laurel Wreath](https://thenounproject.com/icon/laurel-wreath-1983490/) by Alice Noir from NounProject.com
+* [Laurel wreath](https://thenounproject.com/icon/laurel-585281/) by Jems Mayor from <a href="https://thenounproject.com/browse/icons/term/laurel/" target="_blank" title="Laurel Icons">Noun Project</a>
