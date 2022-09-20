@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Colophon
-description: Behind the GovFresh scenes.
+description: Behind the Proudly Serving scenes.
 permalink: /colophon/
 ---
 
