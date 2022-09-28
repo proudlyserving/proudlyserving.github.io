@@ -24,7 +24,7 @@ defaults:
       type: "posts"
     values:
       folder: "News"
-      img-path: "news"
+      img-path: "posts"
       parent: "news"
       layout: "post"
       short: "true"
