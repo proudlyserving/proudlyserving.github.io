@@ -6,8 +6,8 @@ icon: fa-solid fa-comments
 intro: #true
 chapters: true
 about: #true
-feedback: true
-feedback-link: https://docs.google.com/document/d/1H3I7qBRMaLcVHbJcLdp41fek1ZPnWsCgXHlPtCtmHik/edit?usp=sharing
-launched: #true
+#feedback: true
+#feedback-link: 
+launched: true
 ---
 
