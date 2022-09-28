@@ -16,16 +16,18 @@
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:description" content="{{ page.description }}">
     {% if page.img-feat %}
-    <meta content="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}" property="twitter:image">
-    <meta content="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}" property="og:image">
+    <meta content="https://proudlyservingbook.com/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
+        property="twitter:image">
+    <meta content="https://proudlyservingbook.com/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
+        property="og:image">
     {% if page.img-alt %}
     <meta content="{{ page.img-alt }}" property="og:image:alt">
     {% else %}
     <meta content="{{ page.title }} image" property="og:image:alt">
     {% endif %}
     {% else %}
-    <meta content="{{ site.baseurl }}/assets/img/avatar.png" property="og:image">
-    <meta content="{{ site.baseurl }}/assets/img/avatar.png" property="twitter:image">
+    <meta content="https://proudlyservingbook.com/assets/img/avatar.png" property="og:image">
+    <meta content="https://proudlyservingbook.com/assets/img/avatar.png" property="twitter:image">
     {% endif %}
     <!-- CSS --> {% include style.html %}
     <!-- Fonts --> {% include fonts.html %}
