@@ -235,6 +235,12 @@ h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, 
     padding-bottom: var(--size-6);
 }
 
+.section-top {
+    border-top: var(--size-6) var(--color-1) solid;
+    margin-top: var(--size-10);
+    padding-top: var(--size-8);
+}
+
 /* Badge */
 
 .badge {
