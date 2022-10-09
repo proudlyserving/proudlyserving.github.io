@@ -32,6 +32,13 @@ spotify: &spotify "fab fa-spotify"
 rss: &rss "fas fa-rss"
 discord: &discord "fab fa-discord"
 
+# Connect links
+
+footer:
+  - Subscribe
+  - LinkedIn
+  - Twitter
+
 # Site social media links
 
 docs_list_title: connect

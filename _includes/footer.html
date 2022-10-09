@@ -1,25 +1,23 @@
-<div class="container section-top">
+{% if site.data.connect.footer %}
+        <div class="container section-top">
     <div class="row">
         <div class="col-sm-12">
             <h2>Connect</h2>
-            <p>Follow all things Proudly Serving.</p>
+            <p>Follow all things {{ site.title }}.</p>
         </div>
     </div>
     <div class="row">
+        {% for link in site.data.connect.footer %}
+        {% assign item = site.data.connect.docs | where: "name", link %}
+       {% assign item = item[0] %}
         <div class="col-sm-4">
-            <a href="{{ site.baseurl }}/subscribe"><i class="fa-solid fa-envelope fa-3x mb-4"></i></a>
-            <h3>Newsletter</h3>
+            <a href="{{ site.baseurl }}/{{ item.url }}"><i class="{{ item.icon }} fa-3x mb-3 mt-3"></i></a>
+            <h3>{{ item.name }}</h3>
         </div>
-        <div class="col-sm-4">
-            <a href="https://www.linkedin.com/company/proudlyserving"><i class="fab fa-linkedin fa-3x mb-4"></i></a>
-            <h3>LinkedIn</h3>
-        </div>
-        <div class="col-sm-4">
-            <a href="https://twitter.com/proudly_serving"><i class="fab fa-twitter fa-3x mb-4"></i></a>
-            <h3>Twitter</h3>
-        </div>
+        {% endfor %}
     </div>
 </div>
+{% endif %}
 <footer>
     <div class="footer">
         <div class="container">
