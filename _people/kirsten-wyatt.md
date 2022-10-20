@@ -11,7 +11,7 @@ website:
 twitter: http://www.twitter.com/kowyatt
 linkedin: https://linkedin.com/kwyatt
 github: 
-maintainer: #yes
+maintainer: yes
 contributor: yes
 ---
 
