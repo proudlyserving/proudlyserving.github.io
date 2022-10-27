@@ -19,4 +19,4 @@ About Kirsten:
 
 Kirsten is also the author of the Proudly Serving chapter [Spark community joy](/contents/spark-community-joy).
 
-Connect with Kirsten on [LinkedIn](https://linkedin.com/kwyatt) and [Twitter](http://www.twitter.com/kowyatt).
+Connect with Kirsten on [LinkedIn](https://www.linkedin.com/in/kwyatt/) and [Twitter](http://www.twitter.com/kowyatt).
