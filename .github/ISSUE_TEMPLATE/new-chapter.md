@@ -3,7 +3,7 @@ name: New chapter
 about: Start and manage chapter production
 title: 'Chapter: [TITLE]'
 labels: content
-assignees: lukefretwell, rebeccawoodbury, Marlena-Medford, KOWyatt
+assignees: KOWyatt, lukefretwell, Marlena-Medford, rebeccawoodbury
 
 ---
 
@@ -46,14 +46,14 @@ Reference:
 - [ ] Set one-week calendar deadline reminder for maintainer review (+ add contributors in [Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) / [template text](https://docs.google.com/document/d/1JzJrG2J7WzbtGK-A3TgSVCkyXHJJFuqriVn_vIxTj-8/edit#heading=h.wxmd11mqg67)) - (`Public feedback done: [TITLE]` - set for 8:00-8:15 a.m. Pacific Time) (M - @rebeccawoodbury)
 - [ ] Review/edit/comment (M - @rebeccawoodbury, @lukefretwell @marlena-medford @KOWyatt)
 - [ ] Notify contributors to review/approve final edits (M - @rebeccawoodbury)
-- [ ] When ready for public feedback, highlight doc h1, add a ‘Ready for feedback' comment and assign it to proudlyservingbook@gmail.com (C)
+- [ ] When ready for public feedback, highlight doc h1, add a ‘Ready for public feedback.' comment and assign it to proudlyservingbook@gmail.com (C)
 - [ ] Set up chapter page on website, add to GitHub issue ([example](https://proudlyservingbook.com/default-to-open)) (M - @lukefretwell)
 
 ### Promote feedback
 
 * [Content templates](https://docs.google.com/document/d/1JzJrG2J7WzbtGK-A3TgSVCkyXHJJFuqriVn_vIxTj-8/edit#heading=h.1yfb0xjocjrm)
 
-- [ ] [Blog](https://proudlyservingbook.com/updates/) (M - @rebeccawoodbury)
+- [ ] [Blog](https://proudlyservingbook.com/updates/) (M - @lukefretwell)
 - [ ] [Substack](https://proudlyserving.substack.com/) (M - @rebeccawoodbury)
 - [ ] [Twitter](https://twitter.com/proudly_serving) (M - @marlena-medford)
 - [ ] [LinkedIn](https://www.linkedin.com/company/proudlyserving) (M - @marlena-medford)
