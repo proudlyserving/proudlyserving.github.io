@@ -8,7 +8,7 @@ on:
 
 jobs:
   triage_issues:
-    if: github.repository == 'proudlyserving/book'
+    if: github.repository == 'proudlyserving/proudlyserving.github.io'
     runs-on: ubuntu-latest
 
     steps:
@@ -16,5 +16,5 @@ jobs:
         uses: rachmari/actions-add-new-issue-to-column@1a459ef92308ba7c9c9dc2fcdd72f232495574a9
         with:
           action-token: ${{ secrets.GITHUB_TOKEN }}
-          project-url: 'https://github.com/proudlyserving/book/projects/1'
+          project-url: 'https://github.com/proudlyserving/proudlyserving.github.io/projects/1'
           column-name: 'Backlog'
