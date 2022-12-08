@@ -3,11 +3,11 @@ name: New chapter
 about: Start and manage chapter production
 title: 'Chapter: [TITLE]'
 labels: content
-assignees: lukefretwell, Marlena-Medford, rebeccawoodbury
+assignees: lukefretwell, rebeccawoodbury, Marlena-Medford, KOWyatt
 
 ---
 
-M = Maintainers (@rebeccawoodbury @lukefretwell @marlena-medford)
+M = Maintainers (@rebeccawoodbury @lukefretwell @marlena-medford @KOWyatt)
 C = Contributors
 
 Reference:
@@ -20,12 +20,12 @@ Reference:
 
 ### Set-up
 
-- [ ] Review contributor request (M - @rebeccawoodbury, @lukefretwell @marlena-medford)
+- [ ] Review contributor request (M - @rebeccawoodbury, @lukefretwell @marlena-medford @KOWyatt)
 - [ ] Create a [new issue](https://github.com/proudlyserving/book/issues/new?assignees=lukefretwell%2C+rebeccawoodbury%2C+Marlena-Medford&labels=content&template=new-chapter.md&title=Chapter%3A+%5BTITLE%5D) (M - @lukefretwell)
 - [ ] Send contributors 'Welcome contributors' email (M - @rebeccawoodbury)
 - [ ] Schedule kick-off meeting (C)
 - [ ] Add @rebeccawoodbury @lukefretwell @Marlena-Medford to meeting invite (M - @rebeccawoodbury)
-- [ ] Meet for kick-off (C / M - @rebeccawoodbury @lukefretwell @marlena-medford)
+- [ ] Meet for kick-off (C / M - @rebeccawoodbury @lukefretwell @marlena-medford @KOWyatt)
 - [ ] Create new chapter doc from [chapter template](https://docs.google.com/document/d/16oS3naY8zCbcjr2QoJ6JvOk8YeJPsQ0ZENFec8gMshQ/edit?usp=sharing) (M - @rebeccawoodbury)
 - [ ] In file title and doc h1, replace 'TITLE' with the title of the chapter (example chapter) (M - @rebeccawoodbury)
 - [ ] Add link to GitHub issue in chapter doc (@rebeccawoodbury)
@@ -44,7 +44,7 @@ Reference:
 - [ ] Complete first draft (2 weeks after kick-off)  (C)
 - [ ] When ready for review, highlight doc h1, add a ‘Ready for review’ comment and assign it to proudlyservingbook@gmail.com (C)
 - [ ] Set one-week calendar deadline reminder for maintainer review (+ add contributors in [Proudly Serving calendar](https://calendar.google.com/calendar/u/3?cid=YXRqdmRlY3MxMHU4ZmI2N2ZwbGNsazh0NzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) / [template text](https://docs.google.com/document/d/1JzJrG2J7WzbtGK-A3TgSVCkyXHJJFuqriVn_vIxTj-8/edit#heading=h.wxmd11mqg67)) - (`Public feedback done: [TITLE]` - set for 8:00-8:15 a.m. Pacific Time) (M - @rebeccawoodbury)
-- [ ] Review/edit/comment (M - @rebeccawoodbury, @lukefretwell @marlena-medford)
+- [ ] Review/edit/comment (M - @rebeccawoodbury, @lukefretwell @marlena-medford @KOWyatt)
 - [ ] Notify contributors to review/approve final edits (M - @rebeccawoodbury)
 - [ ] When ready for public feedback, highlight doc h1, add a ‘Ready for feedback' comment and assign it to proudlyservingbook@gmail.com (C)
 - [ ] Set up chapter page on website, add to GitHub issue ([example](https://proudlyservingbook.com/default-to-open)) (M - @lukefretwell)
