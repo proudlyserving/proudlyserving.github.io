@@ -72,6 +72,7 @@ Reference:
 ### Publish
 
 - [ ] Add contributor(s) to contributor list ([doc](https://docs.google.com/document/d/1rruJsEF8-E3qTVCv0Giw2mK43HcNS4d7233rgGk9wjw/edit?usp=sharing)/[website](https://proudlyservingbook.com/people/) (M - @lukefretwell)
+- [ ] Add [acknowledgements](https://docs.google.com/document/d/1rruJsEF8-E3qTVCv0Giw2mK43HcNS4d7233rgGk9wjw/edit#heading=h.kg53erhbnr5t) (M - @lukefretwell)
 - [ ] [Doc](https://docs.google.com/document/d/1rruJsEF8-E3qTVCv0Giw2mK43HcNS4d7233rgGk9wjw/edit?usp=sharing) (M - @lukefretwell)
 - [ ] Update chapter page on website (M - @lukefretwell)
 - [ ] Add to [/contents](https://proudlyservingbook.com/contents/) page (M - @lukefretwell)
