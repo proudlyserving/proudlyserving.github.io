@@ -51,7 +51,7 @@ Reference:
 
 ### Promote feedback
 
-* [Content templates](https://docs.google.com/document/d/1JzJrG2J7WzbtGK-A3TgSVCkyXHJJFuqriVn_vIxTj-8/edit#heading=h.1yfb0xjocjrm)
+[Social media content templates](https://docs.google.com/document/d/1JzJrG2J7WzbtGK-A3TgSVCkyXHJJFuqriVn_vIxTj-8/edit#heading=h.oi2xb925ugr0)
 
 - [ ] [Blog](https://proudlyservingbook.com/updates/) (M - @lukefretwell)
 - [ ] [Substack](https://proudlyserving.substack.com/) (M - @rebeccawoodbury)
@@ -78,7 +78,7 @@ Reference:
 
 ### Promote published
 
-* [Content templates](https://docs.google.com/document/d/1JzJrG2J7WzbtGK-A3TgSVCkyXHJJFuqriVn_vIxTj-8/edit#heading=h.1yfb0xjocjrm)
+[Content templates](https://docs.google.com/document/d/1JzJrG2J7WzbtGK-A3TgSVCkyXHJJFuqriVn_vIxTj-8/edit#heading=h.oi2xb925ugr0)
 
 - [ ] [Twitter](https://twitter.com/proudly_serving) (M - @marlena-medford)
 - [ ] [LinkedIn](https://www.linkedin.com/company/proudlyserving) (M - @marlena-medford)
