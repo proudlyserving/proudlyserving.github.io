@@ -10,6 +10,6 @@ feedback: #true
 feedback-link: 
 launched: true
 redirect_from:
-  - /appoint-a-leader/
+  - /contents/appoint-a-leader/
 ---
 
