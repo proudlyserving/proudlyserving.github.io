@@ -4,6 +4,17 @@ description: Public service in the digital age
 #baseurl: ""
 url: https://proudlyservingbook.com
 
+# Social
+social:
+  name: Proudly Serving
+  links:
+    - https://twitter.com/proudly_serving
+    - https://www.linkedin.com/company/proudlyserving
+
+twitter:
+  username: proudly_serving
+  card: summary_large_image
+
 # Date/time
 date: "%B %-d, %Y"
 timezone: America/Los_Angeles
