@@ -11,7 +11,7 @@ website:
 twitter: https://mobile.twitter.com/echaschneider
 linkedin: http://www.linkedin.com/in/echa-schneider
 github: 
-maintainer: #yes
+maintainer: yes
 contributor: yes
 ---
 
