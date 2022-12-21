@@ -3,7 +3,7 @@ name: New chapter
 about: Start and manage chapter production
 title: 'Chapter: [TITLE]'
 labels: content
-assignees: KOWyatt, lukefretwell, Marlena-Medford, rebeccawoodbury
+assignees: lukefretwell, rebeccawoodbury, Marlena-Medford, KOWyatt, echaschneider
 
 ---
 

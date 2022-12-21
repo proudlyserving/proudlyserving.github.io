@@ -3,7 +3,7 @@ name: Maintainer onboarding
 about: Maintainer onboarding
 title: Maintainer onboarding ([NAME])
 labels: ops
-assignees: lukefretwell
+assignees: lukefretwell, rebeccawoodbury
 
 ---
 
