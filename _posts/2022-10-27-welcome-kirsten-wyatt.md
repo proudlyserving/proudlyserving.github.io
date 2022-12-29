@@ -2,16 +2,10 @@
 title: "Welcome Kirsten Wyatt!"
 description: We're honored to have Kirsten Wyatt join us as a Proudly Serving maintainer!
 date: 2022-10-27
-#chapter: 
-#chapter-link: 
-#author:
-#  - 
 icon: fa-solid fa-hands-clapping
-#feedback: 
-#feedback-date: 
 ---
 
-We're honored to have [Kirsten Wyatt](/people/kirsten-wyatt) join us as a [Proudly Serving](https://proudlyservingbook.com) maintainer!
+We're honored to have [Kirsten Wyatt](/people/kirsten-wyatt) join us as a [Proudly Serving](/) maintainer!
 
 About Kirsten:
 

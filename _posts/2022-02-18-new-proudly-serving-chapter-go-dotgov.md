@@ -2,14 +2,15 @@
 title: "New Proudly Serving chapter: Go .gov"
 description: Go .gov is now published in Proudly Serving.
 date: 2022-02-18
-chapter: Go .gov
-chapter-link: go-dotgov
 icon: fa-solid fa-rocket
-feedback: 
-feedback-date: 
-published: yes
-author: 
-    - Luke Fretwell
 redirect_from:
   - /new-proudly-serving-chapter-go-gov/
 ---
+
+## New chapter
+
+**[Go .gov](/contents/go-dotgov)** is now published in[ Proudly Serving](/).
+
+## Thank you
+
+Thank you **[Luke Fretwell](/people/luke-fretwell)** for contributing your wisdom to this chapter!

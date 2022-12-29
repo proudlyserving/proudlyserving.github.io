@@ -2,15 +2,19 @@
 title: "Request for Proudly Serving feedback: Innovate with purpose"
 description: Innovate with purpose is now published in Proudly Serving.
 date: 2022-05-11
-chapter: Innovate with purpose
-chapter-link: innovate-with-purpose
 icon: fa-solid fa-rocket
-feedback: yes
-feedback-date: 2022-05-19
-published: #yes
-author: 
-    - Dustin Haisler
-    - Joe Morris
 redirect_from:
   - /request-for-proudly-serving-feedback-innovate-with-purpose//
 ---
+
+A new [Proudly Serving](/) chapter titled **[Innovate with purpose](/contents/innovate-with-purpose)** is ready for public review and feedback. This chapter was written by **[Dustin Haisler](/people/dustin-haisler)** and **[Joe Morris](/people/joe-morris)**.
+
+We welcome [your suggestions and ideas](/contents/innovate-with-purpose).
+
+## Share
+
+Share [this chapter](/contents/innovate-with-purpose) with other subject matter experts in your network. The more feedback, the better the chapter will be.
+
+## Feedback
+
+Feedback is due **May 19, 2022**. Once we’ve incorporated the feedback, the chapter will be added to the [Proudly Serving manuscript](/manuscript/).

@@ -1,13 +1,18 @@
 ---
-title:  "Request for Proudly Serving feedback: Make space for strategy"
+title: "Request for Proudly Serving feedback: Make space for strategy"
 description: A new Proudly Serving chapter titled 'Make space for strategy' is ready for public review and feedback.
 date: 2022-12-12
-chapter: Make space for strategy
-chapter-link: make-space-for-strategy
-author:
-  - Zach Ratkai
 icon: fa-solid fa-comments
-feedback: yes
-feedback-date: 2022-12-23
 ---
 
+A new[ Proudly Serving](/) chapter titled [Make space for strategy](/contents/make-space-for-strategy) is ready for public review and feedback. This chapter was written by **[Zach Ratkai](/people/zach-ratkai)**.
+
+We welcome[ your suggestions and ideas](/contents/make-space-for-strategy).
+
+## Share
+
+Share[ this chapter](/contents/make-space-for-strategy) with other subject matter experts in your network. The more feedback, the better the chapter will be.
+
+## Feedback
+
+Feedback is due **December 23, 2022**. Once we’ve incorporated the feedback, the chapter will be added to the [Proudly Serving manuscript](/manuscript/).

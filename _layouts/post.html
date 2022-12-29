@@ -27,66 +27,6 @@ layout: post
             <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
                 <div class="post">
                     {{ content }}
-                    {% if page.published %}
-                        <h2>New chapter</h2>
-                        <p>
-                            <strong>
-                                <a href="{{ site.baseurl }}/contents/{{ page.chapter-link }}">{{ page.chapter }}</a>
-                            </strong>
-                            is now published in
-                            <a href="{{ site.baseurl }}/">Proudly Serving</a>.
-                        </p>
-                        <h2>Thank you</h2>
-                        <p>
-                            Thank you
-                            <strong>
-                                {% assign authors = '' | split: '' %}
-                                {% for item in page.author %}
-                                    {% capture author %}
-                                        <a href="/people/{{ item | downcase | replace: ' ', '-'}}">{{ item }}</a>
-                                    {% endcapture %}
-                                    {% assign authors = authors | push: author %}
-                                {% endfor %}
-                                {{ authors | array_to_sentence_string }}
-                            </strong>
-                            for contributing your wisdom to this chapter!
-                        </p>
-                    {% endif %}
-                    {% if page.feedback %}
-                        <p>A new
-                            <a href="{{ site.baseurl }}/">Proudly Serving</a>
-                            chapter titled
-                            <strong>
-                                <a href="{{ site.baseurl }}/contents/{{ page.chapter-link }}">{{ page.chapter }}</a>
-                            </strong>
-                            is ready for public review and feedback. This chapter was written by
-                            <strong>
-                                {% assign authors = '' | split: '' %}
-                                {% for item in page.author %}
-                                    {% capture author %}
-                                        <a href="/people/{{ item | downcase | replace: ' ', '-'}}">{{ item }}</a>
-                                    {% endcapture %}
-                                    {% assign authors = authors | push: author %}
-                                {% endfor %}
-                                {{ authors | array_to_sentence_string }}
-                            </strong>.
-                        </p>
-                        <p>We welcome
-                            <a href="{{ site.baseurl }}/contents/{{ page.chapter-link }}">your suggestions and ideas</a>.
-                        </p>
-                        <h2>Share</h2>
-                        <p>Share
-                            <a href="{{ site.baseurl }}/contents/{{ page.chapter-link }}">this chapter</a>
-                            with other subject matter experts in your network. The more feedback, the better the chapter
-                            will be.
-                        </p>
-                        <h2>Feedback</h2>
-                        <p>Feedback is due
-                            <strong>{{ page.feedback-date | date: site.date }}</strong>. Once we’ve incorporated the
-                            feedback, the chapter will be added to the
-                            <a href="{{ site.baseurl }}/manuscript/">Proudly Serving manuscript</a>.
-                        </p>
-                    {% endif %}
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
