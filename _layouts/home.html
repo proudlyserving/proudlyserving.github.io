@@ -5,31 +5,7 @@ layout: home
 {% include header.html %}
 {% include nav.html %}
 <main>
-    <!-- Jumbotron --> {% include jumbotron.html %}
-    <div class="container section">
-        <div class="row">
-            <div class="col-sm-6">
-                {% if page.about %}
-                    <h2>About</h2>
-                    <p>{{ page.about }}</p>
-                    {% if site.data.nav-about.docs %}
-                        <ul>
-                            {% for item in site.data.nav-about.docs %}
-                                {% if item.url %}
-                                    <li>
-                                        <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                                    </li>
-                                {% endif %}
-                            {% endfor %}
-                        </ul>
-                    {% endif %}
-                {% endif %}
-            </div>
-            <div class="col-sm-6">
-                <img alt="Cover of {{ page.title }}" class="xl line shadow" src="{{ site.baseurl }}/assets/img/cover.png">
-            </div>
-        </div>
-    </div>
+    {% include jumbotron.html %}
     <div class="container section">
         <div class="row">
             <div class="col-sm-12">
@@ -52,7 +28,7 @@ layout: home
             <div class="row">
                 <div class="col-sm-12">
                     <div class="card-deck">
-                        {% for item in site.posts limit:3 %}
+                        {% for item in site.posts limit: 3 %}
                             {% include card-posts.html %}
                         {% endfor %}
                     </div>

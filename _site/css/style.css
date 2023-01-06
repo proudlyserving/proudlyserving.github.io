@@ -67,7 +67,7 @@
     --size-13: 12.5rem;
     --size-14: 15rem;
     --size-15: 18.75rem;
-    --size-16: 23rem;
+    --size-16: 25rem;
 }
 
 /* Responsive typography */
@@ -180,7 +180,8 @@ strong {
 
 h1 {
     color: var(--color-4);
-    letter-spacing: -.01em;
+    letter-spacing: -.03em;
+    line-height: var(--size-11) !important;
 }
 
 h2, h3, h4, h5, h6 {
@@ -367,7 +368,16 @@ div.card-body>i {
 }
 
 .jumbotron-home {
+    background: var(--color-4);
+    border-bottom: var(--size-2) solid var(--color-3);
+    margin-bottom: var(--size-10);
+    padding-bottom: var(--size-9);
+    padding-top: var(--size-10);
     height: 100%;
+}
+
+.jumbotron-home h1, .jumbotron-home .lead {
+    color: var(--color-2);
 }
 
 /* Main */
@@ -458,7 +468,7 @@ p.img-caption {
 }
 
 img.shadow {
-    box-shadow: var(--size-3) var(--size-3) var(--size-6) var(--color-7) !important;
+    box-shadow: var(--size-3) var(--size-3) var(--size-6) var(--color-2) !important;
     border: var(--size-2) solid var(--color-2);
     margin-bottom: var(--size-9);
 }
