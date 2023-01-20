@@ -1,6 +1,6 @@
 ---
 title:  "Welcome to Proudly Serving"
-description: Proudly Serving is a playbook helping local governments build people-centered digital public services.
+description: "Proudly Serving is a playbook helping local governments build people-centered digital public services."
 date: 2021-10-21
 author: Proudly Serving
 icon: fa-solid fa-tower-broadcast

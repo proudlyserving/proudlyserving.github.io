@@ -1,6 +1,6 @@
 ---
 title:  "Request for Proudly Serving feedback: Think exponential"
-description: A new Proudly Serving chapter titled Think exponential is ready for public review and feedback.
+description: "A new Proudly Serving chapter titled 'Think exponential' by Jason Schneider is ready for public review and feedback."
 date: 2021-12-01
 author: Proudly Serving
 icon: fa-solid fa-comments

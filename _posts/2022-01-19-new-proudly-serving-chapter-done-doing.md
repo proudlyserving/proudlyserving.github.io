@@ -1,6 +1,6 @@
 ---
 title: "New Proudly Serving chapter: Share the done/doing"
-description: Share the done/doing is now published in Proudly Serving.
+description: "'Share the done/doing' by Rebecca Woodbury is now published in Proudly Serving."
 date: 2022-01-19
 author: Proudly Serving
 icon: fa-solid fa-rocket

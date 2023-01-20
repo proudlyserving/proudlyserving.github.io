@@ -1,6 +1,6 @@
 ---
 title: "Request for Proudly Serving feedback: Remember why you do this"
-description: A new Proudly Serving chapter titled Remember why you do this is ready for public review and feedback.
+description: "A new Proudly Serving chapter titled 'Remember why you do this' by Marlena Medford is ready for public review and feedback."
 date: 2022-03-28
 author: Proudly Serving
 icon: fa-solid fa-comments

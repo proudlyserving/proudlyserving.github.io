@@ -1,6 +1,6 @@
 ---
 title: "Request for Proudly Serving feedback: Innovate with purpose"
-description: Innovate with purpose is now published in Proudly Serving.
+description: "'Innovate with purpose' by Dustin Haisler and Joe Morris is now published in Proudly Serving."
 date: 2022-05-11
 author: Proudly Serving
 icon: fa-solid fa-rocket

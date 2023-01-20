@@ -1,6 +1,6 @@
 ---
 title:  "Request for Proudly Serving feedback: Empower the team"
-description: A new Proudly Serving chapter titled Empower the team is ready for public review and feedback.
+description: "A new Proudly Serving chapter titled 'Empower the team' by Karen Daly is ready for public review and feedback."
 date: 2022-12-07
 author: Proudly Serving
 icon: fa-solid fa-comments

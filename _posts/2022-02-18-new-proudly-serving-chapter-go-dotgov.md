@@ -1,6 +1,6 @@
 ---
 title: "New Proudly Serving chapter: Go .gov"
-description: Go .gov is now published in Proudly Serving.
+description: "'Go .gov' by Luke Fretwell is now published in Proudly Serving."
 date: 2022-02-18
 author: Proudly Serving
 icon: fa-solid fa-rocket

@@ -1,6 +1,6 @@
 ---
 title:  "Request for Proudly Serving feedback: {TITLE}"
-description: A new Proudly Serving chapter titled '{TITLE}' by {AUTHOR} is ready for public review and feedback.
+description: "A new Proudly Serving chapter titled '{TITLE}' by {AUTHOR} is ready for public review and feedback."
 date: YYYY-MM-DD
 author: Proudly Serving
 icon: fa-solid fa-comments

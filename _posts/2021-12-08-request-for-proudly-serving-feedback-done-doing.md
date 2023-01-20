@@ -1,6 +1,6 @@
 ---
-title:  "Request for Proudly Serving feedback: Done/doing"
-description: A new Proudly Serving chapter titled Done/doing is ready for public review and feedback.
+title:  "Request for Proudly Serving feedback: Share the done/doing"
+description: "A new Proudly Serving chapter titled 'Share the done/doing' by Rebecca Woodbury is ready for public review and feedback."
 date: 2021-12-08
 author: Proudly Serving
 icon: fa-solid fa-comments

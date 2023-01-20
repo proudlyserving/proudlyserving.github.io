@@ -1,6 +1,6 @@
 ---
 title: "New Proudly Serving chapter: Think exponential"
-description: Think exponential is now published in Proudly Serving.
+description: "'Think exponential' by Jason Schneider is now published in Proudly Serving."
 date: 2022-01-12
 author: Proudly Serving
 icon: fa-solid fa-rocket

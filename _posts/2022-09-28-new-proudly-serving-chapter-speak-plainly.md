@@ -1,6 +1,6 @@
 ---
 title: "New Proudly Serving chapter: Speak plainly"
-description: Speak plainly is now published in Proudly Serving.
+description: "'Speak plainly' by Echa Schneider is now published in Proudly Serving."
 date: 2022-09-28
 author: Proudly Serving
 icon: fa-solid fa-rocket
