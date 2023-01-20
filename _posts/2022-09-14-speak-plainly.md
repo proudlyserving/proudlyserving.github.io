@@ -2,6 +2,7 @@
 title:  "Request for Proudly Serving feedback: Speak plainly"
 description: A new Proudly Serving chapter titled Speak plainly is ready for public review and feedback.
 date: 2022-09-14
+author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 

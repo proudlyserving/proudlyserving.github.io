@@ -2,6 +2,7 @@
 layout: profile
 title: Luke Fretwell
 description: 
+author: Proudly Serving
 shortname: Luke
 img: luke-fretwell.png
 img-feat: luke-fretwell.png

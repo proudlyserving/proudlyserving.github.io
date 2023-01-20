@@ -2,6 +2,7 @@
 layout: profile
 title: Zach Ratkai
 description: 
+author: Proudly Serving
 shortname: Zach
 img: zach-ratkai.jpg
 img-feat: zach-ratkai.jpg

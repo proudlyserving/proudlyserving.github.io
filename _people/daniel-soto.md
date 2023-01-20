@@ -2,6 +2,7 @@
 layout: profile
 title: Daniel Soto
 description: 
+author: Proudly Serving
 shortname: Daniel
 img: daniel-soto.jpg
 img-feat: daniel-soto.jpg

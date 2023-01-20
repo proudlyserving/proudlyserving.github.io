@@ -2,6 +2,7 @@
 title: "Welcome Echa Schneider!"
 description: We're honored to have Echa Schneider join us as a Proudly Serving maintainer!
 date: 2022-12-21
+author: Proudly Serving
 icon: fa-solid fa-hands-clapping
 ---
 

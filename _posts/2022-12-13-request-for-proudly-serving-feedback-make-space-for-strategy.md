@@ -2,6 +2,7 @@
 title: "Request for Proudly Serving feedback: Make space for strategy"
 description: A new Proudly Serving chapter titled 'Make space for strategy' is ready for public review and feedback.
 date: 2022-12-12
+author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 

@@ -2,6 +2,7 @@
 title: "New Proudly Serving chapter: Remember why you do this"
 description: Remember why you do this is now published in Proudly Serving.
 date: 2022-04-15
+author: Proudly Serving
 icon: fa-solid fa-rocket
 redirect_from:
   - /new-proudly-serving-chapter-remember-why-you-do-this/

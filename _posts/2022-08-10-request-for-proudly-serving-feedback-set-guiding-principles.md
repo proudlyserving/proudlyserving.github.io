@@ -2,6 +2,7 @@
 title:  "Request for Proudly Serving feedback: Set guiding principles"
 description: A new Proudly Serving chapter titled Set guiding principles is ready for public review and feedback.
 date: 2022-08-10
+author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 

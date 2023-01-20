@@ -2,6 +2,7 @@
 layout: page
 title: Manuscript
 description: Get the latest version of Proudly Serving.
+author: Proudly Serving
 permalink: /manuscript/
 redirect_from:
   - /download/

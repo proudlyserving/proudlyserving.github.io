@@ -2,6 +2,7 @@
 layout: profile
 title: Jason Schneider
 description: 
+author: Proudly Serving
 shortname: Jason
 img: jason-schneider.jpg
 img-feat: jason-schneider.jpg

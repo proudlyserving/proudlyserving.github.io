@@ -2,6 +2,7 @@
 layout: profile
 title: Marlena Medford
 description: 
+author: Proudly Serving
 shortname: Marlena
 img: marlena-medford.jpg
 img-feat: marlena-medford.jpg

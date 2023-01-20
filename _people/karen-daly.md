@@ -2,6 +2,7 @@
 layout: profile
 title: Karen Daly
 description: 
+author: Proudly Serving
 shortname: Karen
 img: karen-daly.jpeg
 img-feat: karen-daly.jpeg

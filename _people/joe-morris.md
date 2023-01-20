@@ -2,6 +2,7 @@
 layout: profile
 title: Joe Morris
 description: 
+author: Proudly Serving
 shortname: Joe
 img: joe-morris.png
 img-feat: joe-morris.png

@@ -2,6 +2,7 @@
 layout: profile
 title: Echa Schneider
 description: 
+author: Proudly Serving
 shortname: Echa
 img: echa-schneider.jpg
 img-feat: echa-schneider.jpg

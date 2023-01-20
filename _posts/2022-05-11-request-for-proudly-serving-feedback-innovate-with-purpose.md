@@ -2,6 +2,7 @@
 title: "Request for Proudly Serving feedback: Innovate with purpose"
 description: Innovate with purpose is now published in Proudly Serving.
 date: 2022-05-11
+author: Proudly Serving
 icon: fa-solid fa-rocket
 redirect_from:
   - /request-for-proudly-serving-feedback-innovate-with-purpose//

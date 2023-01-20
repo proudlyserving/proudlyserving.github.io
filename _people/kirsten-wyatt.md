@@ -2,6 +2,7 @@
 layout: profile
 title: Kirsten Wyatt
 description: 
+author: Proudly Serving
 shortname: Kirsten
 img: kirsten-wyatt.jpg
 img-feat: kirsten-wyatt.jpg

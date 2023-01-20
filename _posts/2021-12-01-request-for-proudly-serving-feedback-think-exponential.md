@@ -2,6 +2,7 @@
 title:  "Request for Proudly Serving feedback: Think exponential"
 description: A new Proudly Serving chapter titled Think exponential is ready for public review and feedback.
 date: 2021-12-01
+author: Proudly Serving
 icon: fa-solid fa-comments
 redirect_from:
   - /request-for-proudly-serving-feedback-think-exponential/

@@ -2,6 +2,7 @@
 title: "New Proudly Serving chapter: {TITLE}"
 description: "'{TITLE}' by {AUTHOR} is now published in Proudly Serving."
 date: YYYY-MM-DD
+author: Proudly Serving
 icon: fa-solid fa-rocket
 ---
 

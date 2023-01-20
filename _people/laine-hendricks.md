@@ -2,6 +2,7 @@
 layout: profile
 title: Laine Hendricks
 description: 
+author: Proudly Serving
 shortname: Laine
 img: laine-hendricks.jpeg
 img-feat: laine-hendricks.jpeg

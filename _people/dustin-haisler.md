@@ -2,6 +2,7 @@
 layout: profile
 title: Dustin Haisler
 description: 
+author: Proudly Serving
 shortname: Dustin
 img: dustin-haisler.jpg
 img-feat: dustin-haisler.jpg

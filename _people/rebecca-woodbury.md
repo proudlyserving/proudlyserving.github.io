@@ -1,6 +1,8 @@
 ---
+layout: profile
 title: Rebecca Woodbury
 description: 
+author: Proudly Serving
 shortname: Rebecca
 img: rebecca-woodbury.jpg
 img-feat: rebecca-woodbury.jpg

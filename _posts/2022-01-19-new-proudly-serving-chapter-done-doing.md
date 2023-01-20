@@ -2,6 +2,7 @@
 title: "New Proudly Serving chapter: Share the done/doing"
 description: Share the done/doing is now published in Proudly Serving.
 date: 2022-01-19
+author: Proudly Serving
 icon: fa-solid fa-rocket
 redirect_from:
   - /new-proudly-serving-chapter-done-doing/

@@ -2,6 +2,7 @@
 layout: page
 title: Team agreement
 description: Proudly Serving team agreement.
+author: Proudly Serving
 permalink: /team-agreement/
 ---
 

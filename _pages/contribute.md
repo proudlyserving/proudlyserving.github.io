@@ -2,6 +2,7 @@
 layout: page
 title: Contribute
 description: Write a Proudly Serving chapter.
+author: Proudly Serving
 permalink: /contribute/
 redirect_from:
   - /collaborate/
