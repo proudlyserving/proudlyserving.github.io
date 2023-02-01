@@ -2,7 +2,6 @@
 layout: page
 title: Colophon
 description: Behind the Proudly Serving scenes.
-author: Proudly Serving
 permalink: /colophon/
 ---
 

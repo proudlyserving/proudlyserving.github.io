@@ -10,7 +10,7 @@
         {% for link in site.data.connect.footer %}
         {% assign item = site.data.connect.docs | where: "name", link %}
        {% assign item = item[0] %}
-        <div class="col-sm-4">
+        <div class="col-sm-3">
             <a href="{{ item.url }}"><i class="{{ item.icon }} fa-3x mb-3 mt-3"></i></a>
             <h3>{{ item.name }}</h3>
         </div>

@@ -37,6 +37,7 @@ discord: &discord "fab fa-discord"
 footer:
   - Subscribe
   - LinkedIn
+  - Facebook
   - Twitter
 
 # Site social media links
@@ -72,8 +73,8 @@ docs:
     url: https://www.linkedin.com/company/proudlyserving
     icon: *linkedin
 
-  - name:  Facebook
-    url: 
+  - name: Facebook
+    url:  https://www.facebook.com/groups/proudlyserving
     icon: *facebook
 
   - name: GitHub

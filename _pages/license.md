@@ -2,7 +2,6 @@
 layout: page
 title: License
 description:
-author: Proudly Serving
 permalink: /license/
 ---
 

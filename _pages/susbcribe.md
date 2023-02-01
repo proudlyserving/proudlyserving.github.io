@@ -2,7 +2,6 @@
 layout: page
 title: Subscribe
 description: Sign up for the Proudly Serving newsleter.
-author: Proudly Serving
 permalink: /subscribe/
 ---
 

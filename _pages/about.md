@@ -2,7 +2,6 @@
 layout: page
 title: About
 description: Proudly Serving is a playbook helping local governments build people-centered digital public services.
-author: Proudly Serving
 permalink: /about/
 ---
 

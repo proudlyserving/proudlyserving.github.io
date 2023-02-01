@@ -2,7 +2,6 @@
 layout: page
 title: Accessibility
 description: Proudly Serving accessibility statement.
-author: Proudly Serving
 permalink: /accessibility/
 ---
 

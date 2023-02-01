@@ -2,7 +2,6 @@
 layout: page
 title: Style guide
 description: Proudly Serving style guide.
-author: Proudly Serving
 permalink: /style/
 ---
 

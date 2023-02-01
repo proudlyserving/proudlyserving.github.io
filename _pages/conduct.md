@@ -2,7 +2,6 @@
 layout: page
 title: Code of conduct
 description: Proudly Serving code of conduct.
-author: Proudly Serving
 permalink: /conduct/
 ---
 
