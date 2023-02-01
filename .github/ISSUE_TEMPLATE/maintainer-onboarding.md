@@ -15,6 +15,7 @@ assignees: lukefretwell, rebeccawoodbury
 - [ ] Label as maintainer on website
 - [ ] Announce on Slack #general
 - [ ] Announce on social media
+- [ ] Invite network to follow on socials
 
 Grant access to:
 
