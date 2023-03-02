@@ -6,8 +6,8 @@ icon: fa-solid fa-timeline
 intro: #true
 chapters: true
 about: #true
-feedback: true
-feedback-link: https://docs.google.com/document/d/1z-1n59oOdIKspTYk4Cvjm7jGS2Hzvzmq1mRWNi8kt9E/edit?usp=sharing
-launched: #true
+#feedback: true
+#feedback-link: 
+launched: true
 ---
 
