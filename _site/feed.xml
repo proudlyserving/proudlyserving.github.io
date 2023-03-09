@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-02T10:03:49-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Proudly Serving</title><subtitle>Public service in the digital age</subtitle><entry><title type="html">New Proudly Serving chapter: Make space for strategy</title><link href="http://localhost:4000/news/new-proudly-serving-chapter-make-space-for-strategy" rel="alternate" type="text/html" title="New Proudly Serving chapter: Make space for strategy" /><published>2023-03-02T00:00:00-08:00</published><updated>2023-03-02T00:00:00-08:00</updated><id>http://localhost:4000/news/new-proudly-serving-chapter-make-space-for-strategy</id><content type="html" xml:base="http://localhost:4000/news/new-proudly-serving-chapter-make-space-for-strategy"><![CDATA[<h2 id="new-chapter">New chapter</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-09T07:21:26-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Proudly Serving</title><subtitle>Public service in the digital age</subtitle><entry><title type="html">Request for Proudly Serving feedback: Protect privacy</title><link href="http://localhost:4000/news/request-for-proudly-serving-feedback-protect-privacy" rel="alternate" type="text/html" title="Request for Proudly Serving feedback: Protect privacy" /><published>2023-03-09T00:00:00-08:00</published><updated>2023-03-09T00:00:00-08:00</updated><id>http://localhost:4000/news/request-for-proudly-serving-feedback-protect-privacy</id><content type="html" xml:base="http://localhost:4000/news/request-for-proudly-serving-feedback-protect-privacy"><![CDATA[<p>A new <a href="/">Proudly Serving</a> chapter titled <strong><a href="/contents/protect-privacy">Protect privacy</a></strong> is ready for public review and feedback. This chapter was written by <strong><a href="/people/albert-gehami">Albert Gehami</a></strong> and <strong><a href="/people/rob-lloyd">Rob Lloyd</a></strong>.</p>
+
+<p>We welcome <a href="/contents/protect-privacy">your suggestions and ideas</a>.</p>
+
+<h2 id="share">Share</h2>
+
+<p>Share <a href="/contents/protect-privacy">this chapter</a> with other subject matter experts in your network. The more feedback, the better the chapter will be.</p>
+
+<h2 id="feedback">Feedback</h2>
+
+<p>Feedback is due <strong>March 19, 2023</strong>. Once we’ve incorporated the feedback, the chapter will be added to the <a href="/manuscript/">Proudly Serving manuscript</a>.</p>]]></content><author><name>Proudly Serving</name></author><summary type="html"><![CDATA[A new Proudly Serving chapter titled 'Protect privacy' by Albert Gehami and Rob Lloyd is ready for public review and feedback.]]></summary></entry><entry><title type="html">New Proudly Serving chapter: Make space for strategy</title><link href="http://localhost:4000/news/new-proudly-serving-chapter-make-space-for-strategy" rel="alternate" type="text/html" title="New Proudly Serving chapter: Make space for strategy" /><published>2023-03-02T00:00:00-08:00</published><updated>2023-03-02T00:00:00-08:00</updated><id>http://localhost:4000/news/new-proudly-serving-chapter-make-space-for-strategy</id><content type="html" xml:base="http://localhost:4000/news/new-proudly-serving-chapter-make-space-for-strategy"><![CDATA[<h2 id="new-chapter">New chapter</h2>
 
 <p><strong><a href="/contents/make-space-for-strategy">Make space for strategy</a></strong> is now published in <a href="/">Proudly Serving</a>.</p>
 
@@ -72,14 +82,4 @@
 
 <h2 id="thank-you">Thank you</h2>
 
-<p>Thank you <strong><a href="/people/echa-schneider">Echa Schneider</a></strong> for contributing your wisdom to this chapter!</p>]]></content><author><name>Proudly Serving</name></author><summary type="html"><![CDATA['Speak plainly' by Echa Schneider is now published in Proudly Serving.]]></summary></entry><entry><title type="html">Request for Proudly Serving feedback: Speak plainly</title><link href="http://localhost:4000/news/speak-plainly" rel="alternate" type="text/html" title="Request for Proudly Serving feedback: Speak plainly" /><published>2022-09-14T00:00:00-07:00</published><updated>2022-09-14T00:00:00-07:00</updated><id>http://localhost:4000/news/speak-plainly</id><content type="html" xml:base="http://localhost:4000/news/speak-plainly"><![CDATA[<p>A new <a href="/">Proudly Serving</a> chapter titled <strong><a href="/contents/speak-plainly">Speak plainly</a></strong> is ready for public review and feedback. This chapter was written by <strong><a href="/people/echa-schneider">Echa Schneider</a></strong>.</p>
-
-<p>We welcome <a href="/contents/speak-plainly">your suggestions and ideas</a>.</p>
-
-<h2 id="share">Share</h2>
-
-<p>Share <a href="/contents/speak-plainly">this chapter</a> with other subject matter experts in your network. The more feedback, the better the chapter will be.</p>
-
-<h2 id="feedback">Feedback</h2>
-
-<p>Feedback is due <strong>September 23, 2022</strong>. Once we’ve incorporated the feedback, the chapter will be added to the <a href="/manuscript/">Proudly Serving manuscript</a>.</p>]]></content><author><name>Proudly Serving</name></author><summary type="html"><![CDATA[A new Proudly Serving chapter titled 'Speak plainly' by Echa Schneider is ready for public review and feedback.]]></summary></entry></feed>
+<p>Thank you <strong><a href="/people/echa-schneider">Echa Schneider</a></strong> for contributing your wisdom to this chapter!</p>]]></content><author><name>Proudly Serving</name></author><summary type="html"><![CDATA['Speak plainly' by Echa Schneider is now published in Proudly Serving.]]></summary></entry></feed>
