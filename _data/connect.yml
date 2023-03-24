@@ -37,8 +37,8 @@ discord: &discord "fab fa-discord"
 footer:
   - Subscribe
   - LinkedIn
-  - Facebook
   - Twitter
+  - RSS
 
 # Site social media links
 

@@ -8,6 +8,34 @@ layout: home
     {% include jumbotron.html %}
     <div class="container section">
         <div class="row">
+            <div class="col-12">
+                <h2 class="mb-3">Contents</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                {% for section in site.sections %}
+                    {% assign chapters = "" | split: '' %}
+                    {% for chapter in site.contents %}
+                        {% if chapter[section] == true %}
+                            {% assign chapters = chapters | push: chapter %}
+                        {% endif %}
+                    {% endfor %}
+                    {% assign size = chapters | size %}
+                    {% if size > 0 %}
+                        <h3>{{ section | capitalize }}</h3>
+                        <div class="card-deck">
+                            {% for item in chapters %}
+                                {% include card-contents.html %}
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="container section">
+        <div class="row">
             <div class="col-sm-12">
                 <h2>People</h2>
                 <div class="card-deck clean">
@@ -19,7 +47,7 @@ layout: home
         </div>
     </div>
     {% if site.posts %}
-        <div class="container">
+        <div class="container section">
             <div class="row">
                 <div class="col-sm-12">
                     <h2>News</h2>
@@ -28,7 +56,7 @@ layout: home
             <div class="row">
                 <div class="col-sm-12">
                     <div class="card-deck">
-                        {% for item in site.posts limit: 3 %}
+                        {% for item in site.posts limit: 6 %}
                             {% include card-posts.html %}
                         {% endfor %}
                     </div>

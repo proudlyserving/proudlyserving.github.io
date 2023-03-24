@@ -1,12 +1,26 @@
 <div class="container-fluid logo">
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-8">
             <a href="{{ site.baseurl }}/">
-                <img src="{{ site.baseurl }}/assets/img/avatar.png" alt="{{ site.title }}" class="xs">
+                <img
+                    src="{{ site.baseurl }}/assets/img/avatar.png"
+                    alt="{{ site.title }}"
+                    class="xs">
             </a>
             <a href="{{ site.baseurl }}/">
                 {{ site.title }}
             </a>
+        </div>
+        <div class="col-sm-4 text-right">
+            <div class="d-none d-sm-block">
+                {% for link in site.data.connect.footer %}
+                    {% assign item = site.data.connect.docs | where: "name", link %}
+                    {% assign item = item[0] %}
+                    <a href="{{ item.url }}">
+                        <i class="{{ item.icon }} ml-4 fa-lg"></i>
+                    </a>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </div>

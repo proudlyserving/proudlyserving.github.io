@@ -3,10 +3,13 @@
         <div class="card-body">
             {% if item.img %}
                 <div class="img">
-                    <img class="card-img-top sm rounded-circle" src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img-feat }}" alt="{{ item.img-alt }}">
+                    <img
+                        class="card-img-top sm rounded-circle"
+                        src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}"
+                        alt="{{ item.img-alt }}">
                 </div>
             {% endif %}
-            <h3>
+            <h3 class="h4">
                 <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
             </h3>
             {% include role.html %}

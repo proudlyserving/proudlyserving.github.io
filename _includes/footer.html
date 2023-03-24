@@ -1,20 +1,23 @@
 {% if site.data.connect.footer %}
-        <div class="container section-top">
-    <div class="row">
-        <div class="col-sm-12">
-            <h2>Connect</h2>
-            <p>Follow all things {{ site.title }}.</p>
+<div class="alert alert-light rounded-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Connect</h2>
+                    <p>Follow all things {{ site.title }}.</p>
+                </div>
+            </div>
+            <div class="row">
+                {% for link in site.data.connect.footer %}
+                {% assign item = site.data.connect.docs | where: "name", link %}
+            {% assign item = item[0] %}
+                <div class="col-sm-3 text-center">
+                    <a href="{{ item.url }}"><i class="{{ item.icon }} fa-3x mb-3 mt-5"></i></a>
+                    <h3 class="h4">{{ item.name }}</h3>
+                </div>
+                {% endfor %}
+            </div>
         </div>
-    </div>
-    <div class="row">
-        {% for link in site.data.connect.footer %}
-        {% assign item = site.data.connect.docs | where: "name", link %}
-       {% assign item = item[0] %}
-        <div class="col-sm-3">
-            <a href="{{ item.url }}"><i class="{{ item.icon }} fa-3x mb-3 mt-3"></i></a>
-            <h3>{{ item.name }}</h3>
-        </div>
-        {% endfor %}
     </div>
 </div>
 {% endif %}

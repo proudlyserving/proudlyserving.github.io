@@ -4,6 +4,9 @@ docs:
 - title: About
   url: /about/
 
+- title: Contribute
+  url: /contribute/
+   
 - title: Contents
   url: /contents/
 
@@ -13,9 +16,6 @@ docs:
 - title: People
   url: /people/
 
-- title: Contribute
-  url: /contribute/
-   
 - title: Feedback
   url: /feedback/
 
