@@ -3,7 +3,7 @@ name: Engagement
 about: Engagement issue
 title: ''
 labels: engagement
-assignees: KOWyatt, lukefretwell, Marlena-Medford
+assignees: lukefretwell
 
 ---
 
