@@ -15,7 +15,7 @@
         <!-- Social media -->
         <meta property="og:url" content="{{ site.url }}{{ page.url }}">
         <meta property="og:type" content="article">
-        <meta property="og:title" content="{{ page.title }}">
+        <meta property="og:title" content="{{ page.title }} - {{ site.title }}">
         <meta property="og:description" content="{{ page.description }}">
         {% if page.img-feat %}
             <meta property="twitter:image" content="{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}">
@@ -31,8 +31,7 @@
         <!-- CSS -->
         {% include style.html %}
         <!-- Fonts -->
-        {% include fonts.html %}
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        {% include fonts.html %} <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>

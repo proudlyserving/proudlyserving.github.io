@@ -286,7 +286,7 @@ a.navbar-brand:hover {
 
 .navbar a, .navbar li.active a, .navbar li.active a:visited {
     color: var(--color-4) !important;
-    font-family: var(--font-2);
+    font-family: var(--font-3);
 }
 
 .navbar-brand {
