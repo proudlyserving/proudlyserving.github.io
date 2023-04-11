@@ -5,7 +5,7 @@ description:
 author: Proudly Serving
 shortname: Daniel
 img: daniel-soto.jpg
-img-feat: daniel-soto.jpg
+img-feat: daniel-soto-feat.png
 img-alt: Daniel Soto
 email: 
 website: 
