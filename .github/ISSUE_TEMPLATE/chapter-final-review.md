@@ -17,5 +17,6 @@ assignees: echaschneider, lukefretwell, rebeccawoodbury
 - [ ] Send review your chapter email to contributor (M - @rebeccawoodbury)
 - [ ] Add acknowledgements (C)
 - [ ] Contributor final approval (C)
+- [ ] Updates to website (chapter title, description, bio, etc.) (@lukefretwell)
 - [ ] Remove access after final edits are accepted (@echa)
 - [ ] Send chapter final review done email to contributor (M - @rebeccawoodbury)
