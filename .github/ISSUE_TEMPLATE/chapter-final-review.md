@@ -14,6 +14,7 @@ assignees: echaschneider, lukefretwell, rebeccawoodbury
 - [ ] Style review (M - @echaschneider)
 - [ ] Give contributor access to manuscript (M - @rebeccawoodbury)
 - [ ] Maintainer final chapter review (M - @rebeccawoodbury @lukefretwell)
+- [ ] Send review your chapter email to contributor (M - @rebeccawoodbury)
 - [ ] Add acknowledgements (C)
 - [ ] Contributor final approval (C)
 - [ ] Remove access after final edits are accepted (@echa)
