@@ -1,6 +1,7 @@
 ---
 title: Appoint a product leader
 description: To ensure success of digital products and services, governments must appoint a leader by identifying and empowering a single product owner.
+img-feat: 
 author: Daniel Soto
 icon: fa-solid fa-star
 intro: #true

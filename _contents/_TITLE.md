@@ -2,6 +2,7 @@
 title: 
 description: 
 author: 
+img-feat: 
 icon: fa-solid fa-star
 #intro: true
 chapters: true
