@@ -7,6 +7,9 @@ assignees: echaschneider, lukefretwell, rebeccawoodbury
 
 ---
 
+M = Maintainers
+C = Contributors
+
 [Manuscript](https://docs.google.com/document/d/1rruJsEF8-E3qTVCv0Giw2mK43HcNS4d7233rgGk9wjw/edit?usp=sharing)
 
 - [ ] Send FYI email to contributor (M - @rebeccawoodbury)

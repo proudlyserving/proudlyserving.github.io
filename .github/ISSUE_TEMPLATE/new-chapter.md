@@ -7,7 +7,7 @@ assignees: echaschneider, lukefretwell, rebeccawoodbury
 
 ---
 
-M = Maintainers (@rebeccawoodbury @lukefretwell @marlena-medford @KOWyatt @echaschneider)
+M = Maintainers
 C = Contributors
 
 Reference:
