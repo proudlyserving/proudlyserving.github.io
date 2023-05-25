@@ -9,7 +9,7 @@ img-feat: shira-honig.png
 img-alt: Shira Honig headshot
 email: 
 website: 
-twitter: 
+twitter: https://twitter.com/ShiraHonig
 linkedin: https://www.linkedin.com/in/shirahonig/
 github: 
 maintainer: #yes
