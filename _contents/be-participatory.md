@@ -10,8 +10,8 @@ icon: fa-solid fa-people-arrows
 #intro: true
 chapters: true
 #about: true
-feedback: true
-feedback-link: https://docs.google.com/document/d/1MPF9uIdMykZzrO-J93Wf6RE2d5w31aagEsVaKCS6wQU/edit?usp=sharing
-#launched: true
+feedback: 
+feedback-link: 
+launched: true
 ---
 
