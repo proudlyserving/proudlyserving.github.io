@@ -1,6 +1,6 @@
 ---
 title: "New Proudly Serving chapter: Be participatory"
-description: "'Be participatory' by {AUTHOR} is now published in Proudly Serving."
+description: "'Be participatory' by Shari Davis, Rahel Mekdim Teka and Robbie Barton is now published in Proudly Serving."
 date: 2023-06-15
 author: Proudly Serving
 icon: fa-solid fa-rocket
