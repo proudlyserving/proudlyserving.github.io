@@ -8,8 +8,8 @@ icon: fa-solid fa-rocket
 
 ## New chapter
 
-**{TITLE](/contents/{LINK})** is now published in [Proudly Serving](/).
+{TITLE](/contents/{LINK}) is now published in [Proudly Serving](/).
 
 ## Thank you
 
-Thank you **[{AUTHOR}](/people/{AUTHORLINK})** for contributing your wisdom to this chapter!
+Thank you [{AUTHOR}](/people/{AUTHORLINK}) for contributing your wisdom to this chapter!
