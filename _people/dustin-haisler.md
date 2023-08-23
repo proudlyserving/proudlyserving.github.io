@@ -5,7 +5,7 @@ description:
 author: Proudly Serving
 shortname: Dustin
 img: dustin-haisler.jpg
-img-feat: dustin-haisler-feat.png
+img-feat: dustin-haisler.png
 img-alt: Dustin Haisler
 email: 
 website: 

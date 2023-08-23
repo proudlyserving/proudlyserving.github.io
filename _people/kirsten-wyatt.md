@@ -12,7 +12,7 @@ website:
 twitter: http://www.twitter.com/kowyatt
 linkedin: https://www.linkedin.com/in/kwyatt/
 github: 
-maintainer: yes
+maintainer: 
 contributor: yes
 ---
 

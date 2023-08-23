@@ -6,7 +6,7 @@ author: Proudly Serving
 shortname: 
 img: .jpg
 img-feat: .jpg
-img-alt: 
+img-alt: Photo of 
 email: 
 website: 
 twitter: 

@@ -12,7 +12,7 @@ website:
 twitter: http://www.twitter.com/marlenamedford
 linkedin: https://www.linkedin.com/in/marlena-medford/
 github: 
-maintainer: yes
+maintainer: 
 contributor: yes
 ---
 
