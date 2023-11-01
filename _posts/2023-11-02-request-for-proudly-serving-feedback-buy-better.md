@@ -16,6 +16,6 @@ Share [this chapter](/contents/buy-better) with other subject matter experts in 
 
 ## Feedback
 
-Feedback is due **November 17**.
+Feedback is due **November 10**.
 
 Once we’ve incorporated the feedback, the chapter will be added to the [Proudly Serving manuscript](/manuscript/).
