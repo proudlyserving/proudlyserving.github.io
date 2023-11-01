@@ -47,6 +47,7 @@
     --color-5: #8484c7;
     --color-6: #eaeaf5;
     --color-7: #757575;
+    --color-8: #212463;
     --font-1: "Public Sans Extra Bold", sans-serif;
     --font-2: "Public Sans Bold", sans-serif;
     --font-3: "Public Sans Regular", sans-serif;
@@ -208,12 +209,18 @@ h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, 
     background: var(--color-1) !important;
 }
 
+hr {
+    border-top: var(--size-2) var(--color-8) solid;
+    margin-bottom: var(--size-10);
+    margin-top: var(--size-10);
+}
+
 /* Logo */
 
 .logo {
     font-family: var(--font-2);
     font-size: var(--size-8);
-    border-bottom: var(--size-2) var(--color-4) solid;
+    border-bottom: var(--size-2) var(--color-8) solid;
     padding: var(--size-8) var(--size-6) !important;
 }
 
@@ -269,6 +276,7 @@ h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, 
     background: var(--color-1);
     color: var(--color-4);
     border-radius: var(--color-1);
+    border-bottom: var(--size-2) var(--color-8) solid;
 }
 
 a.navbar-brand:hover {
@@ -277,7 +285,7 @@ a.navbar-brand:hover {
 
 .navbar-light .navbar-toggler {
     color: var(--color-4);
-    border-color: var(--color-4);
+    border-color: var(--color-8);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -287,6 +295,7 @@ a.navbar-brand:hover {
 .navbar a, .navbar li.active a, .navbar li.active a:visited {
     color: var(--color-4) !important;
     font-family: var(--font-3);
+    font-size: var(--size-6);
 }
 
 .navbar-brand {
@@ -294,7 +303,7 @@ a.navbar-brand:hover {
 }
 
 .lead {
-    font-family: var(--font-4);
+    font-family: var(--font-3);
     font-size: var(--size-9);
     color: var(--color-4);
 }
@@ -339,6 +348,7 @@ a.navbar-brand:hover {
 
 .card-icon a {
     color: var(--color-4) !important;
+    text-decoration: none;
 }
 
 .card-news {
@@ -348,6 +358,10 @@ a.navbar-brand:hover {
     margin-bottom: var(--size-7);
     padding: var(--size-10) var(--size-7);
     text-align: center;
+}
+
+.card-icon:hover, .card-icon a:hover, .card-news:hover {
+    background-color: var(--color-8) !important;
 }
 
 .card-body {
@@ -473,13 +487,13 @@ p.img-caption {
 }
 
 img.shadow {
-    box-shadow: var(--size-3) var(--size-3) var(--size-6) var(--color-2) !important;
+    box-shadow: var(--size-5) var(--size-5) var(--size-5) var(--color-7) !important;
     border: var(--size-2) solid var(--color-2);
     margin-bottom: var(--size-9);
 }
 
 img.line {
-    border: var(--size-2) solid var(--color-4);
+    border: var(--size-2) solid var(--color-8);
     margin-bottom: var(--size-8);
 }
 
@@ -655,15 +669,15 @@ a.btn-primary:hover {
 
 .footer p, .footer li {
     font-family: var(--font-3);
-    margin: var(--color-1);
-    padding: var(--color-1);
+    margin: var(--size-1);
+    padding: var(--size-1);
 }
 
 .footer ul {
     padding-bottom: var(--size-7);
 }
 
-.footer a, .footer a:visited, .footer, .footer h5 {
+.footer a, .footer a:visited, .footer, .footer h5, .footer h5:visited, .footer h5:hover, .footer h3, .footer h3.a, .footer h3.a:visited, h3.a:hover, .footer h2 {
     color: var(--color-4);
 }
 
@@ -675,4 +689,13 @@ a.btn-primary:hover {
 .footer-connect {
     padding-bottom: var(--size-6);
     padding-top: var(--size-6);
+}
+
+.bg-dark {
+    background-color: var(--color-1) !important;
+    color: var(--color-4);
+}
+
+.bg-dark a, .bg-dark a:visited, .bg-dark a:hover, .bg-dark h1, .bg-dark .lead {
+    color: var(--color-4);
 }

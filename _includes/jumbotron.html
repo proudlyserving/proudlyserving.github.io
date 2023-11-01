@@ -1,56 +1,58 @@
 {% if page.layout == "home" %}
-    <div class="jumbotron jumbotron-home">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    {% if page.description %}
-                        <h1 class="mb-3">{{ page.title }}</h1>
-                        <p class="lead">{{ page.description }}</p>
+<div class="jumbotron jumbotron-home">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="mb-4 h1">{{ page.title }}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-7">
+                {% if page.description %}
+                <p class="lead">{{ page.description }}</p>
+                {% endif %}
+                {% if page.about %}
+                <p>{{ page.about }}</p>
+                {% if site.data.nav-about.docs %}
+                <ul>
+                    {% for item in site.data.nav-about.docs %}
+                    {% if item.url %}
+                    <li>
+                        <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                    </li>
                     {% endif %}
-                    {% if page.about %}
-                        <p>{{ page.about }}</p>
-                        {% if site.data.nav-about.docs %}
-                            <ul>
-                                {% for item in site.data.nav-about.docs %}
-                                    {% if item.url %}
-                                        <li>
-                                            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                                        </li>
-                                    {% endif %}
-                                {% endfor %}
-                            </ul>
-                        {% endif %}
-                    {% endif %}
-                </div>
-                <div class="col-sm-6">
-                    <img
-                        alt="Cover of {{ page.title }}"
-                        class="xl line shadow"
-                        src="{{ site.baseurl }}/assets/img/cover.png">
-                </div>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                {% endif %}
+            </div>
+            <div class="col-sm-5">
+                <img alt="Cover of {{ page.title }}" class="xl line shadow"
+                    src="{{ site.baseurl }}/assets/img/cover.png">
             </div>
         </div>
     </div>
+</div>
 {% else %}
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-9">
-                    {% if page.chapter %}
-                        <p class="badge badge-light">Chapter</p>
-                    {% endif %}
-                    <h1>{{ page.title }}</h1>
-                </div>
-                <div class="col-sm-3"></div>
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                {% if page.chapter %}
+                <p class="badge badge-light">Chapter</p>
+                {% endif %}
+                <h1>{{ page.title }}</h1>
             </div>
-            <div class="row">
-                <div class="col-sm-9">
-                    {% if page.description %}
-                        <p class="lead">{{ page.description }}</p>
-                    {% endif %}
-                </div>
-                <div class="col-sm-3"></div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-9">
+                {% if page.description %}
+                <p class="lead">{{ page.description }}</p>
+                {% endif %}
             </div>
+            <div class="col-sm-3"></div>
         </div>
     </div>
+</div>
 {% endif %}
