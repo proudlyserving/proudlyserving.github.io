@@ -298,6 +298,10 @@ a.navbar-brand:hover {
     font-size: var(--size-6);
 }
 
+.navbar a:hover {
+    text-decoration: underline;
+}
+
 .navbar-brand {
     font-family: var(--font-1);
 }

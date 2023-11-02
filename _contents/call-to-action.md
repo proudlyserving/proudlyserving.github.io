@@ -3,7 +3,7 @@ title: Call to action
 description: If you work in public service —as a government employee or private sector partner— society relies on you.
 img-feat: 
 author: 
-icon: fa fa-solid fa-arrow-pointer
+icon: fa fa-solid fa-bullhorn
 intro: true
 chapters: #true
 about: #true
