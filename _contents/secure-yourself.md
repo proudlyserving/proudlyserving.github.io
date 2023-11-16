@@ -9,8 +9,8 @@ icon: fa-solid fa-lock
 intro: #true
 chapters: true
 about: #true
-feedback: true
-feedback-link: https://docs.google.com/document/d/1YdnZzksDDn2c7KheXje2pM0mdL10mVgg9wNrJnJpXx0/edit?usp=sharing
-#launched: true
+feedback: 
+feedback-link: 
+launched: true
 ---
 

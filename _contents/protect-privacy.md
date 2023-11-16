@@ -9,8 +9,8 @@ icon: fa-solid fa-shield
 #intro: true
 chapters: true
 #about: true
-feedback: true
-feedback-link: https://docs.google.com/document/d/1ItSoL5COitV5QrrCqPPIpgqSASxoPFYYRMgXz0Q1stw/edit?usp=sharing
-#launched: true
+feedback: 
+feedback-link: 
+launched: true
 ---
 
