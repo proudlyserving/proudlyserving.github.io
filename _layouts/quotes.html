@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card-group">
+                {% for quotes in site.data.quotes.docs %}
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img-top card-img-top mb-3">
+                                <img src="{{ site.baseurl }}/assets/img/people/{{ quotes.img }}"
+                                    class="rounded-circle sm" alt="{{ item.name }}">
+                            </div>
+                            <p class="display-6">"{{ quotes.quote }}"</p>
+                            <p class="small text-body-secondary">{{ quotes.name }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
