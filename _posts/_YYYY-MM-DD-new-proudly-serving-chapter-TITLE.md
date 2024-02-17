@@ -8,7 +8,7 @@ icon: fa-solid fa-rocket
 
 ## New chapter
 
-{TITLE](/contents/{LINK}) is now published in [Proudly Serving](/).
+[TITLE](/contents/{LINK}) is now published in [Proudly Serving](/).
 
 ## Thank you
 

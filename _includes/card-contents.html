@@ -1,11 +1,10 @@
-<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <div class="card text-center card-icon mt-3">
-        <div class="card-body">
-            <i class="{{ item.icon }} fa-3x mb-4 mt-3"></i>
-            <p>
-                <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-            </p>
-            <p>{{ item.role }}</p>
-        </div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 d-flex align-items-stretch">
+  <div class="card text-center card-icon rounded-0 py-4 mx-1 my-1 bg-dark text-white">
+    <div class="card-body">
+      <i class="{{ item.icon }} fa-3x mb-4 mt-3"></i>
+      <h5 class="card-title">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link text-white">{{ item.title }}</a>
+      </h5>
     </div>
+  </div>
 </div>

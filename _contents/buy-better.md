@@ -1,6 +1,6 @@
 ---
 title: Buy better
-description: "Finding the right technology to help you achieve your service delivery and operational goals can be daunting and overwhelming. It’s too hard to navigate the government technology marketplace and too easy to be swayed by sales and marketing."
+description: "Finding technology for service delivery and operational goals can be daunting. It’s hard to navigate the government technology marketplace and easy to be swayed by persuasive sales people and slick marketing. Simplifying the “ask” and staying focused on problems and users (not requirements) makes buying tech manageable."
 author:
  - Rebecca Woodbury
  - Catherine Geanuracos
@@ -9,8 +9,8 @@ icon: fa-solid fa-money-bill
 #intro: true
 chapters: true
 #about: true
-feedback: true
-feedback-link: https://docs.google.com/document/d/1CN2e7oYbwoFClEnr0YsmkIjDhpHhmazcQ_an04b8_aA/edit?usp=sharing
-#launched: true
+feedback: 
+feedback-link: 
+launched: true
 ---
 

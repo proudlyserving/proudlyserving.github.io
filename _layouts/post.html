@@ -5,33 +5,17 @@ layout: post
 {% include header.html %}
 {% include nav.html %}
 <main>
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-9">
-                    <h1>{{ page.title }}</h1>
-                </div>
-                <div class="col-sm-3"></div>
-            </div>
-            <div class="row">
-                <div class="col-sm-9">
-                    <p class="lead">{% include date.html %}</p>
-                </div>
-                <div class="col-sm-3"></div>
-            </div>
+  {% include jumbotron.html %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
+        <div class="post">
+          {{ content }}
         </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                <div class="post">
-                    {{ content }}
-                </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
-        </div>
-    </div>
+  </div>
 </main>
 {% include analytics.html %}
 {% include footer.html %}

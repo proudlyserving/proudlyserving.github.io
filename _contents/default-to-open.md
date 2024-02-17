@@ -8,7 +8,7 @@ intro: #true
 chapters: true
 about: #true
 feedback: #true
-feedback-link: x
+feedback-link: 
 launched: true
 redirect_from:
   - /default-to-open/

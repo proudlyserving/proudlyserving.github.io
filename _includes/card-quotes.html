@@ -1,0 +1,37 @@
+<div class="card-group mt-3 mb-3">
+  {% if page.layout == "home" %}
+    {% for quotes in site.data.quotes.docs limit: 2 %}
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+        <div class="card mb-4 mx-1 my-1 border-0 px-5">
+          <div class="card-body">
+            <div class="card-img-top card-img-top">
+              <img
+                src="{{ site.baseurl }}/assets/img/people/{{ quotes.img }}"
+                class="rounded-circle sm float-start mx-3 mb-3"
+                alt="{{ item.name }}">
+            </div>
+            <p class="fs-5">"{{ quotes.quote }}"</p>
+            <p class="small text-body-secondary text-end">{{ quotes.name }}</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  {% else %}
+    {% for quotes in site.data.quotes.docs %}
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+        <div class="card mb-4 mx-1 my-1 border-0 px-5">
+          <div class="card-body">
+            <div class="card-img-top card-img-top">
+              <img
+                src="{{ site.baseurl }}/assets/img/people/{{ quotes.img }}"
+                class="rounded-circle sm float-start mx-3 mb-3"
+                alt="{{ item.name }}">
+            </div>
+            <p class="fs-5">"{{ quotes.quote }}"</p>
+            <p class="small text-body-secondary text-end">{{ quotes.name }}</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  {% endif %}
+</div>

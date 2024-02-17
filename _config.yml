@@ -11,9 +11,9 @@ social:
     - https://twitter.com/proudly_serving
     - https://www.linkedin.com/company/proudlyserving
 
-twitter:
-  username: proudly_serving
-  card: summary_large_image
+twitter-username: proudly_serving
+twitter: "@proudly_serving"
+linkedin: https://www.linkedin.com/company/proudlyserving
 
 # Date/time
 date: "%B %-d, %Y"

@@ -1,7 +1,7 @@
 ---
 title: Be participatory
 description: "Being participatory enables us to open space, unlock community leadership and innovation, and share power -  especially by centering marginalized community members typically left out of government business as usual."
-img-feat: be-participatory-feat.png
+img-feat: 
 author:
  - Shari Davis
  - Rahel Mekdim Teka

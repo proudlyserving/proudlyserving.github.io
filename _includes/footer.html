@@ -1,86 +1,50 @@
 <footer>
-    <div class="footer">
-        {% if site.data.connect.footer %}
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2>Connect</h2>
-                </div>
-            </div>
-            <div class="row">
-                {% for link in site.data.connect.footer %}
-                {% assign item = site.data.connect.docs | where: "name", link %}
-                {% assign item = item[0] %}
-                <div class="col-sm-2">
-                    <a href="{{ item.url }}"><i class="{{ item.icon }} fa-3x mb-3 mt-4"></i></a>
-                    <p>{{ item.name }}</p>
-                </div>
-                {% endfor %}
-                <div class="col-sm-2">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <hr>
-                </div>
-            </div>
-            {% endif %}
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <a href="{{ site.baseurl }}/">
-                            <img src="{{ site.baseurl }}/assets/img/avatar.png" alt="{{ site.title }}" class="sm line">
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <ul class="list-unstyled">
-                            {% for item in site.data.nav-footer-1.docs %}
-                            {% if item.url %}
-                            <li>
-                                <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                            </li>
-                            {% endif %}
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <ul class="list-unstyled">
-                            {% for item in site.data.nav-footer-2.docs %}
-                            {% if item.url %}
-                            <li>
-                                <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                            </li>
-                            {% endif %}
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    <div class=" col-sm-3">
-                        <ul class="list-unstyled">
-                            {% for item in site.data.nav-footer-3.docs %}
-                            {% if item.url %}
-                            <li>
-                                <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                            </li>
-                            {% endif %}
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 text-right">
-                        <div class="footer-connect">
-                            <div>
-                                {% include social.html size="footer" %}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <div class="footer mt-5 py-5 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+          <a href="{{ site.baseurl }}/">
+            <img
+              src="{{ site.baseurl }}/assets/img/avatar.png"
+              alt="{{ site.title }}"
+              class="border sm mb-3">
+          </a>
         </div>
+        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+          <ul class="list-unstyled small">
+            {% for item in site.data.nav-footer-1.docs %}
+              {% if item.url %}
+                <li>
+                  <a href="{{ site.baseurl }}{{ item.url }}" class="text-white text-decoration-none">{{ item.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+          <ul class="list-unstyled small">
+            {% for item in site.data.nav-footer-2.docs %}
+              {% if item.url %}
+                <li>
+                  <a href="{{ site.baseurl }}{{ item.url }}" class="text-white text-decoration-none">{{ item.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+          <ul class="list-unstyled small">
+            {% for item in site.data.nav-footer-3.docs %}
+              {% if item.url %}
+                <li>
+                  <a href="{{ site.baseurl }}{{ item.url }}" class="text-white text-decoration-none">{{ item.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
-{% include js.html %}
-</body>
-
-</html>
+{% include js.html %}</body></html>

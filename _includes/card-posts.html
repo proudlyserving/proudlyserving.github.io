@@ -1,15 +1,15 @@
-<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <div class="card">
-        <div class="card-body">
-            <div class="card-news">
-                <i class="{{ item.icon }} fa-4x"></i>
-            </div>
-            <h3>
-                <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-            </h3>
-            <p>
-                <small>{% include date.html %}</small>
-            </p>
-        </div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 d-flex align-items-stretch">
+  <div class="card mx-2 my-2">
+    <div class="card-header text-center bg-dark text-white py-5 px-3">
+      <i class="{{ item.icon }} fa-4x"></i>
     </div>
+    <div class="card-body">
+      <h2 class="card-title h4">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+      </h2>
+    </div>
+    <div class="card-footer">
+      <small>{% include date.html %}</small>
+    </div>
+  </div>
 </div>

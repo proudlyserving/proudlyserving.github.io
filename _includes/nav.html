@@ -1,47 +1,51 @@
-<div class="container-fluid logo">
-    <div class="row">
-        <div class="col-sm-8">
-            <a href="{{ site.baseurl }}/">
-                <img
-                    src="{{ site.baseurl }}/assets/img/avatar.png"
-                    alt="{{ site.title }}"
-                    class="xs">
-            </a>
-            <a href="{{ site.baseurl }}/">
-                {{ site.title }}
-            </a>
-        </div>
-        <div class="col-sm-4 text-right">
-            <div class="d-none d-sm-block">
-                {% for link in site.data.connect.footer %}
-                    {% assign item = site.data.connect.docs | where: "name", link %}
-                    {% assign item = item[0] %}
-                    <a href="{{ item.url }}">
-                        <i class="{{ item.icon }} ml-4 fa-md"></i>
-                    </a>
-                {% endfor %}
-            </div>
-        </div>
+<div class="container-fluid bg-dark py-4 border-bottom">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+      <a href="{{ site.baseurl }}/">
+        <img
+          src="{{ site.baseurl }}/assets/img/avatar.png"
+          alt="{{ site.title }}"
+          class="xs border">
+      </a>
+      <a href="{{ site.baseurl }}/" class="text-white text-decoration-none navbar-brand fs-4 mx-2">
+        {{ site.title }}
+      </a>
     </div>
+    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-end">
+      <div class="d-none d-md-block">
+        {% for link in site.data.connect.footer %}
+          {% assign item = site.data.connect.docs | where: "name", link %}
+          {% assign item = item[0] %}
+          <a href="{{ item.url }}" class="text-white text-decoration-none mx-2">
+            <i class="{{ item.icon }} fs-4"></i>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </div>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <button
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-        class="navbar-toggler"
-        data-target="#navbarNavAltMarkup"
-        data-toggle="collapse"
-        type="button">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav mr-auto">
-            {% for item in site.data.nav.docs %}
-                {% if item.url %}
-                    <a class="nav-item nav-link {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                {% endif %}
-            {% endfor %}
-        </div>
+<nav class="navbar bg-dark navbar-expand-lg">
+  <button
+    aria-controls="navbarNavAltMarkup"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    class="navbar-toggler"
+    data-target="#navbarNavAltMarkup"
+    data-toggle="collapse"
+    type="button">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav mr-auto">
+      <ul class="navbar-nav">
+        {% for item in site.data.nav.docs %}
+          {% if item.url %}
+            <li class="nav-item">
+              <a class="nav-link text-white {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
     </div>
+  </div>
 </nav>

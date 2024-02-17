@@ -1,48 +1,49 @@
 <div class="cards-include">
-    {% if include.page %}
-        {% assign pull = include.page %}
-    {% else %}
-        {% assign pull = page.parent %}
-    {% endif %}
-    {% if include.page-title and include.page-title == "Government. Fresh." %}
-        {% assign title = include.page-title %}
-    {% else %}
-        {% assign title = page.title %}
-    {% endif %}
-    {% if pull == "books" %}
-        <!-- Books -->
-                            <!-- Books secondary -->
-        <div class="preview-include">
-            <div class="card-deck">
-                {% assign limit = site.books-number | plus:0 %}
-                {% assign amount = 1 %}
-                {% for x in site.books %}
-                    {% assign item = x %}
-                    {% if limit > amount and title != item.title and page.short == "true" or title == "Government. Fresh." and
-            limit > amount and title != item.title %}
-                        {% include card-books.html level="secondary" %}
-                        {% assign amount = amount | plus:1 %} <!-- Books primary -->
-                    {% elsif page.short != "true" and title != "Government. Fresh." %}
-                        {% include card-books.html %}
-                        {% assign amount = amount | plus:1 %}
-                    {% endif %}
-                    {% if title != item.title %}{% endif %}
-                {% endfor %}
-            </div>
-        </div>
-        <!-- Contents -->
-    {% elsif pull == "contents" %}
-        <div class="card-deck">
-            {% for item in site.contents %}
-                {% include card-contents.html %}
-            {% endfor %}
-        </div>
-        <!-- People -->
-    {% elsif pull == "people" %}
-        <div class="card-deck clean">
-            {% for item in site.people %}
-                {% include card-people.html %}
-            {% endfor %}
-        </div>
-    {% endif %}
+  {% if include.page %}
+    {% assign pull = include.page %}
+  {% else %}
+    {% assign pull = page.parent %}
+  {% endif %}
+  {% if include.page-title and include.page-title == "" %}
+    {% assign title = include.page-title %}
+  {% else %}
+    {% assign title = page.title %}
+  {% endif %}
+  {% if pull == "books" %}
+    <!-- Books -->
+    <!-- Books secondary -->
+    <div class="preview-include">
+      <div class="card-group mt-3 mb-5">
+        {% assign limit = site.books-number | plus: 0 %}
+        {% assign amount = 1 %}
+        {% for x in site.books %}
+          {% assign item = x %}
+            {% if limit > amount and title != item.title and page.short == "true" or title == "" and limit > amount and title != item.title %}
+            {% include card-books.html level="secondary" %}
+            {% assign amount = amount | plus: 1 %}
+          <!-- Books primary -->
+          {% elsif page.short != "true" and title != "" %}
+            {% include card-books.html %}
+            {% assign amount = amount | plus: 1 %}
+          {% endif %}
+          {% if title != item.title %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  <!-- Contents -->
+  {% elsif pull == "contents" %}
+    <div class="card-group">
+      {% for item in site.contents %}
+        {% include card-contents.html %}
+      {% endfor %}
+    </div>
+  <!-- People -->
+  {% elsif pull == "people" %}
+    <div class="card-group">
+      {% for item in site.people %}
+        {% include card-people.html %}
+      {% endfor %}
+    </div>
+  {% endif %}
 </div>

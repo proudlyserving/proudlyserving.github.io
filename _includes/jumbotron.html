@@ -1,54 +1,77 @@
 {% if page.layout == "home" %}
-<div class="jumbotron jumbotron-home">
+  <div class="py-5">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-5">
-                <img alt="Cover of {{ page.title }}" class="xl line shadow"
-                    src="{{ site.baseurl }}/assets/img/cover.png">
-            </div>
-            <div class="col-sm-7">
-                <h1 class="mb-4 h1">{{ page.title }}</h1>
-                {% if page.description %}
-                <p class="lead">{{ page.description }}</p>
-                {% endif %}
-                {% if page.about %}
-                <p>{{ page.about }}</p>
-                {% if site.data.nav-about.docs %}
-                <ul>
-                    {% for item in site.data.nav-about.docs %}
-                    {% if item.url %}
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <div class="">
+            <img
+              alt="Cover of {{ page.title }}"
+              class="xl border shadow-lg mb-4"
+              src="{{ site.baseurl }}/assets/img/cover.png">
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <h1 class="mb-3 display-2">{{ page.title }}</h1>
+          {% if page.description %}
+            <p class="lead fs-2">{{ page.description }}</p>
+          {% endif %}
+          {% if page.about %}
+            <p>{{ page.about }}</p>
+            {% if site.data.nav-about.docs %}
+              <ul class="list-unstyled">
+                {% for item in site.data.nav-about.docs %}
+                  {% if item.url %}
                     <li>
-                        <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                      <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                     </li>
-                    {% endif %}
-                    {% endfor %}
-                </ul>
-                {% endif %}
-                {% endif %}
-            </div>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            {% endif %}
+          {% endif %}
         </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
     </div>
-</div>
-{% else %}
-<div class="jumbotron">
+  </div>
+{% elsif page.layout == "post" %}
+  <div class="bg-dark py-5 mb-5 text-white">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-9">
-                {% if page.chapter %}
-                <p class="badge badge-light">Chapter</p>
-                {% endif %}
-                <h1>{{ page.title }}</h1>
-            </div>
-            <div class="col-sm-3"></div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+          <h1>{{ page.title }}</h1>
         </div>
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
         <div class="row">
-            <div class="col-sm-9">
-                {% if page.description %}
-                <p class="lead">{{ page.description }}</p>
-                {% endif %}
-            </div>
-            <div class="col-sm-3"></div>
+          <div class="col-sm-9">
+            <p class="lead fs-5 text-white">{% include date.html %}</p>
+          </div>
+          <div class="col-sm-3"></div>
         </div>
+      </div>
     </div>
-</div>
+  </div>
+{% else %}
+  <div class="bg-dark py-5 mb-5 text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
+          {% if page.chapter %}
+            <p class="badge badge-light">Chapter</p>
+          {% endif %}
+          <h1 class="display-3">{{ page.title }}</h1>
+        </div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-4 col-xl-4"></div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
+          {% if page.description %}
+            <p class="lead fs-2">{{ page.description }}</p>
+          {% endif %}
+        </div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-4 col-xl-4"></div>
+      </div>
+    </div>
+  </div>
 {% endif %}
