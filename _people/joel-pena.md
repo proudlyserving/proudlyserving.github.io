@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Joel Peña
-description: 
+description: Joel Peña is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Joel
 img: joel-pena.jpg

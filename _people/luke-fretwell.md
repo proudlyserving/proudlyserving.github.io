@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Luke Fretwell
-description: 
+description: Luke Fretwell is a Proudly Serving contributor and maintainer.
 author: Proudly Serving
 shortname: Luke
 img: luke-fretwell.png

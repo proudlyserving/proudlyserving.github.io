@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Echa Schneider
-description: 
+description: Echa Schneider is a Proudly Serving contributor and maintainer.
 author: Proudly Serving
 shortname: Echa
 img: echa-schneider.jpg

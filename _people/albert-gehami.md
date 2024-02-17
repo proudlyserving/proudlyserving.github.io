@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Albert Gehami
-description: 
+description: Albert Gehami is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Albert
 img: albert-gehami.jpg

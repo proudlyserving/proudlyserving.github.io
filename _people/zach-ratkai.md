@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Zach Ratkai
-description: 
+description: Zach Ratkai is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Zach
 img: zach-ratkai.jpg

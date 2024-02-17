@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Jason Schneider
-description: 
+description: Jason Schneider is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Jason
 img: jason-schneider.jpg

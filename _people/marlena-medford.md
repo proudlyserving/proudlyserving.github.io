@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Marlena Medford
-description: 
+description: Marlena Medford is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Marlena
 img: marlena-medford.jpg

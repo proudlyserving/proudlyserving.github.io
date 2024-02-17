@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Shira Honig
-description: 
+description: Shira Honig is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Shira
 img: shira-honig.png

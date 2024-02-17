@@ -3,5 +3,6 @@
 {% elsif page %}
   {{ page.date | date: site.date }}
 {% else post %}
+  post
   {{ post.date | date: site.date }}
 {% endif %}

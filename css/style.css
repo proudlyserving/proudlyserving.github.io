@@ -292,6 +292,19 @@ img.xl {
     border-top-left-radius: var(--size-5);
 }
 
+/* Buttons */
+
+.btn-outline-primary {
+    color: var(--color-1);
+    border-color: var(--color-1);
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: var(--color-1);
+    border-color: var(--color-1);
+}
+
 /* Alerts */
 
 .alert {

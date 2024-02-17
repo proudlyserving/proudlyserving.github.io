@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Karen Daly
-description: 
+description: Karen Daly is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Karen
 img: karen-daly.jpeg

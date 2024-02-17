@@ -1,8 +1,0 @@
-I"<h2 id="new-chapter">New chapter</h2>
-
-<p><a href="/contents/{LINK}">TITLE</a> is now published in <a href="/">Proudly Serving</a>.</p>
-
-<h2 id="thank-you">Thank you</h2>
-
-<p>Thank you <a href="/people/{AUTHORLINK}">{AUTHOR}</a> for contributing your wisdom to this chapter!</p>
-:ET

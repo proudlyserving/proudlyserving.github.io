@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: 
-description: 
+description:  is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: 
 img: .jpg

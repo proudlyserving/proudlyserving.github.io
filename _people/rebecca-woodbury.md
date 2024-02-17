@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Rebecca Woodbury
-description: 
+description: Rebecca Woodbury is a Proudly Serving contributor and maintainer.
 author: Proudly Serving
 shortname: Rebecca
 img: rebecca-woodbury.jpg

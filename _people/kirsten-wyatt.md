@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Kirsten Wyatt
-description: 
+description: Kirsten Wyatt is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Kirsten
 img: kirsten-wyatt.jpg

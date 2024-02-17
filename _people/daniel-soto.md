@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Daniel Soto
-description: 
+description: Daniel Soto is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Daniel
 img: daniel-soto.jpg

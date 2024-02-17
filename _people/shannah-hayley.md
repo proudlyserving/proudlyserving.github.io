@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Shannah Hayley
-description: 
+description: Shannah Hayley is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Shannah
 img: shannah-hayley.jpg

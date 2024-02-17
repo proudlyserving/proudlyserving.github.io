@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Stan Sarber
-description: 
+description: Stan Sarber is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Stan
 img: stan-sarber.jpeg

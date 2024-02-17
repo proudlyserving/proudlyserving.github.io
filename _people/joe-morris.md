@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Joe Morris
-description: 
+description: Joe Morris is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Joe
 img: joe-morris.png

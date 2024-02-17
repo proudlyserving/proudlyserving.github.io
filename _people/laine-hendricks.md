@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Laine Hendricks
-description: 
+description: Laine Hendricks is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Laine
 img: laine-hendricks.jpeg

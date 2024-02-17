@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Rahel Mekdim Teka
-description: 
+description: Rahel Mekdim Teka is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Rahel
 img: rahel-mekdim-teka.jpg

@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Rob Lloyd
-description: 
+description: Rob Lloyd is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Rob
 img: rob-lloyd.jpg

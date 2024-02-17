@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Shari Davis
-description: 
+description: Shari Davis is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Shari
 img: shari-davis.jpeg

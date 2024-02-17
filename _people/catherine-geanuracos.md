@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Catherine Geanuracos
-description: 
+description: Catherine Geanuracos is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Catherine
 img: catherine-geanuracos.jpg

@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Dustin Haisler
-description: 
+description: Dustin Haisler is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Dustin
 img: dustin-haisler.jpg

@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Mai-Ling Garcia
-description: 
+description: Mai-Ling Garcia is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: 
 img: mai-ling-garcia.jpg

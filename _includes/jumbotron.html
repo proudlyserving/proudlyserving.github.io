@@ -45,10 +45,22 @@
         <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
         <div class="row">
           <div class="col-sm-9">
+            {% assign item = page %}
             <p class="lead fs-5 text-white">{% include date.html %}</p>
           </div>
           <div class="col-sm-3"></div>
         </div>
+      </div>
+    </div>
+  </div>
+{% elsif page.layout == "profile" %}
+  <div class="bg-dark py-5 mb-5 text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+          <h1>{{ page.title }}</h1>
+        </div>
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
       </div>
     </div>
   </div>
@@ -57,8 +69,8 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
-          {% if page.chapter %}
-            <p class="badge badge-light">Chapter</p>
+          {% if page.chapters %}
+            <p class="badge badge-light rounded-0">Chapter</p>
           {% endif %}
           <h1 class="display-3">{{ page.title }}</h1>
         </div>

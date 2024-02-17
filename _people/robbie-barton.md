@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Robbie Barton
-description: 
+description: Robbie Barton is a Proudly Serving contributor.
 author: Proudly Serving
 shortname: Robbie
 img: robbie-barton.png
