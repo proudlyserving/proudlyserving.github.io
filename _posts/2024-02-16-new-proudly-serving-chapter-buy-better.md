@@ -8,7 +8,7 @@ icon: fa-solid fa-rocket
 
 ## New chapter
 
-[Buy better](/contents/buy-better}) is now published in [Proudly Serving](/).
+[Buy better](/contents/buy-better) is now published in [Proudly Serving](/).
 
 ## Thank you
 
