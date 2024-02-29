@@ -4,6 +4,10 @@ description: Public service in the digital age
 #baseurl: ""
 url: https://proudlyservingbook.com
 
+# Organization
+org-name: Proudly Serving
+org-url: https://proudlyservingbook.com
+
 # Social
 social:
   name: Proudly Serving
