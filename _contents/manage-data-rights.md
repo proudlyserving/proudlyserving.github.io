@@ -7,7 +7,7 @@ icon: fa-solid fa-database
 #intro: true
 chapters: true
 #about: true
-feedback: true
-feedback-link: https://docs.google.com/document/d/1Ty4jdWiQxf-IrjyJZco7NAhjn6AslziDItPZFQK0wew/edit?usp=sharing
-#launched: true
+feedback:
+feedback-link: 
+launched: true
 ---
