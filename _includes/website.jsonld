@@ -1,0 +1,7 @@
+{
+    "@context": "http://schema.org",
+    "@type": "{{ page.schematype }}",
+    "isAccessibleForFree": true,
+    "url": "{{ site.url }}",
+    "name": "{{ site.title }}"
+}

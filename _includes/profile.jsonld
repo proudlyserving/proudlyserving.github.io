@@ -1,0 +1,20 @@
+{
+    "@context": "http://schema.org",
+    "@type": "{{ page.schematype }}",
+    "dateCreated": "{{ page.date }}",
+    "dateModified": "",
+    "mainEntity": {
+        "@type": "Person",
+        "name": "{{ page.title }}",
+        "alternateName": "{{ page.shortname}}",
+        "description": "{{ page.description}}",
+        "image": "{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img }}",
+        "url": "{{ page.website }}",
+        "sameAs": "{{ page.twitter }}, {{ page.linkedin }}, {{ page.email }}",
+        "jobTitle": "{{ page.position }}",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "{{ page.org }}"
+        }
+    }
+}

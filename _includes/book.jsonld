@@ -1,0 +1,23 @@
+{
+    "@context": "http://schema.org",
+    "@type": "{{ page.schematype }}",
+    "name": "{{ page.title }}",
+    "description": "{{ page.description }}",
+    "isAccessibleForFree": true,
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ site.time | date_to_xmlschema }}",
+    "url": "{{ site.url }}{{ page.url }}",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "{{ page.book-author }}"
+        }
+    ],
+    "image": [
+        "{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
+    ],
+    "publisher": {
+        "name": "{{ site.title }}",
+        "url": "{{ site.url }}"
+    }
+}

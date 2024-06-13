@@ -42,6 +42,7 @@ defaults:
       parent: "news"
       layout: "post"
       short: "true"
+      schematype: "NewsArticle"
   - scope:
       path: "_contents"
       type: "contents"
@@ -51,6 +52,7 @@ defaults:
       parent: "contents"
       layout: "page"
       short: "true"
+      schematype: "Article"
   - scope:
       path: "_people"
       type: "people"
@@ -60,6 +62,7 @@ defaults:
       parent: "people"
       layout: "profile"
       short: "true"
+      schematype: "ProfilePage"
 
 # Collections
 collections:

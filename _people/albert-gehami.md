@@ -7,6 +7,8 @@ shortname: Albert
 img: albert-gehami.jpg
 img-feat: albert-gehami.jpg
 img-alt: Albert Gehami headshot
+jobTitle: Privacy officer
+org: City of San Jose, CA
 email: 
 website: 
 twitter: 

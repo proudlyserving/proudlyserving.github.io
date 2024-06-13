@@ -1,4 +1,5 @@
 ---
+schematype: WebSite
 layout: home
 short: "true"
 title: "Proudly Serving"
