@@ -1,5 +1,5 @@
 ---
-name: Contributor onboarding call
+name: Contributor onboarding
 about: Introduce contributor to the process
 title: 'Contributor onboarding call: [NAME]'
 labels: content, ops

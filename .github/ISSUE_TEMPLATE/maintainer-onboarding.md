@@ -8,10 +8,8 @@ assignees: lukefretwell, rebeccawoodbury
 ---
 
 - [ ] Add to #ops Slack channel
-- [ ] Add to email footer
 - [ ] Invite to check-ins
 - [ ] Add to issue templates
-- [ ] Make [LinkedIn page](https://proudlyservingbook.com/https://www.linkedin.com/company/proudlyserving) admin
 - [ ] Label as maintainer on website
 - [ ] Announce on Slack #general
 - [ ] Announce on social media
