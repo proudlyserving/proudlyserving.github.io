@@ -1,14 +1,14 @@
 ---
 title: Upskill always
-description: Success of digital delivery within governments depends on staff and leaders with tech literacy and skills. Upskilling or training of government employees across all levels is necessary to create change at scale. This requires greater attention, thoughtful design, and investment than many governments currently provide.
+description: "Successful government digital delivery depends on technology literate employees applying digital skills and values to public service, from policy and procurement to product testing and upkeep. Sustainable training requires smart use of resources, continuous learning, and a culture of exploring, observing, and experimenting."
 author: Shira Honig
 img-feat: 
 icon: fa-solid fa-circle-up
 #intro: true
 chapters: true
 #about: true
-feedback: true
-feedback-link: https://docs.google.com/document/d/14iP4NFsm20a_xzFU-C2MZoBlKxgnryjTVGSIQkv3DFo/edit?usp=sharing
-#launched: true
+#feedback: true
+#feedback-link: 
+launched: true
 ---
 
