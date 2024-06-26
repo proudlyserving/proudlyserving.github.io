@@ -11,6 +11,7 @@ email:
 website: 
 twitter: 
 linkedin: 
+medium: 
 github: 
 maintainer: #yes
 contributor: yes
