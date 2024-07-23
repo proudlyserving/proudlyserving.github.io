@@ -10,7 +10,7 @@
         "description": "{{ page.description}}",
         "image": "{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img }}",
         "url": "{{ page.website }}",
-        "sameAs": "{{ page.twitter }}, {{ page.linkedin }}, {{ page.email }}",
+        "sameAs": "{{ page.linkedin }}",
         "jobTitle": "{{ page.position }}",
         "worksFor": {
             "@type": "Organization",
