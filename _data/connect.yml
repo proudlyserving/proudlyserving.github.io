@@ -12,7 +12,7 @@ email: &email "fas fa-at"
 calendar: &calendar "fa-solid fa-calendar"
 subscribe: &subscribe "fa-solid fa-envelope"
 patreon: &patreon "fab fa-patreon"
-twitter: &twitter "fab fa-twitter"
+twitter: &twitter "fab fa-x-twitter"
 linkedin: &linkedin "fab fa-linkedin"
 facebook: &facebook "fab fa-facebook"
 github: &github "fab fa-github"
@@ -37,7 +37,7 @@ discord: &discord "fab fa-discord"
 footer:
   - Subscribe
   - LinkedIn
-  - Twitter
+  - X
   - GitHub
   - RSS
 
@@ -67,7 +67,7 @@ docs:
     icon: *discord
 
   - name: Twitter 
-    url: https://twitter.com/proudly_serving
+    url: https://x.com/proudly_serving
     icon: *twitter
 
   - name: LinkedIn

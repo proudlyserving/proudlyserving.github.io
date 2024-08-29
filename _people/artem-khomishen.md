@@ -17,4 +17,4 @@ maintainer: #yes
 contributor: yes
 ---
 
-Artem leads an award-winning design and development team at the California Department of Technology. With nearly 20 years of digital government experience, Artem helped pioneer human-centered design and establish California’s first web standards. Artem oversees statewide initiatives that empower hundreds of departments to enhance the digital footprint of California’s government.
+Artem leads an award-winning team at the California Department of Technology. With nearly 20 years in digital government work, he was instrumental in helping establish California's first digital standard and community of practice. Artem oversees statewide initiatives and digital toolkits, helping California departments  improve the delivery of digital services and information.

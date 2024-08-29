@@ -1,6 +1,6 @@
 ---
 title: Get digital
-description: 
+description: "Digital channels – websites, apps, social media, texts, email newsletters – are standard when it comes to government services and information. Simply having an online presence doesn’t check the “gone digital” box. Be intentional and build government digital services that truly focus on the needs of the people."
 author: Artem Khomishen
 img-feat: 
 icon: fa-solid fa-laptop
