@@ -1,8 +1,8 @@
 ---
-name: Report accessibility issue
+name: Report an accessibility issue
 about: Create a report to help us improve
 title: ''
-labels: ''
+labels: accessibility
 assignees: ''
 
 ---
