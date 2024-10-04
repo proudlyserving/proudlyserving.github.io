@@ -66,7 +66,7 @@ docs:
     url: 
     icon: *discord
 
-  - name: Twitter 
+  - name: X 
     url: https://x.com/proudly_serving
     icon: *twitter
 
@@ -75,7 +75,7 @@ docs:
     icon: *linkedin
 
   - name: Facebook
-    url:  https://www.facebook.com/groups/proudlyserving
+    url:  
     icon: *facebook
 
   - name: GitHub

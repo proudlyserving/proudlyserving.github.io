@@ -8,6 +8,7 @@ img-feat:
 icon: fa-solid fa-money-bill
 #intro: true
 chapters: true
+section: Preparation
 #about: true
 feedback: 
 feedback-link: 

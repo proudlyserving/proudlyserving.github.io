@@ -9,6 +9,7 @@ author:
 icon: fa-solid fa-people-arrows
 #intro: true
 chapters: true
+section: Contemplation
 #about: true
 feedback: 
 feedback-link: 

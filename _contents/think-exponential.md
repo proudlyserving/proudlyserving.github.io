@@ -6,6 +6,7 @@ author: Jason Schneider
 icon: fa-solid fa-brain
 intro: #true
 chapters: true
+section: Contemplation
 about: #true
 feedback: #true
 feedback-link: 

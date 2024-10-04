@@ -6,6 +6,7 @@ author: Luke Fretwell
 icon: fa-solid fa-door-open
 intro: #true
 chapters: true
+section: Contemplation
 about: #true
 feedback: #true
 feedback-link: 

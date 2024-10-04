@@ -6,6 +6,7 @@ author: Marlena Medford
 icon: fa-solid fa-note-sticky
 intro: 
 chapters: true
+section: Inspiration
 about: 
 feedback: 
 feedback-link: 

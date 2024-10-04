@@ -1,7 +1,9 @@
 ---
 layout: quotes
-title: What they're saying
+title: What they say
 description: What they're saying about Proudly Serving.
-permalink: /what-theyre-saying/
+permalink: /what-they-say/
+redirect_from:
+  - /what-theyre-saying/
 ---
 

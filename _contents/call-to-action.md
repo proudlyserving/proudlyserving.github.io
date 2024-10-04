@@ -6,6 +6,7 @@ author:
 icon: fa fa-solid fa-bullhorn
 intro: true
 chapters: #true
+section: 
 about: #true
 feedback: #true
 feedback-link: 

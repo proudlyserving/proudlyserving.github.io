@@ -8,6 +8,7 @@ author:
 icon: fa-solid fa-certificate
 intro: #true
 chapters: true
+section: Preparation
 about: #true
 feedback: #true
 feedback-link: https://docs.google.com/document/d/1rruJsEF8-E3qTVCv0Giw2mK43HcNS4d7233rgGk9wjw/edit?usp=sharing

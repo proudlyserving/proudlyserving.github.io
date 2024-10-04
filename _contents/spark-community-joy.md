@@ -6,6 +6,7 @@ author: Kirsten Wyatt
 icon: fa fa-solid fa-wand-sparkles
 intro: #true
 chapters: true
+section: Implementation
 about: #true
 feedback: #true
 feedback-link: 
