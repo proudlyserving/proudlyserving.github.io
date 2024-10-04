@@ -3,7 +3,7 @@ name: Contributor onboarding
 about: Introduce contributor to the process
 title: 'Contributor onboarding call: [NAME]'
 labels: content, ops
-assignees: echaschneider, lukefretwell, rebeccawoodbury
+assignees: lukefretwell, rebeccawoodbury, MorganGriffin-BloomWorks
 
 ---
 
