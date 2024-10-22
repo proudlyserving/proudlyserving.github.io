@@ -9,6 +9,7 @@ icon: fa-solid fa-money-bill
 #intro: true
 chapters: true
 section: Preparation
+section-order: 5
 #about: true
 feedback: 
 feedback-link: 

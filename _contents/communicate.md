@@ -7,7 +7,7 @@ icon: fa-solid fa-star
 #intro: true
 chapters: true
 section: 
-section-order: 
+section-order: 3
 #about: true
 feedback: true
 feedback-link: 

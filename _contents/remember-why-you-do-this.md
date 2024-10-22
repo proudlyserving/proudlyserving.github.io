@@ -7,6 +7,7 @@ icon: fa-solid fa-note-sticky
 intro: 
 chapters: true
 section: Inspiration
+section-order: 1
 about: 
 feedback: 
 feedback-link: 

@@ -10,6 +10,7 @@ icon: fa-solid fa-people-arrows
 #intro: true
 chapters: true
 section: Contemplation
+section-order: 6
 #about: true
 feedback: 
 feedback-link: 

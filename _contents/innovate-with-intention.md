@@ -9,6 +9,7 @@ icon: fa-regular fa-lightbulb
 intro: #true
 chapters: true
 section: Contemplation
+section-order: 5
 about: #true
 feedback: #true
 feedback-link: 

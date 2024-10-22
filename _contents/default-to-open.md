@@ -7,6 +7,7 @@ icon: fa-solid fa-door-open
 intro: #true
 chapters: true
 section: Contemplation
+section-order: 1
 about: #true
 feedback: #true
 feedback-link: 

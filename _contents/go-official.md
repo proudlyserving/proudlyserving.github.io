@@ -7,6 +7,7 @@ icon: fa fa-solid fa-landmark
 intro: #true
 chapters: true
 section: Preparation
+section-order: 4
 about: #true
 feedback: #true
 feedback-link: x
