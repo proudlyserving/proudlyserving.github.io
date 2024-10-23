@@ -3,7 +3,7 @@ name: Manuscript review
 about: Manuscript section/chapter review
 title: 'Manuscript review: [SECTION]'
 labels: content
-assignees: lukefretwell, rebeccawoodbury
+assignees: lukefretwell, rebeccawoodbury, MorganGriffin-BloomWorks
 
 ---
 
