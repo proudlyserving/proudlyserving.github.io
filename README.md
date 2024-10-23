@@ -7,7 +7,7 @@ Proudly Serving is a playbook helping governments build people-centered digital 
 * [Website](https://proudlyservingbook.com)
 * [Manuscript](https://proudlyservingbook.com/manuscript)
 * [Project board]([https://github.com/proudlyserving/proudlyserving.github.io/projects/1](https://github.com/orgs/proudlyserving/projects/2/views/1))
-* [Wiki](https://github.com/proudlyserving/proudlyserving.github.io/wiki)
+* [Documentation](https://github.com/proudlyserving/proudlyserving.github.io/wiki)
 * [Contact](https://proudlyservingbook.com/contact)
 
 ## License
