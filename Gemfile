@@ -20,6 +20,11 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-paginate"
   gem 'jekyll-redirect-from'
+  gem 'logger'
+  gem 'csv'
+  gem 'ostruct'
+  gem 'base64'
+  gem 'bigdecimal'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

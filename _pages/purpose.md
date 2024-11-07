@@ -1,13 +1,10 @@
 ---
-schematype: WebSite
-layout: home
-short: "true"
-title: "Proudly Serving"
-description: Public service in the digital age
+layout: page
+title: Purpose
+description: Proudly Serving purpose.
+permalink: /purpose/
 redirect_from:
-  - /contribute/
-  - /feedback/
-  - /collaborate/
+  - /about/
 ---
 
 This is for everyone who:

@@ -23,11 +23,11 @@
         {% endfor %}
       </div>
       {% if site.org-name %}
-        <div class="row mt-3">
+        <div class="row mt-2">
           <div class="col-12"></div>
-          <p>A
-            <a href="{{ site.org-url }}" class="text-white">{{ site.org-name }}</a>
-            project</p>
+          <p class="mb-0 pb-0">
+            {{ "now" | date: "%Y" }} {{ site.title }}
+          </p>
         </div>
       {% endif %}
     </div>

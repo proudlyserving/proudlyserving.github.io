@@ -83,8 +83,12 @@ a, a:visited, a:hover {
     color: var(--color-1);
 }
 
-img.shadow-lg {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.75) !important;
+img.shadow {
+    filter: drop-shadow(-8px 8px 0 #c9c9c9);
+}
+
+.lead {
+    font-family: var(--font-5);
 }
 
 /* Headings */
@@ -234,8 +238,6 @@ p.img-caption {
     padding: var(--size-6) var(--size-1);
 }
 
-
-
 img.xs {
     width: var(--size-11);
 }
@@ -254,6 +256,11 @@ img.lg {
 
 img.xl {
     width: var(--size-16);
+}
+
+.icon-primary {
+    color: var(--color-1);
+    filter: drop-shadow(-8px 8px 0 #c9c9c9);
 }
 
 .icon {
@@ -298,12 +305,18 @@ img.xl {
 
 /* Buttons */
 
-.btn-outline-primary {
-    color: var(--color-1);
+.btn {
+    border-radius: .25rem;
+    filter: drop-shadow(-5px 5px 0 #c9c9c9);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--color-1);
     border-color: var(--color-1);
 }
 
-.btn-outline-primary:hover {
+.btn-primary:hover {
     color: #fff;
     background-color: var(--color-1);
     border-color: var(--color-1);

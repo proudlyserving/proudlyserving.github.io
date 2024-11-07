@@ -1,14 +1,14 @@
 docs_list_title: nav
 docs:
 
-- title: About
-  url: /about/
+- title: Purpose
+  url: /purpose/
 
 - title: Contents
   url: /contents/
 
-- title: Manuscript
-  url: /manuscript/
+- title: Book
+  url: /book/
 
 - title: People
   url: /people/

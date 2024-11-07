@@ -6,10 +6,25 @@ layout: home
 {% include nav.html %}
 <main>
   {% include jumbotron.html %}
+  <div class="container border-top pt-5 pb-5">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
+        <i class="fa-solid fa-asterisk fa-10x icon-primary"></i>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <h2 class="mb-3">Purpose</h2>
+        <div class="lead">
+          {{ content }}
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
+    </div>
+  </div>
   <div class="container border-top pt-5">
     <div class="row">
       <div class="col-12">
-        <h2 class="mb-3">What they're saying</h2>
+        <h2 class="mb-3">What they say</h2>
       </div>
     </div>
     <div class="row">
@@ -19,7 +34,7 @@ layout: home
     </div>
     <div class="row">
       <div class="col-sm-12">
-        <a href="{{ site.baseurl }}/what-theyre-saying/" class="btn btn-outline-primary">What they're saying</a>
+        <a href="{{ site.baseurl }}/what-theyre-saying/" class="btn btn-primary">What they say</a>
       </div>
     </div>
   </div>

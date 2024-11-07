@@ -1,0 +1,14 @@
+docs_list_title: nav-home
+docs:
+
+ - title: Purpose
+   url: /purpose/
+
+ - title: Contents
+   url: /contents/
+
+ - title: Book
+   url: /book/
+
+ - title: People
+   url: /people/

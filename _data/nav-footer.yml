@@ -3,14 +3,20 @@ docs:
 
 -
 
- - title: About
-   url: /about/
+ - title: Purpose
+   url: /purpose/
+
+ - title: Contents
+   url: /contents/
+
+ - title: Book
+   url: /book/
+   
+ - title: People
+   url: /people/
 
  - title: What they say
    url: /what-they-say/
-
- - title: People
-   url: /people/
 
  - title: News
    url: /news/
@@ -21,30 +27,15 @@ docs:
  - title: Contact
    url: /contact/
 
--
-
- - title: Contents
-   url: /contents/
-
- - title: Manuscript
-   url: /manuscript/
-
- - title: Feedback
-   url: /feedback/
+ - title: Documentation
+   url: https://github.com/proudlyserving/proudlyserving.github.io/wiki
 
 -
 
- - title: Style guide
-   url: /style/
+ - title: 
+   url: 
 
- - title: Code of conduct
-   url: /conduct/
+-
 
- - title: Accessibility
-   url: /accessibility/
-
- - title: License
-   url: /license/
-
- - title: Colophon
-   url: /colophon/
+ - title: 
+   url: 

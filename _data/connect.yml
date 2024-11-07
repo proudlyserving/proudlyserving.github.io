@@ -4,6 +4,7 @@ sm: "fa-lg"
 md: "fa-2x"
 lg: "fa-3x"
 xl: "fa-4x"
+xxl: "fa-5x"
 
 # Social media icons
 
@@ -39,6 +40,7 @@ footer:
   - LinkedIn
   - X
   - GitHub
+  - Figma
   - RSS
 
 # Site social media links
@@ -47,11 +49,11 @@ docs_list_title: connect
 docs:
 
   - name: Website
-    url: https://proudlyservingbook.com
+    url: 
     icon: *website
 
   - name: Email
-    url: mailto:proudlyservingbook@gmail.com
+    url: 
     icon: *email
 
   - name: Subscribe
@@ -98,17 +100,9 @@ docs:
     url: 
     icon: *instagram
  
-  - name: Flickr
-    url: 
-    icon: *flickr
-
   - name: Figma
     url: https://www.figma.com/@proudlyserving
     icon: *figma
-
-  - name: Tumblr
-    url: 
-    icon: *tumblr
 
   - name: Library
     url: 
