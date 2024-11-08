@@ -80,7 +80,7 @@ layout: page
                 </div>
               {% endif %}
             </div>
-            <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
               <h3>{{ author_data.title }}</h3>
               <div class="mb-3 mt-3">
                 {% include role.html %}
@@ -88,6 +88,7 @@ layout: page
               {{ author_data.content }}
               {% include social.html size = "small" %}
             </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
           </div>
         </div>
       {% endif %}

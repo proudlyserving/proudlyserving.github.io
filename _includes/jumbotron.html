@@ -19,7 +19,7 @@
               {% for item in site.data.nav-home.docs %}
                 {% if item.url %}
                   <li class="list-inline-item">
-                    <a href="{{ site.baseurl }}{{ item.url }}" class="btn btn-primary btn-lg">{{ item.title }}</a>
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="btn btn-primary">{{ item.title }}</a>
                   </li>
                 {% endif %}
               {% endfor %}
@@ -72,12 +72,12 @@
         <div class="col-12 col-sm-12 col-md-2 col-lg-4 col-xl-4"></div>
       </div>
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
+        <div class="col-12 col-sm-12 col-md-8 col-lg-6 col-xl-6">
           {% if page.description %}
             <p class="lead">{{ page.description }}</p>
           {% endif %}
         </div>
-        <div class="col-12 col-sm-12 col-md-2 col-lg-4 col-xl-4"></div>
+        <div class="col-12 col-sm-12 col-md-4 col-lg-6 col-xl-6"></div>
       </div>
     </div>
   </div>

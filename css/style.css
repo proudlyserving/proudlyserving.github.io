@@ -154,6 +154,15 @@ h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, 
     width: 100%;
 }
 
+.card-shadow {
+    filter: drop-shadow(-8px 8px 0 #c9c9c9);
+}
+
+.card-shadow:hover {
+    background: #212463 !important;
+    transition: all 0.3s ease;
+    filter: drop-shadow(-8px 8px 0 #adadad);
+}
 
 /* Main */
 
@@ -307,19 +316,22 @@ img.xl {
 
 .btn {
     border-radius: .25rem;
+    padding: var(--size-6) var(--size-6);
     filter: drop-shadow(-5px 5px 0 #c9c9c9);
 }
 
-.btn-primary {
+.btn-primary, .btn-primary:visited, a.btn-primary, a.btn-primary:visited {
     color: #fff;
     background-color: var(--color-1);
     border-color: var(--color-1);
 }
 
-.btn-primary:hover {
+.btn-primary:hover, a.btn-primary:hover {
     color: #fff;
-    background-color: var(--color-1);
     border-color: var(--color-1);
+    background: #212463;
+    transition: all 0.3s ease;
+    filter: drop-shadow(-5px 5px 0 #adadad);
 }
 
 /* Alerts */
