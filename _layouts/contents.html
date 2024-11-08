@@ -3,21 +3,16 @@ layout: default
 ---
 
 <div class="col-12">
-  {% for section in site.sections %}
-    {% assign chapters = "" | split: '' %}
-    {% for chapter in site.contents %}
-      {% if chapter[section] == true %}
-        {% assign chapters = chapters | push: chapter %}
-      {% endif %}
-    {% endfor %}
-    {% assign size = chapters | size %}
-    {% if size > 0 %}
-      <h2>{{ section | capitalize }}</h2>
-      <div class="card-group mt-4 mb-5">
-        {% for item in chapters %}
-          {% include card-contents.html %}
+  {% for section in site.data.contents.docs %}
+    <h2>{{ section.name | capitalize }}</h2>
+    <div class="card-group mt-4 mb-5">
+      {% for chapter in section.chapters %}
+        {% for item in site.contents %}
+          {% if item.title == chapter %}
+            {% include card-contents.html %}
+          {% endif %}
         {% endfor %}
-      </div>
-    {% endif %}
+      {% endfor %}
+    </div>
   {% endfor %}
 </div>

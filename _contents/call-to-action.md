@@ -6,8 +6,8 @@ author:
 icon: fa fa-solid fa-bullhorn
 intro: true
 chapters: #true
-section: 
-section-order: 
+section: Get started
+section-order: 2
 about: #true
 feedback: #true
 feedback-link: 

@@ -41,27 +41,22 @@ layout: home
   <div class="container border-top pt-5 mt-4">
     <div class="row">
       <div class="col-12">
-        <h2 class="mb-3">Contents</h2>
+        <h2 class="mb-4">Contents</h2>
       </div>
     </div>
     <div class="row">
       <div class="col-12">
-        {% for section in site.sections %}
-          {% assign chapters = "" | split: '' %}
-          {% for chapter in site.contents %}
-            {% if chapter[section] == true %}
-              {% assign chapters = chapters | push: chapter %}
-            {% endif %}
-          {% endfor %}
-          {% assign size = chapters | size %}
-          {% if size > 0 %}
-            <h3>{{ section | capitalize }}</h3>
-            <div class="card-group mt-4 mb-5">
-              {% for item in chapters %}
-                {% include card-contents.html %}
+        {% for section in site.data.contents.docs %}
+          <h3>{{ section.name | capitalize }}</h3>
+          <div class="card-group mt-4 mb-5">
+            {% for chapter in section.chapters %}
+              {% for item in site.contents %}
+                {% if item.title == chapter %}
+                  {% include card-contents.html %}
+                {% endif %}
               {% endfor %}
-            </div>
-          {% endif %}
+            {% endfor %}
+          </div>
         {% endfor %}
       </div>
     </div>

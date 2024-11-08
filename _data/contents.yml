@@ -1,4 +1,39 @@
-- Contemplation
-- Preparation
-- Implementation
-- Inspiration
+docs_list_title: contents
+docs:
+
+  - name: Initiation
+    chapters:
+      - Purpose
+      - Call to action
+      - Swear yourself in
+  - name: Contemplation
+    chapters:
+      - Default to open
+      - Get digital
+      - Have a strategy
+      - Think exponential
+      - Innovate with intention
+      - Be participatory
+  - name: Preparation
+    chapters:
+      - Set guiding principles
+      - Appoint an owner
+      - Empower the team
+      - Go official
+      - Buy better
+  - name: Implementation
+    chapters:
+      - Show the work
+      - Speak plainly
+      - Say what matters
+      - Stay accessible
+      - Design for everyone
+      - Secure yourself
+      - Protect privacy
+      - Manage data rights
+      - Upskill always
+      - Hack with the people
+      - Spark community joy
+  - name: Inspiration
+    chapters:
+      - Remember why you do this
