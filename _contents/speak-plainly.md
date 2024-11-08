@@ -7,7 +7,7 @@ icon: fa-solid fa-comments
 intro: #true
 chapters: true
 section: Implementation
-section-order: 2
+section-order: 3
 about: #true
 #feedback: true
 #feedback-link: 

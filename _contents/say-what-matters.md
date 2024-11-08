@@ -7,9 +7,9 @@ icon: fa-solid fa-message
 #intro: true
 chapters: true
 section: 
-section-order: 3
+section-order: 2
 #about: true
-feedback: true
-feedback-link: https://docs.google.com/document/d/1raat5k9XtbYwGik8EA5l7GBVqAKsn67brwtCrhOiIUo/edit?usp=sharing
-#launched: true
+feedback: 
+feedback-link: 
+launched: true
 ---

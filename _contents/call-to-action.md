@@ -5,8 +5,8 @@ img-feat:
 author: 
 icon: fa fa-solid fa-bullhorn
 intro: true
-chapters: #true
-section: Get started
+chapters: true
+section: Initiation
 section-order: 2
 about: #true
 feedback: #true
