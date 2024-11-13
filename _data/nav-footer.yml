@@ -18,12 +18,6 @@ docs:
  - title: News
    url: /news/
    
- - title: Connect
-   url: /connect/
-
- - title: Contact
-   url: /contact/
-
  - title: Documentation
    url: https://github.com/proudlyserving/proudlyserving.github.io/wiki
 
