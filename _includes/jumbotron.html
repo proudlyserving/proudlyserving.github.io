@@ -1,34 +1,62 @@
 {% if page.layout == "home" %}
-  <div class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-          <img
-            alt="Cover of {{ page.title }}"
-            class="xl border shadow mb-4"
-            src="{{ site.baseurl }}/assets/img/cover.png">
-        </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-          <h1 class="mb-0 display-3">{{ page.title }}</h1>
-          {% if page.description %}
-            <p class="lead fs-1">{{ page.description }}</p>
-          {% endif %}
-          {% if site.data.nav-home.docs %}
-            <ul class="list-unstyled list-inline mt-3 pt-3">
-              {% for item in site.data.nav-home.docs %}
-                {% if item.url %}
-                  <li class="list-inline-item">
-                    <a href="{{ site.baseurl }}{{ item.url }}" class="btn btn-primary mb-2">{{ item.title }}</a>
-                  </li>
-                {% endif %}
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </div>
-      </div>
+  <div class="container mb-5 pt-5 border-bottom">
+    <div class="row">
       <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <img
+          alt="Cover of {{ page.title }}"
+          class="xl border shadow mb-5"
+          src="{{ site.baseurl }}/assets/img/cover.png">
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <h1 class="mb-0 display-3">{{ page.title }}</h1>
+        {% if page.description %}
+          <p class="lead fs-2">{{ page.description }}</p>
+        {% endif %}
+        {% if site.data.nav-home.docs %}
+          <ul class="list-unstyled list-inline mt-3 mb-5 pt-3">
+            {% for item in site.data.nav-home.docs %}
+              {% if item.url %}
+                <li class="list-inline-item">
+                  <a href="{{ site.baseurl }}{{ item.url }}" class="btn btn-primary mb-2">{{ item.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
     </div>
+    <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
+  </div>
+{% elsif page.layout == "book" %}
+  <div class="container mb-5 pt-5 border-bottom">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <img
+          alt="Cover of {{ page.title }}"
+          class="xl border shadow mb-5"
+          src="{{ site.baseurl }}/assets/img/cover.png">
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <h1 class="mb-0 display-3">{{ page.title }}</h1>
+        {% if page.description %}
+          <p class="lead fs-2">{{ page.description }}</p>
+        {% endif %}
+        {% if site.data.book.docs %}
+          <ul class="list-unstyled list-inline mt-3 mb-5 pt-3">
+            {% for item in site.data.book.docs %}
+              {% if item.url %}
+                <li class="list-inline-item">
+                  <a href="{{ site.baseurl }}{{ item.url }}" class="btn btn-primary mb-2">{{ item.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </div>
+    <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
   </div>
 {% elsif page.layout == "post" %}
   <div class="bg-dark py-5 mb-5 text-white">

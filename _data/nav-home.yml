@@ -1,11 +1,11 @@
 docs_list_title: nav-home
 docs:
 
- - title: Contents
-   url: /contents/
+ - title: About
+   url: /about/
 
  - title: Book
    url: /book/
 
- - title: People
-   url: /people/
+ - title: Contributors
+   url: /contributors/

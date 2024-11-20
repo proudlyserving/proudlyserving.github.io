@@ -1,17 +1,17 @@
 docs_list_title: nav
 docs:
 
-- title: Contents
-  url: /contents/
+ - title: About
+   url: /about/
 
-- title: Book
-  url: /book/
+ - title: Book
+   url: /book/
 
-- title: People
-  url: /people/
+ - title: Contributors
+   url: /contributors/
 
-- title: What they say
-  url: /what-they-say/
+ - title: What they're saying
+   url: /what-theyre-saying/
 
-- title: News
-  url: /news/
+ - title: News
+   url: /news/

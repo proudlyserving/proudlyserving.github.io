@@ -2,7 +2,7 @@
 layout: quotes
 title: What they say
 description: What they're saying about Proudly Serving.
-permalink: /what-they-say/
+permalink: /what-theyre-saying/
 redirect_from:
   - /what-theyre-saying/
 ---

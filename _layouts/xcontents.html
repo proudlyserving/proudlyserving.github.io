@@ -2,9 +2,21 @@
 layout: default
 ---
 
+<div class="container border-top pt-5 mt-4">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="mb-4">Contents</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      {{ content }}
+    </div>
+  </div>
+</div>
 <div class="col-12">
   {% for section in site.data.contents.docs %}
-    <h2>{{ section.name | capitalize }}</h2>
+    <h3>{{ section.name | capitalize }}</h3>
     <div class="card-group mt-4 mb-5">
       {% for chapter in section.chapters %}
         {% for item in site.contents %}

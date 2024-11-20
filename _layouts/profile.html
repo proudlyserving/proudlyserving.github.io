@@ -6,11 +6,11 @@ layout: profile
 {% include nav.html %}
 <main>
   {% include jumbotron.html %}
-  <div class="container border-bottom pb-4 mb-4">
+  <div class="container">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
         <img
-          src="{{ site.baseurl }}/assets/img/people/{{ page.img }}"
+          src="{{ site.baseurl }}/assets/img/contributors/{{ page.img }}"
           class="lg rounded-circle mb-5 shadow"
           alt="{{ page.title }}">
       </div>
@@ -26,21 +26,21 @@ layout: profile
       <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
     </div>
   </div>
-  <div class="container section">
-    <div class="row">
-      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-        <h2>Chapters</h2>
-        {% assign chapters = site.contents | where: "author", page.title %}
-        {% if chapters.size > 0 %}
+  {% assign chapters = site.contents | where: "author", page.title %}
+  {% if chapters.size > 0 %}
+    <div class="container border-top pt-5 mt-5">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <h2>Chapters</h2>
           <div class="card-group">
             {% for item in chapters %}
               {% include card-contents.html %}
             {% endfor %}
           </div>
-        {% endif %}
+        </div>
       </div>
     </div>
-  </div>
+  {% endif %}
 </main>
 {% include analytics.html %}
 {% include footer.html %}

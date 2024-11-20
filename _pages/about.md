@@ -7,11 +7,12 @@ permalink: /about/
 
 ## Purpose
 
-Proudly Serving aims to be an approachable, actionable resource with specific, practical advice governments can take to make digital services work for everyone.
+This is for everyone who:
 
-## Who it’s for
-
-Proudly Serving is for everyone who works in government, from staff to elected officials.
+- Serves the people
+- Takes pride in their part
+- Believes there is always a better way
+- Does the hard work to deliver it
 
 ## How it's organized
 
@@ -30,7 +31,3 @@ Each chapter has these sections:
 ## License
 
 Proudly Serving is [licensed](/license) under Creative Commons.
-
-## Collaborate
-
-This is a work in progress and always gets better, especially with feedback from you. [Collaborate with us](/collaborate).

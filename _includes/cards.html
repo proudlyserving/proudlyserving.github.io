@@ -39,10 +39,10 @@
       {% endfor %}
     </div>
   <!-- People -->
-  {% elsif pull == "people" %}
+  {% elsif pull == "contributors" %}
     <div class="card-group">
-      {% for item in site.people %}
-        {% include card-people.html %}
+      {% for item in site.contributors %}
+        {% include card-contributors.html %}
       {% endfor %}
     </div>
   {% endif %}

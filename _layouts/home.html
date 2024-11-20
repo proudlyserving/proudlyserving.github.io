@@ -6,7 +6,7 @@ layout: home
 {% include nav.html %}
 <main>
   {% include jumbotron.html %}
-  <div class="container border-top pt-5 pb-5">
+  <div class="container">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
       <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
@@ -21,10 +21,10 @@ layout: home
       <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
     </div>
   </div>
-  <div class="container border-top pt-5">
+  <div class="container border-top pt-5 mt-5">
     <div class="row">
       <div class="col-12">
-        <h2 class="mb-3">What they say</h2>
+        <h2 class="mb-3">What they're saying</h2>
       </div>
     </div>
     <div class="row">
@@ -34,7 +34,7 @@ layout: home
     </div>
     <div class="row">
       <div class="col-sm-12">
-        <a href="{{ site.baseurl }}/what-theyre-saying/" class="btn btn-primary">What they say</a>
+        <a href="{{ site.baseurl }}/what-theyre-saying/" class="btn btn-primary">What they're saying</a>
       </div>
     </div>
   </div>
@@ -64,10 +64,10 @@ layout: home
   <div class="container border-top pt-5">
     <div class="row">
       <div class="col-sm-12">
-        <h2>People</h2>
+        <h2>Contributors</h2>
         <div class="card-group mt-4 mb-5">
-          {% for item in site.people %}
-            {% include card-people.html %}
+          {% for item in site.contributors %}
+            {% include card-contributors.html %}
           {% endfor %}
         </div>
       </div>

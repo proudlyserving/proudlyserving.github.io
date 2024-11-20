@@ -17,7 +17,7 @@ layout: page
     </div>
   </div>
   {% if page.launched %}
-    <div class="container border-bottom mb-5 pb-4">
+    <div class="container">
       <div class="row">
         <div class="col-12">
           <h2>Read</h2>
@@ -55,7 +55,7 @@ layout: page
     </div>
   {% endif %}
   {% if page.author %}
-    <div class="container">
+    <div class="container border-top mt-5 pt-5">
       <div class="row">
         <div class="col-12 mb-3">
           <h2>Author</h2>
@@ -65,7 +65,7 @@ layout: page
   {% endif %}
   {% if page.author %}
     {% for author in page.author %}
-      {% assign author_data = site.people | where: "title", author | first %}
+      {% assign author_data = site.contributors | where: "title", author | first %}
       {% if author_data.content.size > 1 %}
         <div class="container mb-5">
           <div class="row">
@@ -73,7 +73,7 @@ layout: page
               {% if author_data.img %}
                 <div class="img">
                   <a href="{{ site.baseurl }}{{ author_data.url }}"><img
-                      src="{{ site.baseurl }}/assets/img/people/{{ author_data.img }}"
+                      src="{{ site.baseurl }}/assets/img/contributors/{{ author_data.img }}"
                       alt="Photo of {{ author_data.title }}"
                       title="{{ author_data.title }}"
                       class="md rounded-circle shadow mb-5"></a>

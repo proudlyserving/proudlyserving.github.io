@@ -3,17 +3,17 @@ docs:
 
 -
 
- - title: Contents
-   url: /contents/
-
+ - title: About
+   url: /about/
+   
  - title: Book
    url: /book/
-   
- - title: People
-   url: /people/
 
- - title: What they say
-   url: /what-they-say/
+ - title: Contributors
+   url: /contributors/
+
+ - title: What they're saying
+   url: /what-theyre-saying/
 
  - title: News
    url: /news/

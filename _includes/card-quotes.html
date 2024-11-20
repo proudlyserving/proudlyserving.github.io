@@ -2,11 +2,11 @@
   {% if page.layout == "home" %}
     {% for quotes in site.data.quotes.docs limit: 2 %}
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
-        <div class="card mb-4 mx-1 my-1 border-0">
+        <div class="card mb-4 my-1 border-0">
           <div class="card-body">
             <div class="card-img-top card-img-top">
               <img
-                src="{{ site.baseurl }}/assets/img/people/{{ quotes.img }}"
+                src="{{ site.baseurl }}/assets/img/contributors/{{ quotes.img }}"
                 class="rounded-circle sm float-start mx-3 mb-3 shadow"
                 alt="{{ item.name }}">
             </div>
@@ -23,7 +23,7 @@
           <div class="card-body">
             <div class="card-img-top card-img-top">
               <img
-                src="{{ site.baseurl }}/assets/img/people/{{ quotes.img }}"
+                src="{{ site.baseurl }}/assets/img/contributors/{{ quotes.img }}"
                 class="rounded-circle sm float-start mx-3 mb-3"
                 alt="{{ item.name }}">
             </div>

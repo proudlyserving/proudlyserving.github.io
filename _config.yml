@@ -23,6 +23,11 @@ linkedin: https://www.linkedin.com/company/proudlyserving
 date: "%B %-d, %Y"
 timezone: America/Los_Angeles
 
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
 # Build settings
 plugins:
   - jekyll-seo-tag
@@ -54,12 +59,12 @@ defaults:
       short: "true"
       schematype: "Article"
   - scope:
-      path: "_people"
-      type: "people"
+      path: "_contributors"
+      type: "contributors"
     values:
-      folder: "People"
-      img-path: "people"
-      parent: "people"
+      folder: "Contributors"
+      img-path: "contributors"
+      parent: "contributors"
       layout: "profile"
       short: "true"
       schematype: "ProfilePage"
@@ -72,9 +77,9 @@ collections:
   posts:
     output: true
     permalink: /news/:title
-  people:
+  contributors:
     output: true
-    permalink: people/:title
+    permalink: contributors/:title
   contents:
     output: true
     permalink: contents/:title
