@@ -1,7 +1,11 @@
 <!doctype html>
 <html lang="en">
-
   <head>
+    {% if page.layout == "home" %}
+      <title>{{ page.title }} - {{ page.description }}</title>
+    {% else %}
+    <title>{{ page.title }} - {{ site.title }}</title>
+    {% endif %}
       <!-- Meta tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
@@ -12,8 +16,6 @@
     <meta name="googlebot" content="index, follow">
     <meta property="og:locale" content="en_US">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-    <!-- Title -->
-    <title>{{ page.title }} - {{ site.title }}</title>
     <!-- Schema.org -->
     {% if page.schematype == "WebSite" %}
       <script type="application/ld+json">
