@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 
-A new [Proudly Serving](/) chapter titled **[Protect privacy](/contents/protect-privacy)** is ready for public review and feedback. This chapter was written by **[Albert Gehami](/people/albert-gehami)** and **[Rob Lloyd](/people/rob-lloyd)**.
+A new [Proudly Serving](/) chapter titled **[Protect privacy](/contents/protect-privacy)** is ready for public review and feedback. This chapter was written by **[Albert Gehami](/contributors/albert-gehami)** and **[Rob Lloyd](/contributors/rob-lloyd)**.
 
 We welcome [your suggestions and ideas](/contents/protect-privacy).
 

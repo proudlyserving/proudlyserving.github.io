@@ -12,4 +12,4 @@ icon: fa-solid fa-rocket
 
 ## Thank you
 
-Thank you **[Daniel Soto](/people/daniel-soto)** for contributing your wisdom to this chapter!
+Thank you **[Daniel Soto](/contributors/daniel-soto)** for contributing your wisdom to this chapter!

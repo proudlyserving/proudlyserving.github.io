@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 
-A new [Proudly Serving](/) chapter titled **[Speak plainly](/contents/speak-plainly)** is ready for public review and feedback. This chapter was written by **[Echa Schneider](/people/echa-schneider)**.
+A new [Proudly Serving](/) chapter titled **[Speak plainly](/contents/speak-plainly)** is ready for public review and feedback. This chapter was written by **[Echa Schneider](/contributors/echa-schneider)**.
 
 We welcome [your suggestions and ideas](/contents/speak-plainly).
 

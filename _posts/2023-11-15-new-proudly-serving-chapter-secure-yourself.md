@@ -12,4 +12,4 @@ icon: fa-solid fa-rocket
 
 ## Thank you
 
-Thank you [Shannah Hayley](/people/shannah-hayley) and [Joel Peña](/people/joel-pena) for contributing your wisdom to this chapter!
+Thank you [Shannah Hayley](/contributors/shannah-hayley) and [Joel Peña](/contributors/joel-pena) for contributing your wisdom to this chapter!

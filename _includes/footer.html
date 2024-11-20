@@ -26,7 +26,11 @@
         <div class="row mt-2">
           <div class="col-12"></div>
           <p class="mb-0 pb-0">
-            {{ "now" | date: "%Y" }} {{ site.title }}
+            A project by
+            <a
+              hre
+              href="{{ site.org-url }}"
+              class="text-white">{{ site.org-name }}</a>
           </p>
         </div>
       {% endif %}

@@ -5,6 +5,5 @@ description: The people who created Proudly Serving.
 permalink: /contributors/
 parent: contributors
 redirect_from:
-  - /people/
+  - /contributors/
 ---
-

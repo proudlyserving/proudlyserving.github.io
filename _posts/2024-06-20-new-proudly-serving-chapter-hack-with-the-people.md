@@ -12,5 +12,5 @@ icon: fa-solid fa-rocket
 
 ## Thank you
 
-Thank you [Lori McNeill](/people/lori-mcneill) and [Carlos Moreno](/people/carlos-moreno) for contributing your wisdom to this chapter!
+Thank you [Lori McNeill](/contributors/lori-mcneill) and [Carlos Moreno](/contributors/carlos-moreno) for contributing your wisdom to this chapter!
 

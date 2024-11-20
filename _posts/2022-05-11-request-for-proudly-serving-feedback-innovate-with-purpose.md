@@ -8,7 +8,7 @@ redirect_from:
   - /request-for-proudly-serving-feedback-innovate-with-purpose//
 ---
 
-A new [Proudly Serving](/) chapter titled **[Innovate with purpose](/contents/innovate-with-purpose)** is ready for public review and feedback. This chapter was written by **[Dustin Haisler](/people/dustin-haisler)** and **[Joe Morris](/people/joe-morris)**.
+A new [Proudly Serving](/) chapter titled **[Innovate with purpose](/contents/innovate-with-purpose)** is ready for public review and feedback. This chapter was written by **[Dustin Haisler](/contributors/dustin-haisler)** and **[Joe Morris](/contributors/joe-morris)**.
 
 We welcome [your suggestions and ideas](/contents/innovate-with-purpose).
 

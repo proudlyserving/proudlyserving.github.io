@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 
-A new [Proudly Serving](/) chapter titled [TITLE](/contents/{LINK}) is ready for public review and feedback. This chapter was written by [AUTHOR](/people/{AUTHORLINK}).
+A new [Proudly Serving](/) chapter titled [TITLE](/contents/{LINK}) is ready for public review and feedback. This chapter was written by [AUTHOR](/contributors/{AUTHORLINK}).
 
 We welcome [your suggestions and ideas](/contents/{LINK}).
 

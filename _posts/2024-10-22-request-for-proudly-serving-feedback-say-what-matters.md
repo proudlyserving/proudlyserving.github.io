@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 
-A new [Proudly Serving](/) chapter titled [Say what matters](/contents/say-what-matters) is ready for public review and feedback. This chapter was written by [Morgan Griffin](/people/morgan-griffin).
+A new [Proudly Serving](/) chapter titled [Say what matters](/contents/say-what-matters) is ready for public review and feedback. This chapter was written by [Morgan Griffin](/contributors/morgan-griffin).
 
 We welcome [your suggestions and ideas](/contents/say-what-matters).
 

@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 
-A new [Proudly Serving](/) chapter titled [Secure yourself](/contents/secure-yourself) is ready for public review and feedback. This chapter was written by [Shannah Hayley](/people/shannah-hayley) and [Joel Peña](/people/joel-pena).
+A new [Proudly Serving](/) chapter titled [Secure yourself](/contents/secure-yourself) is ready for public review and feedback. This chapter was written by [Shannah Hayley](/contributors/shannah-hayley) and [Joel Peña](/contributors/joel-pena).
 
 We welcome [your suggestions and ideas](/contents/secure-yourself).
 

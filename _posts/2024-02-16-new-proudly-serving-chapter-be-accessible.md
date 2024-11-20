@@ -12,4 +12,4 @@ icon: fa-solid fa-rocket
 
 ## Thank you
 
-Thank you [Stan Sarber](/people/stan-sarber) for contributing your wisdom to this chapter!
+Thank you [Stan Sarber](/contributors/stan-sarber) for contributing your wisdom to this chapter!

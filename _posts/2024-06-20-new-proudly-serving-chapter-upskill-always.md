@@ -12,4 +12,4 @@ icon: fa-solid fa-rocket
 
 ## Thank you
 
-Thank you [Shira Honig](/people/shira-honig) for contributing your wisdom to this chapter!
+Thank you [Shira Honig](/contributors/shira-honig) for contributing your wisdom to this chapter!

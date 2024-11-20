@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 
-A new [Proudly Serving](/) chapter titled **[Upskill always](/contents/upskill-always)** is ready for public review and feedback. This chapter was written by **[Shira Honig](/people/shira-honig)**.
+A new [Proudly Serving](/) chapter titled **[Upskill always](/contents/upskill-always)** is ready for public review and feedback. This chapter was written by **[Shira Honig](/contributors/shira-honig)**.
 
 We welcome [your suggestions and ideas](/contents/upskill-always).
 

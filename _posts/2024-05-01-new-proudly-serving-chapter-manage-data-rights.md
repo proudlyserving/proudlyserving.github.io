@@ -12,4 +12,4 @@ icon: fa-solid fa-rocket
 
 ## Thank you
 
-Thank you [Joy Bonaguro](/people/joy-bonaguro) for contributing your wisdom to this chapter!
+Thank you [Joy Bonaguro](/contributors/joy-bonaguro) for contributing your wisdom to this chapter!

@@ -14,4 +14,4 @@ redirect_from:
 
 ## Thank you
 
-Thank you **[Luke Fretwell](/people/luke-fretwell)** for contributing your wisdom to this chapter!
+Thank you **[Luke Fretwell](/contributors/luke-fretwell)** for contributing your wisdom to this chapter!

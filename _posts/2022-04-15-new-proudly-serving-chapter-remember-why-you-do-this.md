@@ -14,4 +14,4 @@ redirect_from:
 
 ## Thank you
 
-Thank you **[Marlena Medford](/people/marlena-medford)** for contributing your wisdom to this chapter!
+Thank you **[Marlena Medford](/contributors/marlena-medford)** for contributing your wisdom to this chapter!

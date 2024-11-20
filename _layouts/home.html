@@ -6,73 +6,81 @@ layout: home
 {% include nav.html %}
 <main>
   {% include jumbotron.html %}
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
-      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
-        <i class="fa-solid fa-asterisk fa-10x icon-primary mb-3"></i>
+  {% if site.about-name %}
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
+          <i class="fa-solid fa-asterisk fa-10x icon-primary mb-3"></i>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <h2 class="mb-3">{{ site.about-name }}</h2>
+          <div class="lead">
+            {{ content }}
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
       </div>
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <h2 class="mb-3">Purpose</h2>
-        <div class="lead">
-          {{ content }}
+    </div>
+  {% endif %}
+  {% if site.data.quotes.docs %}
+    <div class="container border-top pt-5 mt-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="mb-3">{{ site.quotes-name }}</h2>
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
-    </div>
-  </div>
-  <div class="container border-top pt-5 mt-5">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="mb-3">What they're saying</h2>
+      <div class="row">
+        <div class="col-12">
+          {% include card-quotes.html %}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <a href="{{ site.baseurl }}{{ site.quotes-url }}" class="btn btn-primary">{{ site.quotes-name }}</a>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        {% include card-quotes.html %}
+  {% endif %}
+  {% if site.contents %}
+    <div class="container border-top pt-5 mt-4">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="mb-4">{{ site.contents-name }}</h2>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12">
-        <a href="{{ site.baseurl }}/what-theyre-saying/" class="btn btn-primary">What they're saying</a>
-      </div>
-    </div>
-  </div>
-  <div class="container border-top pt-5 mt-4">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="mb-4">Contents</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        {% for section in site.data.contents.docs %}
-          <h3>{{ section.name | capitalize }}</h3>
-          <div class="card-group mt-4 mb-5">
-            {% for chapter in section.chapters %}
-              {% for item in site.contents %}
-                {% if item.title == chapter %}
-                  {% include card-contents.html %}
-                {% endif %}
+      <div class="row">
+        <div class="col-12">
+          {% for section in site.data.contents.docs %}
+            <h3>{{ section.name | capitalize }}</h3>
+            <div class="card-group mt-4 mb-5">
+              {% for chapter in section.chapters %}
+                {% for item in site.contents %}
+                  {% if item.title == chapter %}
+                    {% include card-contents.html %}
+                  {% endif %}
+                {% endfor %}
               {% endfor %}
-            {% endfor %}
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-  <div class="container border-top pt-5">
-    <div class="row">
-      <div class="col-sm-12">
-        <h2>Contributors</h2>
-        <div class="card-group mt-4 mb-5">
-          {% for item in site.contributors %}
-            {% include card-contributors.html %}
+            </div>
           {% endfor %}
         </div>
       </div>
     </div>
-  </div>
+  {% endif %}
+  {% if site.contributors %}
+    <div class="container border-top pt-5">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>{{ site.contributors-name }}</h2>
+          <div class="card-group mt-4 mb-5">
+            {% for item in site.contributors %}
+              {% include card-contributors.html %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
 </main>
 {% include analytics.html %}
 {% include footer.html %}

@@ -1,18 +1,8 @@
-{% if page.parent == "events" or page.parent == "orgs" or page.parent == "pitches" or page.parent == "innovations" %}
-    {% if page.img %}
-        <div class="img">
-            <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img }}" alt="{{ page.img-alt }}" type="{{ page.folder }}" class="lg line">
-            {% if page.img-caption %}
-                <p class="img-caption">{{ page.img-caption }}</p>
-            {% endif %}
-        </div>
-    {% endif %}
-{% endif %}
-
-{% if page.parent == == "people" %}
-    {% if page.img-feat %}
-        <div class="img">
-            <img src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}" alt="{{ page.img-alt }}" type="{{ page.folder }}">
-        </div>
-    {% endif %}
+{% if page.parent == == "{{ site.contributors.name }}" %}
+  {% if page.img-feat %}
+    <img
+      src="{{ site.baseurl }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}"
+      alt="{{ page.img-alt }}"
+      type="{{ page.folder }}">
+  {% endif %}
 {% endif %}

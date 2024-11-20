@@ -8,7 +8,7 @@ redirect_from:
   - /request-for-proudly-serving-feedback-spark-community-joy/
 ---
 
-A new [Proudly Serving](/) chapter titled **[Spark community joy](/contents/spark-community-joy)** is ready for public review and feedback. This chapter was written by **[Kirsten Wyatt](/people/kirsten-wyatt)**.
+A new [Proudly Serving](/) chapter titled **[Spark community joy](/contents/spark-community-joy)** is ready for public review and feedback. This chapter was written by **[Kirsten Wyatt](/contributors/kirsten-wyatt)**.
 
 We welcome [your suggestions and ideas](/contents/spark-community-joy).
 

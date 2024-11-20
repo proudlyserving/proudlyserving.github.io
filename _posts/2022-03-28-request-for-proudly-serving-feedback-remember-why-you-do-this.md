@@ -8,7 +8,7 @@ redirect_from:
   - /request-for-proudly-serving-feedback-remember-why-you-do-this/
 ---
 
-A new [Proudly Serving](/) chapter titled **[Remember why you do this](/contents/remember-why-you-do-this)** is ready for public review and feedback. This chapter was written by **[Marlena Medford](/people/marlena-medford)**.
+A new [Proudly Serving](/) chapter titled **[Remember why you do this](/contents/remember-why-you-do-this)** is ready for public review and feedback. This chapter was written by **[Marlena Medford](/contributors/marlena-medford)**.
 
 We welcome [your suggestions and ideas](/contents/remember-why-you-do-this).
 

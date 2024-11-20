@@ -12,4 +12,4 @@ icon: fa-solid fa-rocket
 
 ## Thank you
 
-Thank you **[Karen Daly](/people/karen-daly)** for contributing your wisdom to this chapter!
+Thank you **[Karen Daly](/contributors/karen-daly)** for contributing your wisdom to this chapter!

@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 
-A new [Proudly Serving](/) chapter titled [Be accessible](/contents/be-accessible) is ready for public review and feedback. This chapter was written by [Stan Sarber](/people/stan-sarber).
+A new [Proudly Serving](/) chapter titled [Be accessible](/contents/be-accessible) is ready for public review and feedback. This chapter was written by [Stan Sarber](/contributors/stan-sarber).
 
 We welcome [your suggestions and ideas](/contents/be-accessible).
 

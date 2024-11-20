@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 
-A new [Proudly Serving](/) chapter titled [Buy better](/contents/buy-better) is ready for public review and feedback. This chapter was written by [Rebecca Woodbury](/people/rebecca-woodbury) and [Catherine Geanuracos](/people/catherine-geanuracos).
+A new [Proudly Serving](/) chapter titled [Buy better](/contents/buy-better) is ready for public review and feedback. This chapter was written by [Rebecca Woodbury](/contributors/rebecca-woodbury) and [Catherine Geanuracos](/contributors/catherine-geanuracos).
 
 We welcome [your suggestions and ideas](/contents/buy-better).
 

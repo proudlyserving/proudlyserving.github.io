@@ -12,4 +12,4 @@ icon: fa-solid fa-rocket
 
 ## Thank you
 
-Thank you **[Zach Ratkai](/people/zach-ratkai)** for contributing your wisdom to this chapter!
+Thank you **[Zach Ratkai](/contributors/zach-ratkai)** for contributing your wisdom to this chapter!

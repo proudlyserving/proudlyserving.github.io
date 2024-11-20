@@ -12,4 +12,4 @@ icon: fa-solid fa-rocket
 
 ## Thank you
 
-Thank you **[Shari Davis](/people/shari-davis)**, **[Rahel Mekdim Teka](/people/rahel-mekdim-teka)** and **[Robbie Barton](/people/robbie-barton)** for contributing your wisdom to this chapter!
+Thank you **[Shari Davis](/contributors/shari-davis)**, **[Rahel Mekdim Teka](/contributors/rahel-mekdim-teka)** and **[Robbie Barton](/contributors/robbie-barton)** for contributing your wisdom to this chapter!

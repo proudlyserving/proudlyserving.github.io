@@ -14,4 +14,4 @@ redirect_from:
 
 ## Thank you
 
-Thank you **[Kirsten Wyatt](/people/kirsten-wyatt)** for contributing your wisdom to this chapter!
+Thank you **[Kirsten Wyatt](/contributors/kirsten-wyatt)** for contributing your wisdom to this chapter!

@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: fa-solid fa-hands-clapping
 ---
 
-We're honored to have [Kirsten Wyatt](/people/kirsten-wyatt) join us as a [Proudly Serving](/) maintainer!
+We're honored to have [Kirsten Wyatt](/contributors/kirsten-wyatt) join us as a [Proudly Serving](/) maintainer!
 
 About Kirsten:
 

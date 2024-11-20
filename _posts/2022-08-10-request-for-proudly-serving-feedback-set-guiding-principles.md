@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 
-A new [Proudly Serving](/) chapter titled **[Set guiding principles](/contents/set-guiding-principles)** is ready for public review and feedback. This chapter was written by **[Laine Hendricks](/people/laine-hendricks)** and **[Rebecca Woodbury](/people/rebecca-woodbury)**.
+A new [Proudly Serving](/) chapter titled **[Set guiding principles](/contents/set-guiding-principles)** is ready for public review and feedback. This chapter was written by **[Laine Hendricks](/contributors/laine-hendricks)** and **[Rebecca Woodbury](/contributors/rebecca-woodbury)**.
 
 We welcome [your suggestions and ideas](/contents/set-guiding-principles).
 

@@ -12,4 +12,4 @@ icon: fa-solid fa-rocket
 
 ## Thank you
 
-Thank you [{AUTHOR}](/people/{AUTHORLINK}) for contributing your wisdom to this chapter!
+Thank you [{AUTHOR}](/contributors/{AUTHORLINK}) for contributing your wisdom to this chapter!

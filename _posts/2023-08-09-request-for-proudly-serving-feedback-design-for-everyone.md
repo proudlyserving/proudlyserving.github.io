@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 
-A new [Proudly Serving](/) chapter titled [Design for everyone](/contents/design-for-everyone) is ready for public review and feedback. This chapter was written by [Mai-Ling Garcia](/people/mai-ling-garcia).
+A new [Proudly Serving](/) chapter titled [Design for everyone](/contents/design-for-everyone) is ready for public review and feedback. This chapter was written by [Mai-Ling Garcia](/contributors/mai-ling-garcia).
 
 We welcome [your suggestions and ideas](/contents/design-for-everyone).
 

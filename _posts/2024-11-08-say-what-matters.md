@@ -12,4 +12,4 @@ icon: fa-solid fa-rocket
 
 ## Thank you
 
-Thank you [Morgan Griffin](/people/morgan-griffin) for contributing your wisdom to this chapter!
+Thank you [Morgan Griffin](/contributors/morgan-griffin) for contributing your wisdom to this chapter!

@@ -12,4 +12,4 @@ icon: fa-solid fa-rocket
 
 ## Thank you
 
-Thank you **[Echa Schneider](/people/echa-schneider)** for contributing your wisdom to this chapter!
+Thank you **[Echa Schneider](/contributors/echa-schneider)** for contributing your wisdom to this chapter!

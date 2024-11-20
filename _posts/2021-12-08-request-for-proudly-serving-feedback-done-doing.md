@@ -8,7 +8,7 @@ redirect_from:
   - /request-for-proudly-serving-feedback-done-doing/
 ---
 
-A new [Proudly Serving](/) chapter titled **[Done/doing](/contents//share-the-done-doing)** is ready for public review and feedback. This chapter was written by **[Rebecca Woodbury](/people/rebecca-woodbury)**.
+A new [Proudly Serving](/) chapter titled **[Done/doing](/contents//share-the-done-doing)** is ready for public review and feedback. This chapter was written by **[Rebecca Woodbury](/contributors/rebecca-woodbury)**.
 
 We welcome [your suggestions and ideas](/contents//share-the-done-doing).
 

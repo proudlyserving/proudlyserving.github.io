@@ -12,4 +12,4 @@ icon: fa-solid fa-rocket
 
 ## Thank you
 
-Thank you [Rob Lloyd](/people/rob-lloyd) and [Albert Gehami](/people/albert-gehami) for contributing your wisdom to this chapter!
+Thank you [Rob Lloyd](/contributors/rob-lloyd) and [Albert Gehami](/contributors/albert-gehami) for contributing your wisdom to this chapter!

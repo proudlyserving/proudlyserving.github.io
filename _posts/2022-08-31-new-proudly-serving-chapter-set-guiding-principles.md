@@ -12,4 +12,4 @@ icon: fa-solid fa-rocket
 
 ## Thank you
 
-Thank you **[Laine Hendricks](/people/laine-hendricks)** and **[Rebecca Woodbury](/people/rebecca-woodbury)** for contributing your wisdom to this chapter!
+Thank you **[Laine Hendricks](/contributors/laine-hendricks)** and **[Rebecca Woodbury](/contributors/rebecca-woodbury)** for contributing your wisdom to this chapter!

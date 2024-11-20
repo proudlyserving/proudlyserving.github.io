@@ -8,7 +8,7 @@ redirect_from:
   - /request-for-proudly-serving-feedback-think-exponential/
 ---
 
-A new [Proudly Serving](/) chapter titled **[Think exponential](/contents/think-exponential)** is ready for public review and feedback. This chapter was written by **[Jason Schneider](/people/jason-schneider)**.
+A new [Proudly Serving](/) chapter titled **[Think exponential](/contents/think-exponential)** is ready for public review and feedback. This chapter was written by **[Jason Schneider](/contributors/jason-schneider)**.
 
 We welcome [your suggestions and ideas](/contents/think-exponential).
 

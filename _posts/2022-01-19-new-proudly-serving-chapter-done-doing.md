@@ -14,4 +14,4 @@ redirect_from:
 
 ## Thank you
 
-Thank you **[Rebecca Woodbury](/people/rebecca-woodbury)** for contributing your wisdom to this chapter!
+Thank you **[Rebecca Woodbury](/contributors/rebecca-woodbury)** for contributing your wisdom to this chapter!

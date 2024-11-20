@@ -12,4 +12,4 @@ icon: fa-solid fa-rocket
 
 ## Thank you
 
-Thank you [Mai-Ling Garcia](/people/mai-ling-garcia) for contributing your wisdom to this chapter!
+Thank you [Mai-Ling Garcia](/contributors/mai-ling-garcia) for contributing your wisdom to this chapter!

@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: fa-solid fa-hands-clapping
 ---
 
-We're honored to have [Echa Schneider](/people/echa-schneider) join us as a [Proudly Serving](/) maintainer!
+We're honored to have [Echa Schneider](/contributors/echa-schneider) join us as a [Proudly Serving](/) maintainer!
 
 About Echa:
 

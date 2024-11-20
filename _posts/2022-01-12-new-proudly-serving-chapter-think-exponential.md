@@ -14,4 +14,4 @@ redirect_from:
 
 ## Thank you
 
-Thank you **[Jason Schneider](/people/jason-schneider)** for contributing your wisdom to this chapter!
+Thank you **[Jason Schneider](/contributors/jason-schneider)** for contributing your wisdom to this chapter!

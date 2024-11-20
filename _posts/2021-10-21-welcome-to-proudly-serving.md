@@ -16,7 +16,7 @@ It aims to be an approachable, actionable resource with specific, practical advi
 
 Proudly Serving is a work in progress. We welcome collaboration from anyone, anywhere, anytime.
 
-Proudly Serving is maintained by [Rebecca Woodbury](/people/rebecca-woodbury/), [Marlena Medford](/people/marlena-medford/) and [Luke Fretwell](/people/luke-fretwell/), but you can [write or co-write a chapter](/contribute/) or just give us feedback.
+Proudly Serving is maintained by [Rebecca Woodbury](/contributors/rebecca-woodbury/), [Marlena Medford](/contributors/marlena-medford/) and [Luke Fretwell](/contributors/luke-fretwell/), but you can [write or co-write a chapter](/contribute/) or just give us feedback.
 
 ## Themes and structure
 

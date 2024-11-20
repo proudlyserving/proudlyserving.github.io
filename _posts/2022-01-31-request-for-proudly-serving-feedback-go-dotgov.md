@@ -8,7 +8,7 @@ redirect_from:
   - /request-for-proudly-serving-feedback-go-gov/
 ---
 
-A new [Proudly Serving](/) chapter titled **[Go .gov](/contents/go-dotgov)** is ready for public review and feedback. This chapter was written by **[Luke Fretwell](/people/luke-fretwell)**.
+A new [Proudly Serving](/) chapter titled **[Go .gov](/contents/go-dotgov)** is ready for public review and feedback. This chapter was written by **[Luke Fretwell](/contributors/luke-fretwell)**.
 
 We welcome [your suggestions and ideas](/contents/go-dotgov).
 

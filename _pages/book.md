@@ -17,4 +17,3 @@ Proudly Serving is a work in progress, but you can still access the latest versi
 2. Select 'File'.
 3. Then 'Download'.
 4. Choose your file type and download.
-

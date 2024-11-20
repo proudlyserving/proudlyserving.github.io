@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 
-A new [Proudly Serving](/) chapter titled **[Be participatory](/contents/be-participatory)** is ready for public review and feedback. This chapter was written by **[Shari Davis](/people/shari-davis)**,  **[Rahel Mekdim Teka](/people/rahel-mekdim-teka)**, and  **[Robbie Barton](/people/robbie-barton)**.
+A new [Proudly Serving](/) chapter titled **[Be participatory](/contents/be-participatory)** is ready for public review and feedback. This chapter was written by **[Shari Davis](/contributors/shari-davis)**,  **[Rahel Mekdim Teka](/contributors/rahel-mekdim-teka)**, and  **[Robbie Barton](/contributors/robbie-barton)**.
 
 We welcome [your suggestions and ideas](/contents/be-participatory).
 

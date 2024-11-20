@@ -12,4 +12,4 @@ icon: fa-solid fa-rocket
 
 ## Thank you
 
-Thank you [Artem Khomishen](/people/artem-khomishen) for contributing your wisdom to this chapter!
+Thank you [Artem Khomishen](/contributors/artem-khomishen) for contributing your wisdom to this chapter!

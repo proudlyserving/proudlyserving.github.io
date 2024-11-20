@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 
-A new [Proudly Serving](/) chapter titled [Manage data rights](/contents/manage-data-rights) is ready for public review and feedback. This chapter was written by [Joy Bonaguro](/people/joy-bonaguro).
+A new [Proudly Serving](/) chapter titled [Manage data rights](/contents/manage-data-rights) is ready for public review and feedback. This chapter was written by [Joy Bonaguro](/contributors/joy-bonaguro).
 
 We welcome [your suggestions and ideas](/contents/manage-data-rights).
 

@@ -1,8 +1,22 @@
 # General
 title: Proudly Serving
 description: Public service in the digital age
-#baseurl: ""
 url: https://proudlyservingbook.com
+#baseurl: ""
+
+# Sections
+quotes-name: What they're saying
+quotes-url: /what-theyre-saying
+contributors-name: Contributors
+contributors-url: /contributors
+contents-name: Contents
+contents-url: /book
+about-name: Purpose
+about-url: /about
+book-name: book
+book-url: /book
+author-name: Author
+author-url: /author
 
 # Organization
 org-name: Proudly Serving
@@ -24,9 +38,9 @@ date: "%B %-d, %Y"
 timezone: America/Los_Angeles
 
 markdown: kramdown
-highlighter: rouge
 kramdown:
-  syntax_highlighter: rouge
+  input: GFM
+  auto_ids: true
 
 # Build settings
 plugins:

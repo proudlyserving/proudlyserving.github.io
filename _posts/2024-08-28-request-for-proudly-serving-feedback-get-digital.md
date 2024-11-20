@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 
-A new [Proudly Serving](/) chapter titled [Get digital](/contents/get-digital) is ready for public review and feedback. This chapter was written by [Artem Khomishen](/people/artem-khomishen).
+A new [Proudly Serving](/) chapter titled [Get digital](/contents/get-digital) is ready for public review and feedback. This chapter was written by [Artem Khomishen](/contributors/artem-khomishen).
 
 We welcome [your suggestions and ideas](/contents/get-digital).
 

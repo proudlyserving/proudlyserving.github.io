@@ -74,7 +74,6 @@
 /* General */
 
 body {
-    background-color: var(--color-4);
     color: var(--color-2);
     font-family: var(--font-3);
 }
@@ -99,10 +98,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, h5 a, h5 a:visited, h6 a, h6 a:visited, .h1 a, .h1 a:visited, .h2 a, .h2 a:visited, .h3 a, .h3 a:visited, .h4 a, .h4 a:visited, .h5 a, .h5 a:visited, .h6 a, .h6 a:visited, .display-1 a, .display-1 a:visited, .display-2 a, .display-2 a:visited, .display-3 a, .display-3 a:visited, .display-4 a, .display-4 a:visited, .display-5 a, .display-5 a:visited, .display-6 a, .display-6 a:visited {
     text-decoration: dotted !important;
-}
-
-.share h2, .topics h2, .subscribe h2, .license h2, .listen h2 {
-    padding: var(--size-7) var(--size-1) var(--size-4) var(--size-1);
 }
 
 /* Styles with bold */
@@ -164,16 +159,6 @@ h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, 
     filter: drop-shadow(-8px 8px 0 #adadad);
 }
 
-/* Main */
-
-main a, main a:visited, .alert a, .alert a:visited {
-    text-decoration: underline;
-}
-
-main a:hover {
-    text-decoration: none;
-}
-
 .footer-connect a, .social a {
     text-decoration: none !important;
 }
@@ -188,8 +173,7 @@ main a:hover {
 }
 
 .post p, .post ul {
-    font-family: var(--font-3);
-    padding-bottom: var(--size-6);
+    padding-bottom: var(--size-4);
 }
 
 blockquote {
@@ -227,12 +211,6 @@ blockquote {
 .list-group-item {
     border: none;
     padding: var(--size-7) var(--size-6) var(--size-7) var(--size-1);
-}
-
-/* Feature */
-
-.feature {
-    padding: var(--size-6) var(--size-1) var(--size-6) var(--size-1);
 }
 
 /* Images */
@@ -332,36 +310,6 @@ img.xl {
     background: #212463;
     transition: all 0.3s ease;
     filter: drop-shadow(-5px 5px 0 #adadad);
-}
-
-/* Alerts */
-
-.alert {
-    border-radius: var(--size-3);
-}
-
-.alert p {
-    font-family: var(--font-3) !important;
-}
-
-.alert-success p {
-    font-size: var(--size-8);
-    margin: var(--size-1);
-    padding: var(--size-5);
-}
-
-.alert-light {
-    background-color: var(--color-6);
-    border-top: var(--size-2) var(--color-5) solid;
-    color: var(--color-2);
-    margin: var(--size-1);
-    padding: var(--size-10) var(--size-1);
-}
-
-.alert-light p {
-    font-size: var(--size-8);
-    margin: var(--size-1);
-    padding: var(--size-1);
 }
 
 /* License / Disclosure */

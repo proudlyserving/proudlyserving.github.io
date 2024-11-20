@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: fa-solid fa-comments
 ---
 
-A new[ Proudly Serving](/) chapter titled **[Empower the team](/contents/empower-the-team)** is ready for public review and feedback. This chapter was written by **[Karen Daly](/people/karen-daly)**.
+A new[ Proudly Serving](/) chapter titled **[Empower the team](/contents/empower-the-team)** is ready for public review and feedback. This chapter was written by **[Karen Daly](/contributors/karen-daly)**.
 
 We welcome[ your suggestions and ideas](/contents/empower-the-team).
 

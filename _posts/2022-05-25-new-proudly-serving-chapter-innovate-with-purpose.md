@@ -14,4 +14,4 @@ redirect_from:
 
 ## Thank you
 
-Thank you **[Dustin Haisler](/people/dustin-haisler)** and **[Joe Morris](/people/joe-morris)** for contributing your wisdom to this chapter!
+Thank you **[Dustin Haisler](/contributors/dustin-haisler)** and **[Joe Morris](/contributors/joe-morris)** for contributing your wisdom to this chapter!
