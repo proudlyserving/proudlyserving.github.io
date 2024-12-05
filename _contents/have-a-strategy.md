@@ -7,7 +7,7 @@ icon: fa-solid fa-timeline
 intro: #true
 chapters: true
 section: Contemplation
-section-order: 3
+section-order: 4
 about: #true
 #feedback: true
 #feedback-link: 

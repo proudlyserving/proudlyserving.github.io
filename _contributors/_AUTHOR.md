@@ -9,6 +9,8 @@ img-feat: .jpg
 img-alt: Photo of 
 email: 
 website: 
+bluesky: 
+mastodon: 
 twitter: 
 linkedin: 
 medium: 

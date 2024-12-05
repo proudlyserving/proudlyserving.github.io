@@ -69,6 +69,9 @@
     --size-14: 15rem;
     --size-15: 18.75rem;
     --size-16: 25rem;
+    --bs-body-font-size: 1.1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
 }
 
 /* General */

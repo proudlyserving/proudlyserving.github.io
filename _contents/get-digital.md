@@ -7,7 +7,7 @@ icon: fa-solid fa-laptop
 #intro: true
 chapters: true
 section: Contemplation
-section-order: 2
+section-order: 3
 #about: true
 feedback: #true
 feedback-link: 

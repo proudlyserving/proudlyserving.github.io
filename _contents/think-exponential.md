@@ -7,7 +7,7 @@ icon: fa-solid fa-brain
 intro: #true
 chapters: true
 section: Contemplation
-section-order: 4
+section-order: 5
 about: #true
 feedback: #true
 feedback-link: 

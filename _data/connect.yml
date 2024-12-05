@@ -13,6 +13,8 @@ email: &email "fas fa-at"
 calendar: &calendar "fa-solid fa-calendar"
 subscribe: &subscribe "fa-solid fa-envelope"
 patreon: &patreon "fab fa-patreon"
+bluesky: &bluesky "fa-brands fa-bluesky"
+mastodon: &mastodon "fa-brands fa-mastodon"
 twitter: &twitter "fab fa-x-twitter"
 linkedin: &linkedin "fab fa-linkedin"
 facebook: &facebook "fab fa-facebook"
@@ -67,6 +69,14 @@ docs:
   - name: Discord
     url: 
     icon: *discord
+
+  - name: Bluesky 
+    url: 
+    icon: *bluesky
+
+  - name: Mastodon
+    url: 
+    icon: *mastodon
 
   - name: X 
     url: https://x.com/proudly_serving
