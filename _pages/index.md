@@ -3,7 +3,7 @@ schematype: WebSite
 layout: home
 short: "true"
 title: "Proudly Serving"
-description: "Public service in the digital age"
+description: "A guide to public service in the digital age"
 redirect_from:
   - /contribute/
   - /feedback/

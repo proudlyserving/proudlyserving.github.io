@@ -1,7 +1,7 @@
 ---
 layout: book
 title: Book
-description: Get the Proudly Serving book.
+description: Read the book.
 permalink: /book/
 redirect_from:
   - /download/
