@@ -3,7 +3,7 @@ name: New chapter
 about: Start and manage chapter production
 title: 'Chapter: [TITLE]'
 labels: content
-assignees: lukefretwell, rebeccawoodbury, MorganGriffin-BloomWorks
+assignees: lukefretwell, MorganGriffin-BloomWorks, rebeccawoodbury
 
 ---
 
