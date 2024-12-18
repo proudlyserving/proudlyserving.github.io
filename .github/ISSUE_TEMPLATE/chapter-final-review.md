@@ -3,7 +3,7 @@ name: Chapter final review
 about: Final chapter review
 title: 'Chapter final review: [TITLE]'
 labels: accessibility, content
-assignees: echaschneider, lukefretwell, MorganGriffin-BloomWorks, rebeccawoodbury
+assignees: lukefretwell, rebeccawoodbury, MorganGriffin-BloomWorks
 
 ---
 
