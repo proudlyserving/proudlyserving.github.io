@@ -3,7 +3,7 @@ title: Appoint an owner
 description: To ensure success of digital products and services, governments must appoint a leader by identifying and empowering a single product owner.
 img-feat: 
 author: Daniel Soto
-icon: fa-solid fa-star
+icon: fa-solid fa-user-check
 intro: #true
 chapters: true
 section: Preparation

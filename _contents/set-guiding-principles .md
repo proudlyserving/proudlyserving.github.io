@@ -5,7 +5,7 @@ img-feat:
 author:
  - Laine Hendricks
  - Rebecca Woodbury
-icon: fa-solid fa-certificate
+icon: fa-solid fa-compass
 intro: #true
 chapters: true
 section: Preparation

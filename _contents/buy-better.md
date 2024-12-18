@@ -5,7 +5,7 @@ author:
  - Rebecca Woodbury
  - Catherine Geanuracos
 img-feat: 
-icon: fa-solid fa-money-bill
+icon: fa-solid fa-shopping-cart
 #intro: true
 chapters: true
 section: Preparation
