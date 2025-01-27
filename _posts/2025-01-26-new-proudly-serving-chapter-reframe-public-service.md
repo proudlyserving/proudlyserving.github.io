@@ -1,7 +1,7 @@
 ---
 title: "New Proudly Serving chapter: Reframe public service"
 description: "'Reframe public service' by Luke Fretwell is now published in Proudly Serving."
-date: 2025-01-13
+date: 2025-01-26
 author: Proudly Serving
 icon: fa-solid fa-rocket
 ---

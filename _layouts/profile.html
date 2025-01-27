@@ -16,13 +16,13 @@ layout: profile
       </div>
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
         <div class="post">
-          <div class="mb-4">
-            {% include role.html %}
+          {% include role.html %}
+          <div class="mt-4">
+            {% include social.html size = "small" %}
           </div>
           <div class="mb-2">
             {{ content }}
           </div>
-          {% include social.html size = "small" %}
         </div>
       </div>
       <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>

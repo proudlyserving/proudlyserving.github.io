@@ -55,14 +55,14 @@ layout: page
               {% endif %}
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-              <h3>{{ author_data.title }}</h3>
-              <div class="mb-3 mt-3">
-                {% include role.html %}
+              <h3 class="mb-3">{{ author_data.title }}</h3>
+              {% include role.html %}
+              <div class="mt-4">
+                {% include social.html size = "small" %}
               </div>
               <div class="mb-4">
                 {{ author_data.content }}
               </div>
-              {% include social.html size = "small" %}
             </div>
             <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
           </div>
