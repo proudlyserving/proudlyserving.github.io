@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Proudly Serving: A guide to public service in the digital age](README.md)
+* [Proudly Serving: Public service with and for the people](README.md)
 * [About](about.md)
 * [Call to action](call-to-action.md)
 * [Default to open](default-to-open.md)

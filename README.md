@@ -1,4 +1,4 @@
-# Proudly Serving: A guide to public service in the digital age
+# Proudly Serving: Public service with and for the people
 
 * [Website](https://proudlyservingbook.com)
 * [Documentation](https://github.com/proudlyserving/proudlyserving.github.io/wiki)
