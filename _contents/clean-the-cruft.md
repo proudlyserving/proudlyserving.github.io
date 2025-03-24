@@ -9,8 +9,8 @@ chapters: true
 section: 
 section-order: 
 #about: true
-feedback: true
-feedback-link: https://docs.google.com/document/d/1cwAeN_s-PTW5AFSAJuEgo4Z6gl4TgTsOJSvD2pgLRCs/edit?usp=sharing
-#launched: true
+#feedback: true
+#feedback-link: 
+launched: true
 ---
 
