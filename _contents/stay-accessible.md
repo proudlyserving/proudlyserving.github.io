@@ -15,4 +15,3 @@ launched: true
 redirect_from:
   - contents/be-accessible/
 ---
-

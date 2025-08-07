@@ -7,10 +7,9 @@ icon: fa-solid fa-circle-up
 #intro: true
 chapters: true
 section: Implementation
-section-order: 3
+section-order: 10
 #about: true
 #feedback: true
 #feedback-link: 
 launched: true
 ---
-

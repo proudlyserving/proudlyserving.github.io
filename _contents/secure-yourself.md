@@ -1,6 +1,6 @@
 ---
 title: Secure yourself
-description: As digital transformation continues within government, security is often treated as an add-on option, rather than a standard service package. From ransomware to downed operations, the costs (financial and citizen trust) of a casual approach to security are too high to be ignored. When it comes to digital government, security is no longer optional.
+description: In local government, digital security is often treated as an add-on rather than a standard expectation. From ransomware to downed operations, the costs of a casual approach to security — both financial and to citizen trust — are too high to ignore. When it comes to public services, security is not optional.
 img-feat: 
 author: 
   - Shannah Hayley
@@ -15,4 +15,3 @@ feedback:
 feedback-link: 
 launched: true
 ---
-
