@@ -18,5 +18,5 @@ maintainer: yes
 contributor: yes
 ---
 
-Luke Fretwell is the founder and maintainer of [GovFresh](https://govfresh.com), a media and innovation lab focused on the intersection of design, technology and democracy. He is the co-founder of [ProudCity](https://proudcity.com), a digital services platform for local governments. He is also co-founder and maintainer of [Civic Hacking Agency](https://civichackingagency.org).
+Luke Fretwell is the founder and maintainer of [GovFresh](https://govfresh.com), a media and innovation lab focused on the intersection of design, technology and democracy. He is the co-founder of [ScanGov](https://scangov.com), a government digital experience platform. He is the co-founder of [ProudCity](https://proudcity.com), a digital services platform for local governments.
 
