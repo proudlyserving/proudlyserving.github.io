@@ -40,7 +40,6 @@ discord: &discord "fab fa-discord"
 footer:
   - Subscribe
   - LinkedIn
-  - X
   - GitHub
   - Figma
   - RSS
@@ -79,7 +78,7 @@ docs:
     icon: *mastodon
 
   - name: X 
-    url: https://x.com/proudly_serving
+    url: 
     icon: *twitter
 
   - name: LinkedIn

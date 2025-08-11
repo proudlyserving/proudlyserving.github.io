@@ -22,17 +22,6 @@ author-url: /author
 org-name: Proudly Serving
 org-url: https://proudlyservingbook.com
 
-# Social
-social:
-  name: Proudly Serving
-  links:
-    - https://twitter.com/proudly_serving
-    - https://www.linkedin.com/company/proudlyserving
-
-twitter-username: proudly_serving
-twitter: "@proudly_serving"
-linkedin: https://www.linkedin.com/company/proudlyserving
-
 # Date/time
 date: "%B %-d, %Y"
 timezone: America/Los_Angeles
