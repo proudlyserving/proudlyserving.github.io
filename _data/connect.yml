@@ -41,7 +41,6 @@ footer:
   - Subscribe
   - LinkedIn
   - GitHub
-  - Figma
   - RSS
 
 # Site social media links
@@ -110,7 +109,7 @@ docs:
     icon: *instagram
  
   - name: Figma
-    url: https://www.figma.com/@proudlyserving
+    url: 
     icon: *figma
 
   - name: Library
