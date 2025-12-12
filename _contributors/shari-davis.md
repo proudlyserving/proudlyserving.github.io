@@ -7,13 +7,9 @@ shortname: Shari
 img: shari-davis.jpeg
 img-feat: shari-davis.jpg
 img-alt: Shari Davis
-email: 
-website: https://www.participatorybudgeting.org/
-twitter: https://twitter.com/Shari_Davis1
+website: 
 linkedin: https://www.linkedin.com/in/shari-davis/
-github: 
-maintainer: #yes
 contributor: yes
 ---
 
-Shari joined PBP staff after nearly 15 years of service and leadership in local government. As Director of Youth Engagement and Employment for the City of Boston she launched Youth Lead the Change, the first youth participatory budgeting process in the US, which won the US Conference of Mayors’ City Livability Award. Shari first got involved in city government in high school, serving as the Citywide Neighborhood Safety Coordinator on the Boston Mayor’s Youth Council and working at the Mayor’s Youthline. Shari is a graduate of Boston University’s Sargent College for Health and Rehabilitation Sciences and holds a master’s degree in anatomy and physiology.
+Shari is co-executive director for the Center for Economic Democracy. She formerly served as co-executive director for the Participatory Budgeting Project. As director of youth engagement and employment for the City of Boston she launched Youth Lead the Change, the first youth participatory budgeting process in the U.S.

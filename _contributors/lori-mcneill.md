@@ -7,12 +7,8 @@ shortname:
 img: lori-mcneill.png
 img-feat: lori-mcneill.png
 img-alt: Photo of Lori McNeill
-email: 
 website: https://civic-hackers.org/
-twitter: https://twitter.com/HackerCivic
 linkedin: https://www.linkedin.com/in/lmcneill/
-github: 
-maintainer: #yes
 contributor: yes
 ---
 

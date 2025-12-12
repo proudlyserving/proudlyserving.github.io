@@ -7,13 +7,8 @@ shortname: Joy
 img: joy-bonaguro.jpg
 img-feat: joy-bonaguro.jpg
 img-alt: Photo of Joy Bonaguro
-email: 
 website: 
-twitter: https://twitter.com/JoyBonaguro
 linkedin: https://www.linkedin.com/in/joybonaguro/
-medium: http://medium.com/@joybonaguro
-github: 
-maintainer: #yes
 contributor: yes
 ---
 

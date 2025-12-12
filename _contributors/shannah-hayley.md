@@ -7,12 +7,8 @@ shortname: Shannah
 img: shannah-hayley.jpg
 img-feat: shannah-hayley.jpg
 img-alt: Shannah Hayley
-email: 
 website: 
-twitter: https://twitter.com/shannahhayley
 linkedin: https://www.linkedin.com/in/shannahallowayhayley
-github: 
-maintainer: #yes
 contributor: yes
 ---
 

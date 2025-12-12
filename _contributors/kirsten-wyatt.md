@@ -7,13 +7,9 @@ shortname: Kirsten
 img: kirsten-wyatt.jpg
 img-feat: kirsten-wyatt.jpg
 img-alt: Kirsten Wyatt
-email: 
-website: 
-twitter: http://www.twitter.com/kowyatt
+website: http://beeckcenter.georgetown.edu
 linkedin: https://www.linkedin.com/in/kwyatt/
-github: 
-maintainer: 
 contributor: yes
 ---
 
-Kirsten Wyatt is a Fellow at the Beeck Center for Social Impact and Innovation at Georgetown University, working on the creation of a new peer learning network for digital services teams and professionals. She serves as an elected school board member for the West Linn-Wilsonville School District. Most recently, she served as the co-founder and executive director and of the Engaging Local Government Leaders network. Previously, she worked in state and local government in Oregon, Virginia and North Carolina.
+Kirsten is a Senior Director at Georgetown’s Beeck Center for Social Impact and Innovation and an elected school board member for the West Linn-Wilsonville School District. She previously co-founded and led the Engaging Local Government Leaders network and has served in state and local government in Oregon, Virginia, and North Carolina.
