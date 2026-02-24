@@ -1,6 +1,6 @@
 ---
 title: Feed the machine
-description: "Government is a system of information and services. Each of these contain many points of data. Properly structuring, standardizing and syndicating this data intelligently optimizes the administrative work of government and streamlines access and delivery of public information and services."
+description: "Government generates tons of data — code, policies, meeting minutes, news releases, and more. Being able to access and share this data is essential for helping agencies evaluate and improve services to the public. It’s vital that government takes steps to organize data in clear, consistent ways."
 author: 
  - Luke Fretwell
 img-feat: 
@@ -10,7 +10,7 @@ chapters: true
 section: Implementation
 section-order: 
 #about: true
-feedback: true
-feedback-link: https://docs.google.com/document/d/15udoNa9pLaOwEiyMMpnHUo9CxtKjUcMV2c2OgnkQ0h8/edit?usp=sharing
-#launched: true
+#feedback: te
+#feedback-link: 
+launched: true
 ---
