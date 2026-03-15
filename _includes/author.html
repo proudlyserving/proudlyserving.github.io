@@ -3,7 +3,7 @@
     By
     {% assign authors = page.author | remove: "[" | remove: "]" | remove: '"' | split: "," %}
     {% for author in authors %}
-      <a href="{{ '/contributors/' | append: author | strip | slugify | append: '/' | relative_url }}">{{ author | strip }}</a>
+      <a href="/contributors/{{ author | strip | slugify }}/">{{ author | strip }}</a>
       {% unless forloop.last %},
       {% endunless %}
     {% endfor %}

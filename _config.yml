@@ -39,7 +39,6 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-datapage-generator
 
 page_gen-dirs: true
 
