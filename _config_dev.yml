@@ -21,6 +21,7 @@ author-url: /author
 # Organization
 org-name: Proudly Serving
 org-url: https://proudlyservingbook.com
+author: Proudly Serving
 
 # Date/time
 date: "%B %-d, %Y"
@@ -38,7 +39,17 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-redirect-from
-  
+  - jekyll-datapage-generator
+
+page_gen-dirs: true
+
+page_gen:
+  - data: "contributors"
+    template: "profile"
+    dir: "contributors"
+    title: "name"
+    name: "name"
+
 # Defaults
 defaults:
   - scope:

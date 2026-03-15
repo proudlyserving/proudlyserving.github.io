@@ -5,7 +5,14 @@ description: "Proudly Serving is a guide to building people-centered public serv
 permalink: /about/
 ---
 
-Proudly Serving is a guide to building people-centered public services.
+## Purpose
+
+This is for everyone who:
+
+* Serves the people 
+* Takes pride in their part 
+* Believes there is always a better way
+* Does the hard work to deliver it
 
 ## How we made this
 
@@ -17,17 +24,17 @@ Proudly Serving is licensed under [Creative Commons](https://creativecommons.org
 
 ## Maintainers
 
-* Luke Fretwell
-* Rebecca Woodbury
+* [Luke Fretwell](/contributors/luke-fretwell/)
+* [Rebecca Woodbury](/contributors/rebecca-woodbury/)
 
 ## Book design
 
-* Adam Moorman
-* Luke Fretwell
+* [Adam Moorman](/contributors/adam-moorman/)
+* [Luke Fretwell](/contributors/luke-fretwell/)
 
 
 ## Editing
 
-* Morgan Griffin
-* Echa Schneider
-* Rebecca Woodbury
+* [Morgan Griffin](/contributors/morgan-griffin/)
+* [Echa Schneider](/contributors/echa-schneider/)
+* [Rebecca Woodbury](/contributors/rebecca-woodbury/)

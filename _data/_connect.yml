@@ -1,0 +1,44 @@
+
+docs_list_title: connect
+docs:
+
+  - name: Website
+    url: 
+    icon: *website
+
+  - name: Email
+    url: 
+    icon: *email
+
+  - name: Subscribe
+    url: https://proudlyservingbook.com/subscribe
+    icon: *subscribe
+
+  - name: LinkedIn
+    url: https://www.linkedin.com/company/proudlyserving
+    icon: *linkedin
+
+  - name: GitHub
+    url: https://github.com/proudlyserving/
+    icon: *github
+ 
+  - name: GoodReads
+    url: 
+    icon: *goodreads
+
+  - name: Amazon
+    url: 
+    icon: *amazon
+ 
+  - name: Apple
+    url: 
+    icon: *apple 
+    
+  - name: Spotify
+    url: 
+    icon: *spotify
+
+  - name: RSS
+    url: https://proudlyservingbook.com/feed.xml
+    icon: *rss
+    

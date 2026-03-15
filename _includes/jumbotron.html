@@ -1,119 +1,92 @@
 {% if page.layout == "home" %}
   <div class="container mb-5 pt-5 border-bottom">
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
-      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+      <div class="col-12 col-md-4">
         <img
-          alt="Cover of {{ page.title }}"
-          class="xl border shadow mb-5"
-          src="{{ site.baseurl }}/assets/img/cover.png">
+          src="{{ site.baseurl }}/assets/img/cover.png"
+          alt="{{ page.title }} cover image"
+          class="xl border card-shadow-wrap mb-5">
       </div>
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+      <div class="col-12 col-md-8">
         <h1 class="mb-0 display-3">{{ page.title }}</h1>
+
         {% if page.description %}
           <p class="lead fs-2">{{ page.description }}</p>
         {% endif %}
-        {% if site.data.nav-home.docs %}
-          <ul class="list-unstyled list-inline mt-3 mb-5 pt-3">
-            {% for item in site.data.nav-home.docs %}
+
+        {% if site.data.get %}
+          <ul class="list-unstyled row mt-4 mb-4 border-top pt-4">
+            {% for item in site.data.get %}
               {% if item.url %}
-                <li class="list-inline-item">
-                  <a href="{{ site.baseurl }}{{ item.url }}" class="btn btn-primary mb-2">{{ item.title }}</a>
+                <li class="col-12 col-md-3 d-flex align-items-stretch card-shadow-wrap">
+                  <div class="card text-center rounded py-2 mx-2 my-3 bg-dark w-100">
+                    <div class="card-body">
+                      <i class="{{ item.icon }} fa-2x mb-2" aria-label="{{ item.title }}"></i>
+                      <h3 class="h5">
+                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                      </h3>
+                      <p class="small mb-0">{{ item.fee }}</p>
+                    </div>
+                  </div>
                 </li>
               {% endif %}
             {% endfor %}
           </ul>
         {% endif %}
+
       </div>
     </div>
-    <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
   </div>
-{% elsif page.layout == "book" %}
-  <div class="container mb-5 pt-5 border-bottom">
-    <div class="row">
-      <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
-      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-        <img
-          alt="Cover of {{ page.title }}"
-          class="xl border shadow mb-5"
-          src="{{ site.baseurl }}/assets/img/cover.png">
-      </div>
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <h1 class="mb-0 display-3">{{ page.title }}</h1>
-        {% if page.description %}
-          <p class="lead fs-2">{{ page.description }}</p>
-        {% endif %}
-        {% if site.data.book.docs %}
-          <ul class="list-unstyled list-inline mt-3 mb-5 pt-3">
-            {% for item in site.data.book.docs %}
-              {% if item.url %}
-                <li class="list-inline-item">
-                  <a href="{{ site.baseurl }}{{ item.url }}" class="btn btn-primary mb-2">{{ item.title }}</a>
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        {% endif %}
-      </div>
-    </div>
-    <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
-  </div>
+
 {% elsif page.layout == "post" %}
-  <div class="bg-dark py-5 mb-5 text-white">
+  <div class="bg-dark py-5 mb-5">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-          <h1 class="mb-3">{{ page.title }}</h1>
+        <div class="col-12 col-md-8">
+          <h1 class="mb-3 display-4">{{ page.title }}</h1>
         </div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
+        <div class="col-12 col-md-4"></div>
         <div class="row">
           <div class="col-sm-9">
             {% assign item = page %}
-            <p class="lead text-white">
-              {% if page.author %}
-                {% include author.html %}
-              {% endif %}
-              {% if page.date %}
-                &middot;{% include date.html %}
-              {% endif %}
-            </p>
+            {% if page.author %}
+              <p>
+                {% include author.html %} &middot; {{ item.date | date: "%B %-d, %Y" }}</p>
+            {% endif %}
           </div>
           <div class="col-sm-3"></div>
         </div>
       </div>
     </div>
   </div>
+
 {% elsif page.layout == "profile" %}
-  <div class="bg-dark py-5 mb-5 text-white">
+  <div class="bg-dark py-5 mb-5">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-          <h1>{{ page.title }}</h1>
+        <div class="col-12 col-md-8">
+          <h1 class="display-4">{{ page.title }}</h1>
         </div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
+        <div class="col-12 col-md-4"></div>
       </div>
     </div>
   </div>
+
 {% else %}
-  <div class="bg-dark py-5 mb-5 text-white">
+  <div class="bg-dark py-5 mb-5">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
+        <div class="col-12 col-md-10 col-lg-8">
           {% if page.chapters %}
             <p class="badge badge-light rounded-0">{{ page.section }}</p>
           {% endif %}
-          <h1 class="display-3">{{ page.title }}</h1>
+          <h1 class="display-4">{{ page.title }}</h1>
         </div>
-        <div class="col-12 col-sm-12 col-md-2 col-lg-4 col-xl-4"></div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-8 col-lg-6 col-xl-6">
-          {% if page.description %}
-            <p class="lead">{{ page.description }}</p>
-          {% endif %}
-        </div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-6 col-xl-6"></div>
+        <div class="col-12 col-md-2 col-lg-4"></div>
       </div>
     </div>
   </div>
+
 {% endif %}

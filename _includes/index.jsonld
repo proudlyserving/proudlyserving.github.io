@@ -13,7 +13,7 @@
         }
     ],
     "image": [
-        "{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-og }}"
+        "{{ site.url }}/assets/img/img/avatar-og.png"
     ],
     "publisher": {
         "name": "{{ site.title }}",

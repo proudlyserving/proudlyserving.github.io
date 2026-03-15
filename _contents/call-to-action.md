@@ -1,6 +1,6 @@
 ---
 title: Call to action
-description: If you work in public service —as a government employee or private sector partner— society relies on you.
+description: If you work in public service — and in one way or another, we all do — your civic responsibilities include a commitment.
 img-feat: 
 author: 
 icon: fa fa-solid fa-bullhorn
@@ -18,29 +18,13 @@ redirect_from:
 
 If you work in public service — and in one way or another, we all do — your civic responsibilities include a commitment to:
 
-* Openness
-* Inclusiveness
+* Agility  
+* Humility  
+* Resiliency  
+* Openness  
+* Inclusiveness  
 * Responsiveness
-* Agility
-* Humility
-* Resiliency
 
-Delivering services in the digital age is not just the job of technologists or government officials. We must commit to a new standard that meets our changing needs and expectations.
+Delivering services is not just the job of government officials. We must all commit to a new standard that meets changing needs and expectations.
 
-Together, let’s serve for, by, and with all people.
-
-## Swear yourself in
-
-Before getting started, swear yourself in.
-
-Take the Proudly Serving pledge:
-
-> I, [YOUR NAME], earnestly swear that I will proudly serve with a new standard of public service. 
->
-> Every day, I will do my part to serve for, by, and with all people.
->
-> I will hold myself and others accountable to this responsibility.
-
-Congratulations on taking the first step.
-
-Let’s start proudly serving.
+Together, let's serve with and for the people.

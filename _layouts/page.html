@@ -1,68 +1,60 @@
 ---
 layout: page
 ---
+
 {% include header.html %}
 {% include nav.html %}
-<main>
+<main id="main-content" tabindex="-1">
   {% include jumbotron.html %}
   <div class="container">
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
       <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
         <div class="post">
-          {{ content }}
+          {% if page.author %}
+            <p>
+              {% include author.html %}
+            </p>
+          {% endif %}
+          <articlebody>
+            {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" anchorClass="heading-hashtag" %}
+          </articlebody>
         </div>
-        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        {% include toc.html html=content %}
       </div>
     </div>
   </div>
-  {% if page.launched or page.feedback %}
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          {% if page.launched %}
-            {% include launched.html %}
-          {% endif %}
-          {% if page.feedback %}
-            {% include feedback.html %}
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  {% endif %}
   {% if page.author %}
     <div class="container border-top mt-5 pt-5">
       <div class="row">
         <div class="col-12 mb-3">
-          <h2>{{ site.author-name }}</h2>
+          <h2 class="mb-3">
+            {% if page.author.size > 1 %}Authors{% else %}Author{% endif %}
+          </h2>
         </div>
       </div>
     </div>
-  {% endif %}
-  {% if page.author %}
     {% for author in page.author %}
-      {% assign author_data = site.contributors | where: "title", author | first %}
-      {% if author_data.content.size > 1 %}
-        <div class="container mb-5">
+      {% assign author_data = site.data.contributors | where: "name", author | first %}
+      {% if author_data %}
+        <div class="container mb-3">
           <div class="row">
             <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-              {% if author_data.img %}
-                <a href="{{ site.baseurl }}{{ author_data.url }}"><img
-                    src="{{ site.baseurl }}/assets/img/contributors/{{ author_data.img }}"
-                    alt="Photo of {{ author_data.title }}"
-                    title="{{ author_data.title }}"
-                    class="md rounded-circle shadow mb-5"></a>
+              {% if author_data.img-feat %}
+                <img
+                  src="{{ site.baseurl }}/assets/img/contributors/{{ author_data.img-feat }}"
+                  alt="{{ author_data.img-alt }}"
+                  title="{{ author_data.name }}"
+                  class="md rounded-circle card-shadow-wrap mb-5">
               {% endif %}
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-              <h3 class="mb-3">{{ author_data.title }}</h3>
-              {% include role.html %}
-              <div class="mt-4">
-                {% include social.html size = "small" %}
-              </div>
+              <h3 class="mb-3">{{ author_data.name }}</h3>
               <div class="mb-4">
-                {{ author_data.content }}
+                {{ author_data.bio }}
               </div>
+              {% include social.html %}
             </div>
             <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
           </div>
@@ -71,5 +63,4 @@ layout: page
     {% endfor %}
   {% endif %}
 </main>
-{% include analytics.html %}
 {% include footer.html %}

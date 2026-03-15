@@ -4,25 +4,22 @@ layout: profile
 
 {% include header.html %}
 {% include nav.html %}
-<main>
+<main id="main-content" tabindex="-1">
   {% include jumbotron.html %}
   <div class="container">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
         <img
-          src="{{ site.baseurl }}/assets/img/contributors/{{ page.img }}"
-          class="lg rounded-circle mb-5 shadow"
+          src="{{ site.baseurl }}/assets/img/contributors/{{ page.img-feat }}"
+          class="lg rounded-circle mb-5 card-shadow-wrap"
           alt="{{ page.title }}">
       </div>
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
         <div class="post">
-          {% include role.html %}
-          <div class="mt-4">
-            {% include social.html size = "small" %}
+          <div class="mb-2 fs-5">
+            {{ page.bio }}
           </div>
-          <div class="mb-2">
-            {{ content }}
-          </div>
+          {% include social.html %}
         </div>
       </div>
       <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
@@ -44,5 +41,4 @@ layout: profile
     </div>
   {% endif %}
 </main>
-{% include analytics.html %}
 {% include footer.html %}

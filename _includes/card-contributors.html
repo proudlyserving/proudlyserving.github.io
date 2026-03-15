@@ -1,18 +1,24 @@
-<div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 d-flex align-items-stretch">
-  <div class="card mx-1 mb-4 border-0">
-    <div class="card-body">
-      {% if item.img %}
-        <div class="mb-3">
-          <img
-            class="card-img-top sm rounded-circle shadow"
-            src="{{ site.baseurl }}/assets/img/{{ item.img-path }}/{{ item.img }}"
-            alt="{{ item.img-alt }}">
-        </div>
+<div class="col-12 col-sm-6 col-md-3 col-lg-2 d-flex align-items-stretch">
+  <div class="card mx-2 mb-0 border-0">
+    <div class="card-body text-center">
+
+      {% if item.img-feat %}
+        <img
+          src="{{ site.baseurl }}/assets/img/contributors/{{ item.img-feat }}"
+          alt="{{ item.img-alt }}"
+          class="card-img-top sm rounded-circle card-shadow-wrap mb-3">
       {% endif %}
-      <h3 class="h4 mb-3">
-        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-      </h3>
-      {% include role.html %}
+
+      {% if page.title == "Contributors" %}
+        <h2 class="h5">
+          <a href="{{ site.baseurl }}/contributors/{{ item.name | slugify }}" class="stretched-link">{{ item.name }}</a>
+        </h2>
+      {% else %}
+        <h3 class="h5">
+          <a href="{{ site.baseurl }}/contributors/{{ item.name | slugify }}" class="stretched-link">{{ item.name }}</a>
+        </h3>
+      {% endif %}
+
     </div>
   </div>
 </div>

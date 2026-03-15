@@ -1,82 +1,15 @@
-<!-- Footer -->
-{% if include.size == "footer" %}
-  {% for item in site.data.connect.docs %}
-    {% if item.url %}
-      <a href="{{ item.url }}" aria-label="{{ item.name }}">
-        <i class="{{ item.icon }} {{ site.data.connect.sm }}"></i>
-      </a>
-    {% endif %}
-  {% endfor %}
-<!-- Profile -->
-{% elsif include.size == "small" %}
-  <p class="social">
-    {% if author_data %}
-      {% assign data = author_data %}
-    {% else %}
-      {% assign data = page %}
-    {% endif %}
-    {% if data.website %}
-      <a href="{{ data.website }}" aria-label="Website">
-        <i class="{{ site.data.connect.website }} {{ site.data.connect.sm }}"></i>
-      </a>
-    {% endif %}
-    {% if data.email %}
-      <a aria-label="Email" href="mailto:{{ data.email }}">
-        <i class=" {{ site.data.connect.email }} {{ site.data.connect.sm }}"></i>
-      </a>
-    {% endif %}
-    {% if data.subscribe %}
-      <a href="{{ data.subscribe }}" aria-label="Subscribe">
-        <i class="{{ site.data.connect.subscribe }} {{ site.data.connect.sm }}"></i>
-      </a>
-    {% endif %}
-    {% if data.linkedin %}
-      <a href="{{ data.linkedin }}" aria-label="LinkedIn">
-        <i class="{{ site.data.connect.linkedin }} {{ site.data.connect.sm }}"></i>
-      </a>
-    {% endif %}
-    {% if data.github %}
-      <a href="{{ data.github }}" aria-label="GitHub">
-        <i class="{{ site.data.connect.github }} {{ site.data.connect.sm }}"></i>
-      </a>
-    {% endif %}
-    {% if data.goodreads %}
-      <a href="{{ data.goodreads }}" aria-label="GoodReads">
-        <i class="{{ site.data.connect.goodreads}} {{ site.data.connect.sm }}"></i>
-      </a>
-    {% endif %}
-    {% if data.apple %}
-      <a href="{{ data.apple }}" aria-label="Apple">
-        <i class="{{ site.data.connect.apple }} {{ site.data.connect.sm }}"></i>
-      </a>
-    {% endif %}
-    {% if data.spotify %}
-      <a href="{{ data.spotify }}" aria-label="Spotify">
-        <i class="{{ site.data.connect.spotify }} {{ site.data.connect.sm }}"></i>
-      </a>
-    {% endif %}
-    {% if data.rss %}
-      <a href="{{ data.rss }}" aria-label="RSS">
-        <i class="{{ site.data.connect.rss }} {{ site.data.connect.sm }}"></i>
-      </a>
-    {% endif %}
-  </p>
-<!-- Connect -->
-{% else %}
-  {% for item in site.data.connect.docs %}
-    {% if item.url %}
-      <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex align-items-stretch">
-        <div class="card">
-          <div class="card-body">
-            <a href="{{ item.url }}" class="stretched-link text-decoration-none">
-              <p>
-                <i class="{{ item.icon }} {{ site.data.connect.lg }}"></i>
-              </p>
-              <p class="card-title">{{ item.name }}</p>
-            </a>
-          </div>
-        </div>
-      </div>
-    {% endif %}
-  {% endfor %}
-{% endif %}
+<p class="social mt-4">
+  {% assign data = author_data | default: page %}
+
+  {% if data.website %}
+    <a href="{{ data.website }}" aria-label="Website">
+      <i class="fas fa-window-maximize fa-2x"></i>
+    </a>
+  {% endif %}
+
+  {% if data.linkedin %}
+    <a href="{{ data.linkedin }}" aria-label="LinkedIn">
+      <i class="fab fa-linkedin fa-2x"></i>
+    </a>
+  {% endif %}
+</p>

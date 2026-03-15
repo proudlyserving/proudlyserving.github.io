@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Web",
+    "url": "/contents",
+    "icon": "fa-regular fa-window-maximize",
+    "fee": "Free"
+  },
+  {
+    "title": "HTML",
+    "url": "/assets/docs/proudly-serving.html",
+    "icon": "fa-solid fa-file-code",
+    "fee": "Free"
+  }
+]

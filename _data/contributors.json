@@ -1,0 +1,390 @@
+[
+    {
+        "name": "Adam Moorman",
+        "lastName": "Moorman",
+        "description": "Adam Moorman is a Proudly Serving contributor.",
+        "firstName": "Adam",
+        "img-feat": "adam-moorman.jpeg",
+        "img-alt": "Adam Moorman",
+        "website": "http://admoordesign.com/",
+        "bio": "Adam is a senior product designer with Bloom Works, a civic tech company that helps agencies improve their digital services. He has partnered with state, local, and federal agencies for over a decade to improve and expand their products and processes."
+    },
+    {
+        "name": "Albert Gehami",
+        "lastName": "Gehami",
+        "description": "Albert Gehami is a Proudly Serving contributor.",
+        "firstName": "Albert",
+        "img-feat": "albert-gehami.jpg",
+        "img-alt": "Albert Gehami",
+        "jobTitle": "Privacy officer",
+        "org": "City of San Jose, CA",
+        "linkedin": "https://www.linkedin.com/in/albertgehami/",
+        "bio": "Albert is the City Privacy Officer for the City of San José, overseeing responsible and effective deployment of new technology and data initiatives. The City’s privacy program has been recognized across awards and venues as a national leader on digital privacy and resident engagement on technology.",
+        "chapters": [
+            "Protect privacy"
+        ]
+    },
+    {
+        "name": "Artem Khomishen",
+        "lastName": "Khomishen",
+        "description": "Artem Khomishen is a Proudly Serving contributor.",
+        "firstName": "Artem",
+        "img-feat": "artem-khomishen.jpg",
+        "img-alt": "Artem Khomishen",
+        "linkedin": "https://www.linkedin.com/in/artuoma/",
+        "bio": "Artem leads an award-winning team at the California Department of Technology. With nearly 20 years in digital government work, he was instrumental in helping establish California's first digital standard and community of practice. Artem oversees statewide initiatives and toolkits, helping California departments improve the delivery of digital services and information.",
+        "chapters": [
+            "Get digital"
+        ]
+    },
+    {
+        "name": "Carlos Moreno",
+        "lastName": "Moreno",
+        "description": "Carlos Moreno is a Proudly Serving contributor.",
+        "firstName": "Carlos",
+        "img-feat": "carlos-moreno.jpg",
+        "img-alt": "Carlos Moreno",
+        "linkedin": "https://www.linkedin.com/in/tulsadesigner/",
+        "bio": "Carlos, MPA, is a Business Intelligence Analyst at Family & Children's Services, supporting the agency's work to divert individuals from the criminal legal system. Carlos is also a historian and journalist in Tulsa, and serves on the board of Urban Coders Guild, Tri City Collective, and World Stage Theatre.",
+        "chapters": [
+            "Hack with the people"
+        ]
+    },
+    {
+        "name": "Catherine Geanuracos",
+        "lastName": "Geanuracos",
+        "description": "Catherine Geanuracos is a Proudly Serving contributor.",
+        "firstName": "Catherine",
+        "img-feat": "catherine-geanuracos.jpg",
+        "img-alt": "Catherine Geanuracos",
+        "linkedin": "https://www.linkedin.com/in/geanuracos/",
+        "bio": "Catherine is a government technology innovator. She led the launch of the City of LA’s Innovation Fund as Commissioner of Innovation and Performance, co-founded Hack for LA, and was the co-founder and CEO of CityGrows (now ClearForms), a low-cost no-code workflow software platform used by local governments in 15 states.",
+        "chapters": [
+            "Buy better"
+        ]
+    },
+    {
+        "name": "Daniel Soto",
+        "lastName": "Soto",
+        "description": "Daniel Soto is a Proudly Serving contributor.",
+        "firstName": "Daniel",
+        "img-feat": "daniel-soto.jpg",
+        "img-alt": "Daniel Soto",
+        "linkedin": "https://www.linkedin.com/in/daniel-a-soto/",
+        "bio": "Daniel is a Principal Administrative Analyst with the City of Santa Monica. Daniel previously served as an analyst at the cities of Santa Ana and San Rafael, supporting digital services including building websites, policy development, and organizational realignment. Daniel has a Master of Public Administration from Cal Poly Pomona.",
+        "chapters": [
+            "Appoint an owner"
+        ]
+    },
+    {
+        "name": "Dustin Haisler",
+        "lastName": "Haisler",
+        "description": "Dustin Haisler is a Proudly Serving contributor.",
+        "firstName": "Dustin",
+        "img-feat": "dustin-haisler.jpg",
+        "img-alt": "Dustin Haisler",
+        "linkedin": "https://www.linkedin.com/in/dustinhaisler/",
+        "bio": "Dustin is Chief AI Officer and US GM of Darwin AI, helping public agencies safely adopt and govern AI. He’s the former president of e.Republic and an active researcher and educator, including roles with the Center for Public Sector AI, Eisenhower Fellowships, and Texas State University.",
+        "chapters": [
+            "Innovate with intention"
+        ]
+    },
+    {
+        "name": "Echa Schneider",
+        "lastName": "Schneider",
+        "description": "Echa Schneider is a Proudly Serving contributor and maintainer.",
+        "firstName": "Echa",
+        "img-feat": "echa-schneider.jpg",
+        "img-alt": "Echa Schneider",
+        "linkedin": "http://www.linkedin.com/in/echa-schneider",
+        "bio": "Echa has been working in local government since 2009. She currently serves as Communications Program Manager for the City of Piedmont, CA and has led digital transformation initiatives at the City of Berkeley and Oakland Public Library. Previously, she founded the award-winning hyperlocal news site <em>A Better Oakland</em>.",
+        "chapters": [
+            "Speak plainly"
+        ]
+    },
+    {
+        "name": "Jason Schneider",
+        "lastName": "Schneider",
+        "description": "Jason Schneider is a Proudly Serving contributor.",
+        "firstName": "Jason",
+        "img-feat": "jason-schneider.jpg",
+        "img-alt": "Jason Schneider",
+        "website": "https://www.civicpossible.com/",
+        "linkedin": "https://www.linkedin.com/in/japosc/",
+        "bio": "Jason is an altruistic mischief maker with Civic* Possible helping community leaders solve sticky, cross silo challenges. He has 20 years’ experience playing in the intersection of government, nonprofits, and business. He’s served as an elected City Commissioner, Alaska’s first Innovation Officer, NGO executive directors, startup business coach, and Marion County Oregon Economic Development lead.",
+        "chapters": [
+            "Think exponential"
+        ]
+    },
+    {
+        "name": "Joe Morris",
+        "lastName": "Morris",
+        "description": "Joe Morris is a Proudly Serving contributor.",
+        "firstName": "Joe",
+        "img-feat": "joe-morris.png",
+        "img-alt": "Joe Morris",
+        "linkedin": "https://www.linkedin.com/in/joeknowsgov/",
+        "bio": "Joe is e.Republic’s Chief Innovation Officer and keynote speaker on government and education. He has written much about funding streams, technology investment, and public-sector priorities. Joe holds a bachelor of arts degree in government and international relations from the California State University, Sacramento.",
+        "chapters": [
+            "Innovate with intention"
+        ]
+    },
+    {
+        "name": "Joel Peña",
+        "lastName": "Peña",
+        "description": "Joel Peña is a Proudly Serving contributor.",
+        "firstName": "Joel",
+        "img-feat": "joel-pena.jpg",
+        "img-alt": "Joel Peña",
+        "linkedin": "https://www.linkedin.com/in/joelpena/",
+        "bio": "Joel is a dynamic and innovative professional with extensive experience developing and executing successful strategic website and marketing initiatives. As a high-level problem solver with a keen eye for opportunity, Joel is a forward-thinking strategist who has consistently driven growth and success for a variety of organizations across multiple industries.",
+        "chapters": [
+            "Secure yourself"
+        ]
+    },
+    {
+        "name": "Joy Bonaguro",
+        "lastName": "Bonaguro",
+        "description": "Joy Bonaguro is a Proudly Serving contributor.",
+        "firstName": "Joy",
+        "img-feat": "joy-bonaguro.jpg",
+        "img-alt": "Joy Bonaguro",
+        "linkedin": "https://www.linkedin.com/in/joybonaguro/",
+        "bio": "Joy works at the nexus of data, design, technology, and policy. She served as the Chief Data Officer of California and of the City and County of San Francisco, was on the leadership team of a high-growth cybersecurity startup, and started her career helping nonprofits use data.",
+        "chapters": [
+            "Manage data rights"
+        ]
+    },
+    {
+        "name": "Karen Daly",
+        "lastName": "Daly",
+        "description": "Karen Daly is a Proudly Serving contributor.",
+        "firstName": "Karen",
+        "img-feat": "karen-daly.jpeg",
+        "img-alt": "Karen Daly",
+        "linkedin": "http://linkedin.com/in/karendalygpa",
+        "bio": "Karen is a retired Texas city manager who is the executive director of the Texas Women’s Leadership Institute. She loves spending her time preparing and empowering women to become city managers. You can also find her playing soccer or watching the U.S. Women’s National Team. She’s the mom of two grown feminists.",
+        "chapters": [
+            "Build responsive teams"
+        ]
+    },
+    {
+        "name": "Kirsten Wyatt",
+        "lastName": "Wyatt",
+        "description": "Kirsten Wyatt is a Proudly Serving contributor.",
+        "firstName": "Kirsten",
+        "img-feat": "kirsten-wyatt.jpg",
+        "img-alt": "Kirsten Wyatt",
+        "website": "http://beeckcenter.georgetown.edu",
+        "linkedin": "https://www.linkedin.com/in/kwyatt/",
+        "bio": "Kirsten is a Senior Director at Georgetown’s Beeck Center for Social Impact and Innovation and an elected school board member for the West Linn-Wilsonville School District. She previously co-founded and led the Engaging Local Government Leaders network and has served in state and local government in Oregon, Virginia, and North Carolina.",
+        "chapters": [
+            "Spark community joy"
+        ]
+    },
+    {
+        "name": "Laine Hendricks",
+        "lastName": "Hendricks",
+        "description": "Laine Hendricks is a Proudly Serving contributor.",
+        "firstName": "Laine",
+        "img-feat": "laine-hendricks.jpeg",
+        "img-alt": "Laine Hendricks",
+        "linkedin": "https://www.linkedin.com/in/lainehendricks/",
+        "bio": "Laine, Director of Communications for the County of Marin, has spent over a decade connecting residents with essential information and services. Named a 2022 “40 Under 40” leader by the North Bay Business Journal, she holds a master’s in Mass Communication and Journalism from California State University, Fresno.",
+        "chapters": [
+            "Set guiding principles"
+        ]
+    },
+    {
+        "name": "Lenae Storey",
+        "lastName": "Storey",
+        "description": "Lenae Storey is a Proudly Serving contributor.",
+        "firstName": "Lenae",
+        "img-feat": "lenae-storey.jpg",
+        "img-alt": "Lenae Storey",
+        "website": "https://www.beperennial.co/",
+        "linkedin": "https://www.linkedin.com/in/lenaeboykinstorey/",
+        "bio": "Lenae is founder of Perennial, a boutique digital consultancy helping government teams, nonprofits, and mission-driven organizations deliver impactful products and tech-enabled services. With experience in gov tech, startups, and public service delivery, she specializes in building product teams, launching digital solutions, and coaching organizations to adopt product operating models and practices.",
+        "chapters": [
+            "Clean the cruft"
+        ]
+    },
+    {
+        "name": "Lori McNeill",
+        "lastName": "McNeill",
+        "description": "Lori McNeill is a Proudly Serving contributor.",
+        "firstName": "",
+        "img-feat": "lori-mcneill.png",
+        "img-alt": "Lori McNeill",
+        "website": "https://civic-hackers.org/",
+        "linkedin": "https://www.linkedin.com/in/lmcneill/",
+        "bio": "Lori is a consultant who helps non-profits and institutions use data to benefit from digital. With experience ranging from NASA, to Fortune 500 companies, to small charities, she brings a unique blend of analytical, scientific, and nonprofit leadership lessons to her work empowering change-makers as director of Civic Hacker Network.",
+        "chapters": [
+            "Hack with the people"
+        ]
+    },
+    {
+        "name": "Luke Fretwell",
+        "lastName": "Fretwell",
+        "description": "Luke Fretwell is a Proudly Serving contributor and maintainer.",
+        "firstName": "Luke",
+        "img-feat": "luke-fretwell.jpg",
+        "img-alt": "Luke Fretwell",
+        "website": "https://lukefretwell.com",
+        "linkedin": "https://www.linkedin.com/in/lukefretwell",
+        "bio": "Luke is the founder and maintainer of GovFresh, a media and innovation lab focused on the intersection of design, technology, and democracy. He is the co-founder of ScanGov, a government digital experience platform.",
+        "chapters": [
+            "Reframe public service",
+            "Default to open",
+            "Feed the machine",
+            "Go official"
+        ]
+    },
+    {
+        "name": "Mai-Ling Garcia",
+        "lastName": "Garcia",
+        "description": "Mai-Ling Garcia is a Proudly Serving contributor.",
+        "firstName": "Mai-Ling",
+        "img-feat": "mai-ling-garcia.jpg",
+        "img-alt": "Mai-Ling Garcia",
+        "linkedin": "https://www.linkedin.com/in/mai-linggarcia/",
+        "bio": "Mai-Ling directs Emerging Technology and AI at Johns Hopkins’ Bloomberg Centers for Government Excellence and Public Innovation, leading global strategies for responsible public-sector AI. With 15+ years in digital transformation, she helps cities adopt ethical tech, build trust, and improve services through design, policy, and innovation.",
+        "chapters": [
+            "Design for everyone"
+        ]
+    },
+    {
+        "name": "Marlena Medford",
+        "lastName": "Medford",
+        "description": "Marlena Medford is a Proudly Serving contributor.",
+        "firstName": "Marlena",
+        "img-feat": "marlena-medford.jpg",
+        "img-alt": "Marlena Medford",
+        "linkedin": "https://www.linkedin.com/in/marlena-medford/",
+        "bio": "Marlena is the Senior Director of Strategic Engagement at the Center for Civic Futures, helping government leaders navigate AI and emerging technologies. She previously led external affairs for Code for America, CivicActions, and Peak Democracy. Earlier, she served as Public Information Officer for Encinitas and spent a decade as a journalist.",
+        "chapters": [
+            "Remember why you do this"
+        ]
+    },
+    {
+        "name": "Morgan Griffin",
+        "lastName": "Griffin",
+        "description": "Morgan Griffin is a Proudly Serving contributor.",
+        "firstName": "Morgan",
+        "img-feat": "morgan-griffin.jpg",
+        "img-alt": "Morgan Griffin",
+        "linkedin": "https://www.linkedin.com/in/rmorgangriffin/",
+        "bio": "Morgan is Content Strategy Principal at Bloom Works, a civic tech company that helps agencies improve their digital services. He has over 20 years of experience working with agencies like the National Institutes of Health, Centers for Disease Control and Prevention, and the State of Connecticut.",
+        "chapters": [
+            "Say what matters"
+        ]
+    },
+    {
+        "name": "Rahel Mekdim Teka",
+        "lastName": "Mekdim Teka",
+        "description": "Rahel Mekdim Teka is a Proudly Serving contributor.",
+        "firstName": "Rahel",
+        "img-feat": "rahel-mekdim-teka.jpg",
+        "img-alt": "Rahel Mekdim Teka",
+        "linkedin": "https://www.linkedin.com/in/rahel-mekdim-teka-3279ab9a/",
+        "bio": "Rahel is a communications strategist, facilitator, and organizer based in Brooklyn, NY. She serves as Acting Co-Executive Director at the Participatory Budgeting Project, a national organization that provides education, advocacy, and implementation support for community-led decision-making. She previously held roles at the California Immigrant Policy Center and Caring Across Generations.",
+        "chapters": [
+            "Be participatory"
+        ]
+    },
+    {
+        "name": "Rebecca Woodbury",
+        "lastName": "Woodbury",
+        "description": "Rebecca Woodbury is a Proudly Serving contributor and maintainer.",
+        "firstName": "Rebecca",
+        "img-feat": "rebecca-woodbury.jpg",
+        "img-alt": "Rebecca Woodbury",
+        "website": "https://deptofcivicthings.com",
+        "linkedin": "https://www.linkedin.com/in/rebeccawoodbury",
+        "bio": "Rebecca is the founder of Department of Civic Things. She worked in local government for 12 years and was the City of San Rafael’s first director of Digital Service. A Government Technology Top 25 Doer, Dreamer, and Driver, she holds a master’s in Public Policy from Mills College.",
+        "chapters": [
+            "Buy better",
+            "Set guiding principles",
+            "Show the work"
+        ]
+    },
+    {
+        "name": "Rob Lloyd",
+        "lastName": "Lloyd",
+        "description": "Rob Lloyd is a Proudly Serving contributor.",
+        "firstName": "Rob",
+        "img-feat": "rob-lloyd.jpg",
+        "img-alt": "Rob Lloyd",
+        "linkedin": "https://www.linkedin.com/in/roblloyd/",
+        "bio": "Rob is Executive Director of the Center for Digital Government. He previously served as CTO for City of Seattle, leading a 620-person, $300M technology organization, and as Assistant City Manager and CIO for San José, California. A 20-year public-sector leader, his teams have earned 50+ awards for innovation and excellence.",
+        "chapters": [
+            "Protect privacy"
+        ]
+    },
+    {
+        "name": "Robbie Barton",
+        "lastName": "Barton",
+        "description": "Robbie Barton is a Proudly Serving contributor.",
+        "firstName": "Robbie",
+        "img-feat": "robbie-barton.png",
+        "img-alt": "Robbie Barton",
+        "linkedin": "https://www.linkedin.com/in/leavesofgreen/",
+        "bio": "Robbie is an educator, facilitator, and eco-social justice organizer based in Oakland, CA. As part of the Participatory Budgeting Project team, he weaves and bridges stories of participatory democracy in action, advances equitable public decision-making, and connects with folks from across geographies about the issues that impact their lives.",
+        "chapters": [
+            "Be participatory"
+        ]
+    },
+    {
+        "name": "Shannah Hayley",
+        "lastName": "Hayley",
+        "description": "Shannah Hayley is a Proudly Serving contributor.",
+        "firstName": "Shannah",
+        "img-feat": "shannah-hayley.jpg",
+        "img-alt": "Shannah Hayley",
+        "linkedin": "https://www.linkedin.com/in/shannahallowayhayley",
+        "bio": "Shannah’s pursuit of living life to the fullest has taken her all over the world with various communications-focused jobs, from teaching in Kenya to consulting in the United Kingdom. Shannah now serves as the Director of Communications and Community Outreach for the City of Plano, Texas.",
+        "chapters": [
+            "Secure yourself"
+        ]
+    },
+    {
+        "name": "Shari Davis",
+        "lastName": "Davis",
+        "description": "Shari Davis is a Proudly Serving contributor.",
+        "firstName": "Shari",
+        "img-feat": "shari-davis.jpeg",
+        "img-alt": "Shari Davis",
+        "linkedin": "https://www.linkedin.com/in/shari-davis/",
+        "bio": "Shari is co-executive director for the Center for Economic Democracy. She formerly served as co-executive director for the Participatory Budgeting Project. As director of youth engagement and employment for the City of Boston she launched Youth Lead the Change, the first youth participatory budgeting process in the U.S.",
+        "chapters": [
+            "Be participatory"
+        ]
+    },
+    {
+        "name": "Shira Honig",
+        "lastName": "Honig",
+        "description": "Shira Honig is a Proudly Serving contributor.",
+        "firstName": "Shira",
+        "img-feat": "shira-honig.png",
+        "img-alt": "Shira Honig",
+        "linkedin": "https://www.linkedin.com/in/shirahonig/",
+        "bio": "Shira is a Senior Advisor in the Ontario government and served as a member of the Technologists for the Public Good Community Leads Committee. She’s led digital policy, change, and education initiatives inside and outside government, contributed to Apolitical and the Beeck Center, and is a graduate of NYU Wagner.",
+        "chapters": [
+            "Upskill always"
+        ]
+    },
+    {
+        "name": "Stan Sarber",
+        "lastName": "Sarber",
+        "description": "Stan Sarber is a Proudly Serving contributor.",
+        "firstName": "Stan",
+        "img-feat": "stan-sarber.jpeg",
+        "img-alt": "Stan Sarber",
+        "website": "https://stansarber.com/",
+        "linkedin": "https://www.linkedin.com/in/stansarber/",
+        "bio": "Stan is a software engineer at Google and founder at InclusionKit, a digital accessibility agency. Stan became involved in accessibility at Google, where he led projects to remediate inaccessible mobile applications. He also worked with Marin County, California on a WCAG-compliant version of their Civic Center Tour mobile app.",
+        "chapters": [
+            "Stay accessible"
+        ]
+    }
+]

@@ -1,63 +1,44 @@
 <header>
-  <div class="bg-dark py-3 border-bottom">
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom py-3">
     <div class="container">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-          <a href="{{ site.baseurl }}/">
-            <img
-              src="{{ site.baseurl }}/assets/img/avatar.png"
-              alt="{{ site.title }}"
-              class="xs border">
-          </a>
-          <a href="{{ site.baseurl }}/" class="text-white text-decoration-none navbar-brand fs-4 mx-2">
-            {{ site.title }}
-          </a>
-        </div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-end">
-          <div class="d-none d-lg-block">
-            {% for link in site.data.connect.footer %}
-              {% assign item = site.data.connect.docs | where: "name", link %}
-              {% assign item = item[0] %}
-              <a href="{{ item.url }}" class="text-white text-decoration-none mx-2 mt-1">
-                <i class="{{ item.icon }} fs-4"></i>
-              </a>
-            {% endfor %}
-          </div>
-        </div>
+
+      <!-- Brand: avatar + site title -->
+      <a class="navbar-brand d-flex align-items-center gap-2" href="{{ site.baseurl }}/">
+        <img
+          src="{{ site.baseurl }}/assets/img/avatar.png"
+          alt="{{ site.title | escape }} icon"
+          class="border"
+          width="36"
+          height="36">
+        <span class="fs-4">{{ site.title }}</span>
+      </a>
+
+      <!-- Hamburger toggle (mobile only) -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNav"
+        aria-controls="mainNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Nav links -->
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-0 gap-md-1">
+          {% for item in site.data.nav %}
+            {% if item.url %}
+              {% assign item_url = site.baseurl | append: item.url %}
+              <li class="nav-item">
+                <a class="nav-link px-2 py-2" href="{{ item_url }}">{{ item.title }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
       </div>
+
     </div>
-  </div>
+  </nav>
 </header>
-<div class="bg-dark border-bottom">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <nav class="navbar bg-dark navbar-expand-lg">
-          <button
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            class="navbar-toggler"
-            data-target="#navbarNavAltMarkup"
-            data-toggle="collapse"
-            type="button">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav mr-auto">
-              <ul class="navbar-nav">
-                {% for item in site.data.nav.docs %}
-                  {% if item.url %}
-                    <li class="nav-item">
-                      <a class="nav-link text-white {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                    </li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </div>
-</div>

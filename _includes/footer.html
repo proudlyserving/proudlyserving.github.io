@@ -1,4 +1,37 @@
 <footer>
+  {% unless page.title == "Contents" or page.title == "Book" or page.title == "Contributors" or page.title == "What they're saying" or page.title == "About" or page.title == "News" or page.title == "Acknowledgements" or page.title == "References" or page.layout == "home" or page.layout == "post" %}
+    {% if site.contents %}
+      <div class="container border-top pt-5 mt-4">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="mb-4">Contents</h2>
+            {% for section in site.data.contents.docs %}
+              <h3>{{ section.name | capitalize }}</h3>
+              <div class="card-group mt-4 mb-5">
+                {% for chapter in section.chapters %}
+                  {% for item in site.contents %}
+                    {% if item.title == chapter %}
+                      {% include card-contents.html %}
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  {% endunless %}
+  {% unless page.title == "Book" or page.title == "Whoops" %}
+    <div class="container border-top pt-4 mt-4 mb-5">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <h2 class="m-0 pt-4">Get Proudly Serving</h2>
+          {% include get.html %}
+        </div>
+      </div>
+    </div>
+  {% endunless %}
   <div class="footer mt-5 py-5 bg-dark text-white">
     <div class="container">
       <div class="row">
@@ -10,31 +43,40 @@
               class="border sm mb-3">
           </a>
         </div>
-        {% for col in site.data.nav-footer.docs %}
-          <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-            <ul class="nav flex-column">
-              {% for item in col %}
-                <li>
-                  <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link p-0 text-white">{{ item.title }}</a>
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
-        {% endfor %}
+        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+          <ul class="nav flex-column">
+            {% for item in site.data.nav %}
+              <li>
+                <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link p-0 text-white">{{ item.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+          <ul class="nav flex-column">
+            {% for item in site.data.nav-footer %}
+              <li>
+                <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link p-0 text-white">{{ item.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
       {% if site.org-name %}
         <div class="row mt-2">
           <div class="col-12"></div>
           <p class="mb-0 pb-0">
-            A project by
+            A
             <a
               hre
               href="{{ site.org-url }}"
               class="text-white">{{ site.org-name }}</a>
+            project
           </p>
         </div>
       {% endif %}
     </div>
   </div>
 </footer>
+{% include analytics.html %}
 {% include js.html %}</body></html>

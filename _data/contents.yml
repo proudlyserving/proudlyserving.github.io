@@ -5,6 +5,7 @@ docs:
     chapters:
       - Purpose
       - Call to action
+      - Swear yourself in
   - name: Contemplation
     chapters:
       - Reframe public service
@@ -17,7 +18,7 @@ docs:
     chapters:
       - Set guiding principles
       - Appoint an owner
-      - Empower the team
+      - Build responsive teams
       - Go official
       - Buy better
   - name: Implementation
@@ -34,7 +35,7 @@ docs:
       - Upskill always
       - Hack with the people
       - Clean the cruft
-      - Spark community joy
   - name: Inspiration
     chapters:
+      - Spark community joy
       - Remember why you do this

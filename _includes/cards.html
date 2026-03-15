@@ -41,7 +41,8 @@
   <!-- People -->
   {% elsif pull == "contributors" %}
     <div class="card-group">
-      {% for item in site.contributors %}
+      {% assign sorted_contributors = site.data.contributors | sort: "lastName" %}
+      {% for item in sorted_contributors %}
         {% include card-contributors.html %}
       {% endfor %}
     </div>

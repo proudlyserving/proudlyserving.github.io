@@ -19,7 +19,7 @@ redirect_from:
 
 This is for everyone who:
 
-* Serves the people 
-* Takes pride in their part 
+* Serves the people   
+* Takes pride in their part   
+* Does the hard work to deliver it  
 * Believes there is always a better way
-* Does the hard work to deliver it

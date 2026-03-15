@@ -1,0 +1,27 @@
+{% comment %}Split HTML at headers{% endcomment %}
+{% assign chapters = include.html | split: '<h' %}
+{% if chapters.size > 1 %}
+  <div class="d-none d-md-block">
+    <p class="mb-2">On this page</p>
+    <ul class="flex-column">
+      {% for chapter in chapters %}
+        {% if chapter != chapters[0] %}
+          {% comment %}Extract header id{% endcomment %}
+          {% assign id = chapter | split: 'id="' %}
+          {% assign id = id[1] | split: '"' %}
+        {% assign id = id[0] %}
+          {% comment %}Extract heading level{% endcomment %}
+          {% assign level = chapter | slice: 0, 1 %}
+          {% if level == "2" %}
+            {% assign title = chapter | split: '>' %}
+            {% assign title = title[1] | split: '</h' %}
+            {% assign title = title[0] %}
+            <li class="mb-1 small {% if level == '3' %}ms-3{% endif %}">
+              <a href="#{{ id }}">{{ title }}</a>
+            </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

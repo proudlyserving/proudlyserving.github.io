@@ -1,0 +1,15 @@
+<div class="row mt-3 mb-3">
+  {% for get in site.data.get %}
+    <div class="col-12 col-sm-6 col-md-3 d-flex align-items-stretch card-shadow-wrap">
+      <div class="card card-shadow text-center rounded py-2 mx-2 my-3 bg-dark w-100">
+        <div class="card-body">
+          <i class="{{ get.icon }} fa-2x mb-3" aria-label="{{ get.title }}"></i>
+          <h3 class="h5">
+            <a href="{{ get.url }}" class="stretched-link">{{ get.title }}</a>
+          </h3>
+          <p class="small mb-0">{{ get.fee }}</p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
