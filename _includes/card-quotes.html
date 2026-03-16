@@ -1,11 +1,11 @@
-<div class="card-group mt-3 mb-3">
+<div class="card-group my-3">
   {% for quotes in site.data.quotes %}
     {% if page.layout == "home" and quotes.featured != true %}
       {% continue %}
     {% endif %}
 
     <div class="col-12 col-sm-12 col-md-6 d-flex align-items-stretch">
-      <div class="card mb-4 mx-1 border-0 px-3">
+      <div class="card mb-3 mx-1 border-0 px-2">
         <div class="card-body">
 
           <p class="text-center m-0 p-0">

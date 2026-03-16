@@ -1,12 +1,12 @@
 {% if page.layout == "home" %}
-  <div class="container mb-5 pt-3 border-bottom">
+  <div class="container mb-4 py-3 border-bottom">
     <div class="row">
 
       <div class="col-12 col-md-4">
         <img
           src="{{ site.baseurl }}/assets/img/cover.png"
           alt="{{ page.title }} cover image"
-          class="xl border card-shadow-wrap mb-3">
+          class="xl border card-shadow-wrap">
       </div>
 
       <div class="col-12 col-md-8">
@@ -21,7 +21,7 @@
             {% for item in site.data.get %}
               {% if item.url %}
                 <li class="col-12 col-md-4 col-lg-3 d-flex align-items-stretch card-shadow-wrap">
-                  <div class="card text-center rounded py-2 mx-0 my-3 bg-dark w-100">
+                  <div class="card text-center rounded py-2 mx-0 my-2 bg-dark w-100">
                     <div class="card-body">
                       <i class="{{ item.icon }} fa-2x mb-2" aria-label="{{ item.title }}"></i>
                       <h3 class="h5">
