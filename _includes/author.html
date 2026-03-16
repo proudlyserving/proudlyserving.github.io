@@ -1,11 +1,11 @@
 {% if page.author or page.date %}
   {% if page.author %}
     By
-    {% assign authors = page.author | remove: "[" | remove: "]" | remove: '"' | split: "," %}
-    {% for author in authors %}
+    {%- assign authors = page.author | remove: "[" | remove: "]" | remove: '"' | split: "," %}
+    {%- for author in authors %}
       <a href="/contributors/{{ author | strip | slugify }}/">{{ author | strip }}</a>
-      {% unless forloop.last %},
+      {%- unless forloop.last %},
       {% endunless %}
-    {% endfor %}
+    {%- endfor %}
   {% endif %}
 {% endif %}

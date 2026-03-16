@@ -17,6 +17,7 @@ layout: profile
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
         <div class="post">
           <div class="mb-2 fs-5">
+            <h2>About</h2>
             {{ page.bio }}
           </div>
           {% include social.html %}
@@ -27,7 +28,7 @@ layout: profile
   </div>
   {% assign chapters = site.contents | where: "author", page.title %}
   {% if chapters.size > 0 %}
-    <div class="container border-top pt-5 mt-5">
+    <div class="container">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
           <h2>Chapters</h2>

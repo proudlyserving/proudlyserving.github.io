@@ -1,4 +1,14 @@
 <footer>
+  {% unless page.title == "Book" or page.title == "Whoops" %}
+    <div class="container border-top pt-4 mt-4 mb-5">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <h2 class="m-0 pt-4">Get Proudly Serving</h2>
+          {% include get.html %}
+        </div>
+      </div>
+    </div>
+  {% endunless %}
   {% unless page.title == "Contents" or page.title == "Book" or page.title == "Contributors" or page.title == "What they're saying" or page.title == "About" or page.title == "News" or page.title == "Acknowledgements" or page.title == "References" or page.layout == "home" or page.layout == "post" %}
     {% if site.contents %}
       <div class="container border-top pt-5 mt-4">
@@ -21,16 +31,6 @@
         </div>
       </div>
     {% endif %}
-  {% endunless %}
-  {% unless page.title == "Book" or page.title == "Whoops" %}
-    <div class="container border-top pt-4 mt-4 mb-5">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <h2 class="m-0 pt-4">Get Proudly Serving</h2>
-          {% include get.html %}
-        </div>
-      </div>
-    </div>
   {% endunless %}
   <div class="footer mt-5 py-5 bg-dark text-white">
     <div class="container">
