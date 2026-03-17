@@ -9,29 +9,6 @@
       </div>
     </div>
   {% endunless %}
-  {% unless page.title == "Contents" or page.title == "Book" or page.title == "Contributors" or page.title == "What they're saying" or page.title == "About" or page.title == "News" or page.title == "Acknowledgements" or page.title == "References" or page.layout == "home" or page.layout == "post" %}
-    {% if site.contents %}
-      <div class="container border-top pt-5 mt-4">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="mb-4">Contents</h2>
-            {% for section in site.data.contents.docs %}
-              <h3>{{ section.name | capitalize }}</h3>
-              <div class="card-group mt-4 mb-5">
-                {% for chapter in section.chapters %}
-                  {% for item in site.contents %}
-                    {% if item.title == chapter %}
-                      {% include card-contents.html %}
-                    {% endif %}
-                  {% endfor %}
-                {% endfor %}
-              </div>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-    {% endif %}
-  {% endunless %}
   <div class="footer mt-5 py-5 bg-dark text-white">
     <div class="container">
       <div class="row">

@@ -1,7 +1,6 @@
 ---
 title: Be participatory
 description: "Serving the public effectively and inclusively is often at odds with top-down government decision-making. A participatory approach enables us to open space, unlock community leadership and innovation, and share power — especially when we center marginalized community members typically left out of government business as usual."
-img-feat: 
 author: [Robbie Barton, Shari Davis, Rahel Mekdim Teka]
 icon: fa-solid fa-people-arrows
 #intro: true

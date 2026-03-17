@@ -1,7 +1,6 @@
 ---
 title: Set guiding principles
 description: "Guiding principles help organizations align their values to their goals. They serve as an aspirational North Star to help teams make design and content decisions. Guiding principles enable collaboration and consistency so products and services achieve better outcomes and build trust."
-img-feat: 
 author: [Laine Hendricks, Rebecca Woodbury]
 icon: fa-solid fa-compass
 intro: #true

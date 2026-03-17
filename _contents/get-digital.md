@@ -2,7 +2,6 @@
 title: Get digital
 description: "Digital channels — websites, apps, chatbots, social media, texts, email newsletters — are standard when it comes to government services and information. But just having an online presence isn't enough to qualify as 'going digital.'"
 author: [Artem Khomishen]
-img-feat: 
 icon: fa-solid fa-laptop
 #intro: true
 chapters: true

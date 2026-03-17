@@ -1,8 +1,7 @@
 ---
 title: Default to open
 description: "Openness is a mindset and culture. It creates opportunities for exponential civic innovation. By embracing the values of collaboration, participation, and transparency, we instill trust while fostering better and faster solutions to problems both small and large."
-img-feat: 
-author: Luke Fretwell
+author: [Luke Fretwell]
 icon: fa-solid fa-door-open
 intro: #true
 chapters: true

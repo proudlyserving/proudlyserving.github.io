@@ -1,7 +1,6 @@
 ---
 title: Call to action
 description: If you work in public service — and in one way or another, we all do — your civic responsibilities include a commitment.
-img-feat: 
 author: 
 icon: fa fa-solid fa-bullhorn
 intro: true

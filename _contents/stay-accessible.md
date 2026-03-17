@@ -1,8 +1,7 @@
 ---
 title: Stay accessible
 description: "Making government products and services usable by people with disabilities is not only the right thing to do, it is also a legal requirement."
-author: Stan Sarber
-img-feat: 
+author: [Stan Sarber]
 icon: fa-solid fa-universal-access
 #intro: true
 chapters: true
