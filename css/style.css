@@ -303,12 +303,12 @@ p.img-caption {
    ============================================================================= */
 
 .icon-primary {
-    color: var(--color-primary);
+    color: var(--color-bg-brand);
     filter: drop-shadow(-8px 8px 0 var(--color-border));
 }
 
 .icon {
-    background-color: var(--color-primary);
+    background-color: var(--color-bg-brand);
     border-radius: 0 var(--spacing-8) 0 var(--spacing-8);
     border-right: var(--spacing-4) solid var(--color-primary-subtle);
     border-top: var(--spacing-4) solid var(--color-primary-subtle);
@@ -321,7 +321,7 @@ p.img-caption {
 }
 
 .icon-2 {
-    color: var(--color-primary);
+    color: var(--color-bg-brand);
 }
 
 .rounded-circle {
@@ -442,19 +442,17 @@ a.btn-primary:visited {
 .btn-primary:hover,
 a.btn-primary:hover {
     color: #ffffff;
-    background-color: var(--color-primary-dark);
-    border-color: var(--color-primary-dark);
-    transition: all 0.3s ease;
-    filter: var(--shadow-btn-hover);
+    background-color: var(--color-bg-brand);
+    border-color: var(--color-bg-brand);
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 a.btn-primary:active,
 a.btn-primary:focus {
-    background-color: var(--color-primary-dark) !important;
-    border-color: var(--color-primary-dark) !important;
-    color: var(--bs-body-bg) !important;
+    background-color: var(--color-bg-brand) !important;
+    border-color: var(--color-bg-brand) !important;
+    color: #ffffff;
     box-shadow: none !important;
 }
 
