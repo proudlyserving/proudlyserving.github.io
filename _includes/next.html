@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      {% comment %}Build a flat ordered list of all chapters{% endcomment %}
+      {% assign all_chapters = "" | split: "" %}
+      {% for section in site.data.contents.docs %}
+        {% for chapter in section.chapters %}
+          {% for item in site.contents %}
+            {% if item.title == chapter %}
+              {% assign all_chapters = all_chapters | push: item %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      {% endfor %}
+
+      {% comment %}Find current page index and get next{% endcomment %}
+      {% for item in all_chapters %}
+        {% if item.title == page.title %}
+          {% assign next_index = forloop.index %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign next_chapter = all_chapters[next_index] %}
+
+      {% if next_chapter %}
+        <a href="{{ site.baseurl }}{{ next_chapter.url }}" class="my-3 btn btn-primary">
+          Next chapter: {{ next_chapter.title }}
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
