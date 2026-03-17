@@ -442,12 +442,21 @@ a.btn-primary:visited {
 .btn-primary:hover,
 a.btn-primary:hover {
     color: #ffffff;
-    background-color: var(--color-bg-brand);
-    border-color: var(--color-bg-brand);
+    background-color: var(--color-primary-dark);
+    border-color: var(--color-primary-dark);
     transition: all 0.3s ease;
     filter: var(--shadow-btn-hover);
 }
 
+.btn-primary:active,
+.btn-primary:focus,
+a.btn-primary:active,
+a.btn-primary:focus {
+    background-color: var(--color-primary-dark) !important;
+    border-color: var(--color-primary-dark) !important;
+    color: var(--bs-body-bg) !important;
+    box-shadow: none !important;
+}
 
 /* =============================================================================
    CARDS
