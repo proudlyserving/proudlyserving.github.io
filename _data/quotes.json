@@ -1,5 +1,12 @@
 [
   {
+    "name": "Brian Whittaker",
+    "title": "Founder",
+    "organization": "Humans of Public Service",
+    "quote": "I think about how different our public institutions could feel if these practices were the norm, not the exception. Proudly Serving gives public servants at every level the framing and the tools to make that real. Built on trust, its methods are practical and accessible whether you’re finding your footing or leading through complexity.",
+    "featured": true
+  },
+  {
     "name": "John Matelski",
     "title": "CIO",
     "organization": "National Association of Counties (NACo)",
@@ -10,7 +17,6 @@
     "name": "Jim Schutz",
     "title": "Former city manager and author",
     "organization": "The Mayor Has a Hammer: Poems About Life in Local Government",
-    "quote": "I’ve proudly taken the Proudly Serving pledge, and this book reflects those values with clarity and purpose. Each chapter is a quick, plain-English read, allowing you to turn to whichever chapter you need most at any given moment. Written by some of the most thoughtful and inspiring voices in local government today, it’s both a useful resource and a meaningful reminder of why this work matters.",
-    "featured": true
+    "quote": "I’ve proudly taken the Proudly Serving pledge, and this book reflects those values with clarity and purpose. Each chapter is a quick, plain-English read, allowing you to turn to whichever chapter you need most at any given moment. Written by some of the most thoughtful and inspiring voices in local government today, it’s both a useful resource and a meaningful reminder of why this work matters."
   }
 ]
