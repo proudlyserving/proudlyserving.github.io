@@ -3,31 +3,35 @@
 <script>
   const quotes = {{ site.data.quotes | jsonify }};
 
-  function shuffle(arr) {
-  return arr.sort(() => Math.random() - 0.5);
-  }
-
-  const selected = shuffle([...quotes]).slice(0, 2);
-  const container = document.getElementById("quotes-container");
-
-  container.innerHTML = selected.map(q => `
-  <div class="col-12 col-sm-6 d-flex align-items-stretch">
-    <div class="card mb-3 mx-1 border-0 px-1">
-      <div class="card-body">
-        <p class="text-center m-0 p-0">
-          <i class="fa-solid fa-quote-left fa-xl icon-2" aria-label="Left quote"></i>
-        </p>
-        <p class="fs-5 my-1 py-1">${q.quote}</p>
-        <p class="text-center m-0 p-0">
-          <i class="fa-solid fa-quote-right fa-xl icon-2" aria-label="Right quote"></i>
-        </p>
-        <p class="text-center mt-3">
-          ${q.name}
-          ${q.title ? `<span class="small"><br>${q.title}</span>` : ""}
-          ${q.organization ? `<span class="small"><br>${q.organization}</span>` : ""}
-        </p>
+  function renderQuotes(list) {
+  return list.map(q => `
+    <div class="col-12 col-sm-6 d-flex align-items-stretch">
+      <div class="card mb-3 mx-1 border-0 px-1">
+        <div class="card-body">
+          <p class="text-center m-0 p-0">
+            <i class="fa-solid fa-quote-left fa-xl icon-2" aria-label="Left quote"></i>
+          </p>
+          <p class="fs-5 my-1 py-1">${q.quote}</p>
+          <p class="text-center m-0 p-0">
+            <i class="fa-solid fa-quote-right fa-xl icon-2" aria-label="Right quote"></i>
+          </p>
+          <p class="text-center mt-3">
+            ${q.name}
+            ${q.title ? `<span class="small"><br>${q.title}</span>` : ""}
+            ${q.organization ? `<span class="small"><br>${q.organization}</span>` : ""}
+          </p>
+        </div>
       </div>
     </div>
-  </div>
   `).join("");
+  }
+
+  const container = document.getElementById("quotes-container");
+
+  {% if page.layout == "home" %}
+  const selected = [...quotes].sort(() => Math.random() - 0.5).slice(0, 2);
+  container.innerHTML = renderQuotes(selected);
+  {% else %}
+  container.innerHTML = renderQuotes(quotes);
+  {% endif %}
 </script>
