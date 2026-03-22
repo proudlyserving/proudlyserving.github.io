@@ -1,36 +1,33 @@
-<div class="card-group my-3">
-  {% for quotes in site.data.quotes %}
-    {% if page.layout == "home" and quotes.featured != true %}
-      {% continue %}
-    {% endif %}
+<div id="quotes-container" class="row my-3"></div>
 
-    <div class="col-12 col-sm-12 col-md-6 d-flex align-items-stretch">
-      <div class="card mb-3 mx-1 border-0 px-1">
-        <div class="card-body">
+<script>
+  const quotes = {{ site.data.quotes | jsonify }};
 
-          <p class="text-center m-0 p-0">
-            <i class="fa-solid fa-quote-left fa-xl icon-2" aria-label="Left quote"></i>
-          </p>
+  function shuffle(arr) {
+  return arr.sort(() => Math.random() - 0.5);
+  }
 
-          <p class="fs-5 my-1 py-1">{{ quotes.quote }}</p>
+  const selected = shuffle([...quotes]).slice(0, 2);
+  const container = document.getElementById("quotes-container");
 
-          <p class="text-center m-0 p-0">
-            <i class="fa-solid fa-quote-right fa-xl icon-2" aria-label="Right quote"></i>
-          </p>
-
-          <p class="text-center mt-3">
-            {{ quotes.name }}
-            {% if quotes.title %}
-              <span class="small"><br>{{ quotes.title }}</span>
-            {% endif %}
-            {% if quotes.organization %}
-              <span class="small"><br>{{ quotes.organization }}</span>
-            {% endif %}
-          </p>
-
-        </div>
+  container.innerHTML = selected.map(q => `
+  <div class="col-12 col-sm-6 d-flex align-items-stretch">
+    <div class="card mb-3 mx-1 border-0 px-1">
+      <div class="card-body">
+        <p class="text-center m-0 p-0">
+          <i class="fa-solid fa-quote-left fa-xl icon-2" aria-label="Left quote"></i>
+        </p>
+        <p class="fs-5 my-1 py-1">${q.quote}</p>
+        <p class="text-center m-0 p-0">
+          <i class="fa-solid fa-quote-right fa-xl icon-2" aria-label="Right quote"></i>
+        </p>
+        <p class="text-center mt-3">
+          ${q.name}
+          ${q.title ? `<span class="small"><br>${q.title}</span>` : ""}
+          ${q.organization ? `<span class="small"><br>${q.organization}</span>` : ""}
+        </p>
       </div>
     </div>
-
-  {% endfor %}
-</div>
+  </div>
+  `).join("");
+</script>

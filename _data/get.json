@@ -6,6 +6,12 @@
     "fee": "Free"
   },
   {
+    "title": "EPUB",
+    "url": "/assets/docs/Proudly_Serving.epub",
+    "icon": "fa-solid fa-file-alt",
+    "fee": "Free"
+  },
+  {
     "title": "HTML",
     "url": "/assets/docs/proudly-serving.html",
     "icon": "fa-solid fa-file-code",
