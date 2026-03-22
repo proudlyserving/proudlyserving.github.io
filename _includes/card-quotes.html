@@ -3,10 +3,10 @@
 <script>
   const quotes = {{ site.data.quotes | jsonify }};
 
-  function renderQuotes(list) {
-  return list.map(q => `
+  function renderQuotes(list, showDivider) {
+  return list.map((q, i) => `
     <div class="col-12 col-sm-6 d-flex align-items-stretch">
-      <div class="card mb-3 mx-1 border-0 px-1">
+      <div class="card mb-3 mx-1 border-0 px-1 ${showDivider && i < list.length - 1 ? 'border-bottom' : ''}">
         <div class="card-body">
           <p class="text-center m-0 p-0">
             <i class="fa-solid fa-quote-left fa-xl icon-2" aria-label="Left quote"></i>
@@ -30,8 +30,8 @@
 
   {% if page.layout == "home" %}
   const selected = [...quotes].sort(() => Math.random() - 0.5).slice(0, 2);
-  container.innerHTML = renderQuotes(selected);
+  container.innerHTML = renderQuotes(selected, false);
   {% else %}
-  container.innerHTML = renderQuotes(quotes);
+  container.innerHTML = renderQuotes(quotes, true);
   {% endif %}
 </script>
