@@ -27,7 +27,7 @@ layout: page
   </div>
   {% include next.html %}
   {% if page.author %}
-    <div class="container border-top mt-5 pt-5">
+    <div class="container mt-3">
       <div class="row">
         <div class="col-12 mb-3">
           <h2 class="mb-3">
@@ -41,13 +41,15 @@ layout: page
       {% if author_data %}
         <div class="container mb-3">
           <div class="row">
-            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
               {% if author_data.img-feat %}
-                <img
-                  src="{{ site.baseurl }}/assets/img/contributors/{{ author_data.img-feat }}"
-                  alt="{{ author_data.img-alt }}"
-                  title="{{ author_data.name }}"
-                  class="md rounded-circle card-shadow-wrap mb-3">
+                <a href="{{ site.baseurl }}/contributors/{{ author_data.name | slugify }}" title="{{ author_data.name }}">
+                  <img
+                    src="{{ site.baseurl }}/assets/img/contributors/{{ author_data.img-feat }}"
+                    alt="{{ author_data.img-alt }}"
+                    title="{{ author_data.name }}"
+                    class="md rounded-circle card-shadow-wrap mb-3">
+                </a>
               {% endif %}
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -57,7 +59,7 @@ layout: page
               </div>
               {% include social.html %}
             </div>
-            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
           </div>
         </div>
       {% endif %}
