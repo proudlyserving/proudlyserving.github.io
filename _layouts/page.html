@@ -25,7 +25,6 @@ layout: page
       </div>
     </div>
   </div>
-  {% include next.html %}
   {% if page.author %}
     <div class="container mt-3">
       <div class="row">
@@ -52,18 +51,18 @@ layout: page
                 </a>
               {% endif %}
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
               <h3 class="mb-3">{{ author_data.name }}</h3>
               <div class="mb-4">
                 {{ author_data.bio }}
               </div>
               {% include social.html %}
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
           </div>
         </div>
       {% endif %}
     {% endfor %}
   {% endif %}
+  {% include next.html %}
 </main>
 {% include footer.html %}
