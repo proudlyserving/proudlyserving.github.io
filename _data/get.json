@@ -6,6 +6,12 @@
     "fee": "Free"
   },
   {
+    "title": "Google Play Books",
+    "url": "https://play.google.com/store/books/details?id=Z2TMEQAAQBAJ&pli=1",
+    "icon": "fa-brands fa-google-play",
+    "fee": "Free"
+  },
+  {
     "title": "EPUB",
     "url": "/assets/docs/Proudly_Serving.epub",
     "icon": "fa-solid fa-file-alt",
