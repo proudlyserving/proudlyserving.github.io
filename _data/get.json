@@ -6,6 +6,12 @@
     "fee": "Free"
   },
   {
+    "title": "Apple Books",
+    "url": "https://books.apple.com/us/book/proudly-serving/id6761822948",
+    "icon": "fa-brands fa-apple",
+    "fee": "Free"
+  },
+  {
     "title": "Google Play Books",
     "url": "https://play.google.com/store/books/details?id=Z2TMEQAAQBAJ&pli=1",
     "icon": "fa-brands fa-google-play",
