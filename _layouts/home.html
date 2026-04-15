@@ -8,16 +8,29 @@ layout: home
   {% include jumbotron.html %}
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-2 col-lg-2 col-xl-2"></div>
-      <div class="col-12 col-md-8 col-lg-8 col-xl-8">
-        <h2 class="mb-3">{{ site.about-name }}</h2>
-        <p class="fs-5 my-1 py-1">
-          <em>Proudly Serving</em>
-          is a call to action built with and for the people who show up every day to make government work — from frontline staff to digital service teams, policy makers to civic entrepreneurs. Regardless of title or department, this book equips you with the mindsets, tools, and frameworks needed to design and deliver public services that truly serve people.
-        </p>
-        <a href="{{ site.baseurl }}{{ site.about-url }}" class="btn btn-primary mt-3">{{ site.about-name }}</a>
+      <div class="col-12">
+        {% if site.data.get %}
+          <h2>Book</h2>
+          <ul class="list-unstyled row mt-4">
+            {% for item in site.data.get %}
+              {% if item.url %}
+                <li class="col-12 col-md-4 col-lg-3 d-flex align-items-stretch card-shadow-wrap">
+                  <div class="card text-center rounded py-2 mx-0 my-2 bg-dark w-100">
+                    <div class="card-body">
+                      <i class="{{ item.icon }} fa-2x mb-2" aria-label="{{ item.title }}"></i>
+                      <h2 class="h5">
+                        <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                      </h2>
+                      <p class="small mb-0">({{ item.fee }})</p>
+                    </div>
+                  </div>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+
       </div>
-      <div class="col-12 col-md-2 col-lg-2 col-xl-2"></div>
     </div>
   </div>
   {% if site.data.quotes %}
