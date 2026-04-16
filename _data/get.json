@@ -6,6 +6,12 @@
     "fee": "Free"
   },
   {
+    "title": "Amazon Kindle",
+    "url": "https://www.amazon.com/dp/B0GX34TMMG",
+    "icon": "fa-brands fa-amazon",
+    "fee": "Free"
+  },
+  {
     "title": "Apple Books",
     "url": "https://books.apple.com/us/book/proudly-serving/id6761822948",
     "icon": "fa-brands fa-apple",
