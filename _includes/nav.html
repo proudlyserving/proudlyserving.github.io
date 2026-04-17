@@ -1,7 +1,7 @@
 <header>
-  <nav class="navbar navbar-expand-lg bg-dark border-bottom py-3 card-shadow-wrap">
+  <!-- DEBUG: remove after fixing -->
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom py-3{% if page.url == "/index" %} card-shadow-wrap{% endif %}">
     <div class="container">
-
       <!-- Brand: avatar + site title -->
       <a class="navbar-brand d-flex align-items-center gap-2" href="{{ site.baseurl }}/">
         <img
@@ -12,7 +12,6 @@
           height="36">
         <span class="fs-4 d-none d-lg-inline">{{ site.title }}</span>
       </a>
-
       <!-- Hamburger toggle (mobile only) -->
       <button
         class="navbar-toggler border-0 ms-auto"
@@ -24,7 +23,6 @@
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <!-- Nav links -->
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav ms-auto mb-0 gap-md-1">
@@ -38,7 +36,6 @@
           {% endfor %}
         </ul>
       </div>
-
     </div>
   </nav>
 </header>

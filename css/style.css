@@ -109,7 +109,7 @@
 
     /* Shadows */
     --shadow-card: drop-shadow(-8px 8px 0 var(--color-border));
-    --shadow-card-hover: drop-shadow(-8px 8px 0 #adadad);
+    --shadow-card-hover: drop-shadow(-8px 8px 0 var(--color-border));
     --shadow-btn: drop-shadow(-5px 5px 0 var(--color-border));
     --shadow-btn-hover: drop-shadow(-5px 5px 0 #adadad);
     --shadow-img: drop-shadow(-6px 6px 0 var(--color-border));
