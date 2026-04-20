@@ -34,5 +34,11 @@
     "url": "/assets/docs/proudly-serving.html",
     "icon": "fa-solid fa-file-code",
     "fee": "Free"
+  },
+  {
+    "title": "PDF",
+    "url": "/assets/docs/Proudly-Serving.pdf",
+    "icon": "fa-solid fa-file-pdf",
+    "fee": "Free"
   }
 ]
