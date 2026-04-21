@@ -24,5 +24,12 @@
     "title": "Former city manager and author",
     "organization": "The Mayor Has a Hammer: Poems About Life in Local Government",
     "quote": "I’ve proudly taken the Proudly Serving pledge, and this book reflects those values with clarity and purpose. Each chapter is a quick, plain-English read, allowing you to turn to whichever chapter you need most at any given moment. Written by some of the most thoughtful and inspiring voices in local government today, it’s both a useful resource and a meaningful reminder of why this work matters."
+  },
+  {
+    "name": "Lauren Lockwood",
+    "title": "CEO & Cofounder (former Chief Digital Officer, City of Boston)",
+    "organization": "Bloom Works Public Benefit",
+    "quote": "Proudly Serving is a powerful reminder that none of us is doing this work alone. By surfacing the lessons and perspectives of practitioners across the field, these essays offer reassurance and direction to those stepping into uncharted territory. It allows us to learn from one another and move forward together with a stronger sense of purpose and possibility.",
+    "featured": true
   }
 ]
