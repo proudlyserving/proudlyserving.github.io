@@ -141,6 +141,7 @@
         --shadow-card-hover: drop-shadow(-8px 8px 0 #050510);
         --shadow-btn: drop-shadow(-5px 5px 0 #0a0a18);
         --shadow-btn-hover: drop-shadow(-5px 5px 0 #050510);
+        --shadow-img: drop-shadow(-6px 6px 0 #0a0a18);
     }
 
     .rounded-circle {
@@ -423,8 +424,16 @@ a.btn-primary:visited {
 .btn-primary:hover,
 a.btn-primary:hover {
     color: #ffffff;
-    background-color: var(--color-bg-brand);
-    border-color: var(--color-bg-brand);
+    background-color: var(--color-primary-dark);
+    border-color: var(--color-primary-dark);
+}
+
+@media (prefers-color-scheme: dark) {
+    .btn-primary:hover,
+    a.btn-primary:hover {
+        background-color: #4a4aaa;
+        border-color: #4a4aaa;
+    }
 }
 
 .btn-primary:active,
@@ -473,8 +482,28 @@ a.btn:focus-visible {
     transition: filter var(--transition-base);
 }
 
+.card-shadow-wrap .card {
+    transition: background-color var(--transition-base), color var(--transition-base);
+}
+
 .card-shadow-wrap:hover {
     filter: var(--shadow-card-hover);
+}
+
+.card-shadow-wrap:hover .card {
+    background-color: var(--color-primary-dark) !important;
+    color: #ffffff;
+}
+
+.card-shadow-wrap:hover .card a,
+.card-shadow-wrap:hover .card .stretched-link {
+    color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+    .card-shadow-wrap:hover .card {
+        background-color: #4a4aaa !important;
+    }
 }
 
 /* Contributor photos: align shadow hover with card-level hover (matches scale behavior) */
@@ -643,8 +672,9 @@ p.social {
 }
 
 .navbar-nav .nav-link[aria-current="page"] {
-    border-bottom: 2px solid currentColor;
-    padding-bottom: calc(0.5rem - 2px);
+    background-color: #ffffff;
+    border-radius: 0.25rem;
+    color: var(--color-bg-brand) !important;
 }
 
 
@@ -676,6 +706,14 @@ p.social {
 
 .jumbotron-home a:has(.cover-home) {
     display: block;
+}
+
+.jumbotron-home .cover-home {
+    transition: filter var(--transition-base);
+}
+
+.jumbotron-home a:has(.cover-home):hover .cover-home {
+    filter: var(--shadow-card-hover);
 }
 
 .jumbotron-home .cover-home {
@@ -770,6 +808,28 @@ p.social {
 .card-contributor:hover .card-img-top {
     transform: scale(1.03);
 }
+
+/* Quote dividers — styled like homepage section borders */
+.quote-item .card {
+    border-bottom: 1px solid var(--color-border) !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.quote-item:last-child .card {
+    border-bottom: 0 !important;
+}
+
+@media (min-width: 576px) {
+
+    /* Remove border from left-column card in the last row when total is even */
+    .quote-item:nth-last-child(2):nth-child(odd) .card {
+        border-bottom: 0 !important;
+    }
+}
+
 
 .card-get .card {
     padding-top: 0.5rem;

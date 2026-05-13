@@ -16,8 +16,8 @@
 
   function renderQuotes(list, showDivider) {
     return list.map((q, i) => `
-      <div class="col-12 col-sm-6 d-flex align-items-stretch">
-        <div class="card mb-3 mx-1 border-0 px-1${showDivider && i < list.length - 1 ? ' border-bottom' : ''}">
+      <div class="col-12 col-sm-6 d-flex align-items-stretch${showDivider ? ' quote-item' : ''}">
+        <div class="card mb-3 mx-1 border-0 px-1">
           <div class="card-body">
             <p class="text-center m-0 p-0">
               <svg class="icon icon-xl" aria-hidden="true"><use href="#icon-quote-left"></use></svg>

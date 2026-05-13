@@ -3,11 +3,12 @@
     By
     {%- assign authors = page.author | remove: "[" | remove: "]" | remove: '"' | split: "," %}
     {%- for author in authors %}
-      {%- assign contrib = site.data.contributors | where: "name", author | first %}
+      {%- assign author_name = author | strip %}
+      {%- assign contrib = site.data.contributors | where: "name", author_name | first %}
       {%- if contrib %}
-        <a href="/contributors/{{ author | strip | slugify: "latin" }}/">{{ author | strip }}</a>
+        <a href="/contributors/{{ author_name | slugify: "latin" }}/">{{ author_name }}</a>
       {%- else %}
-        {{ author | strip }}
+        {{ author_name }}
       {%- endif %}
       {%- unless forloop.last %},
       {% endunless %}
