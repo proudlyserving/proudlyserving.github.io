@@ -184,10 +184,6 @@ a:hover {
     color: var(--bs-link-hover-color);
 }
 
-.post a:visited,
-.author-bio a:visited {
-    color: var(--color-muted);
-}
 
 img {
     height: auto;
@@ -894,8 +890,7 @@ p.social {
 
 .next-nav {
     margin-bottom: 1rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--color-border);
+    padding-top: 0.75rem;
 }
 
 .next-nav .btn-row {
@@ -925,7 +920,7 @@ p.social {
 .toc-nav a,
 .toc-nav a:visited {
     text-decoration: none;
-    color: var(--color-muted);
+    color: var(--bs-link-color);
     transition: color var(--transition-base);
 }
 
