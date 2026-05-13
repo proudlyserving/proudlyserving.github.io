@@ -152,6 +152,10 @@
    BASE
    ============================================================================= */
 
+html {
+    overflow-x: clip;
+}
+
 body {
     color: var(--color-body);
     font-family: var(--bs-body-font-family);
@@ -650,10 +654,31 @@ p.social {
     border-bottom: 1px solid var(--color-border);
 }
 
+.jumbotron-home a:has(.cover-home) {
+    display: block;
+}
+
+.jumbotron-home .cover-home {
+    width: 75vw;
+    max-width: 90%;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
 .jumbotron-home h1 {
     font-size: calc(1.525rem + 3.3vw);
-    margin-top: 3rem;
+    margin-top: 0;
     margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .jumbotron-home .cover-home {
+        width: var(--img-xl);
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+
+    .jumbotron-home h1 { margin-top: 3rem; }
 }
 
 .jumbotron-home .lead {

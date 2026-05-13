@@ -1,16 +1,18 @@
 {% if page.layout == "home" %}
   <div class="container jumbotron-home">
-    <div class="row">
-      <div class="col-12 col-md-4 offset-md-1 order-2 order-md-1">
-        <img
-          src="{{ site.baseurl }}/assets/img/cover.png"
-          alt="{{ page.title }} cover image"
-          class="xl border shadow-offset"
-          width="850"
-          height="1100">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-4 offset-md-1">
+        <a href="{{ site.baseurl }}/book">
+          <img
+            src="{{ site.baseurl }}/assets/img/cover.png"
+            alt="{{ page.title }} cover image"
+            class="cover-home border shadow-offset"
+            width="850"
+            height="1100">
+        </a>
       </div>
 
-      <div class="col-12 col-md-6 order-1 order-md-2">
+      <div class="col-12 col-md-6">
         <h1>{{ page.title }}</h1>
 
         {% if page.description %}
