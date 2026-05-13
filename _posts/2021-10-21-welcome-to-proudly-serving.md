@@ -59,7 +59,7 @@ Stay connected with Proudly Serving to follow our progress:
 
 ## License
 
-Proudly Serving is [licensed](/license/) under Creative Commons, so feel free to re-use as you see fit.
+Proudly Serving is [licensed](/about/) under Creative Commons, so feel free to re-use as you see fit.
 
 ## Questions?
 
