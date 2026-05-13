@@ -24,7 +24,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@6aaa311d81eba98ae12eaffbcb63296ace0efcde # v1.307.0
         with:
-          ruby-version-file: .ruby-version
+          ruby-version: .ruby-version
           bundler-cache: true
           cache-version: 0
       - name: Audit Ruby gems
