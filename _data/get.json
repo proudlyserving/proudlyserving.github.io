@@ -2,43 +2,43 @@
   {
     "title": "Web",
     "url": "/contents",
-    "icon": "fa-regular fa-window-maximize",
+    "icon": "window-maximize",
     "fee": "Free"
   },
   {
     "title": "Amazon Kindle",
     "url": "https://www.amazon.com/dp/B0GX34TMMG",
-    "icon": "fa-brands fa-amazon",
+    "icon": "amazon",
     "fee": "Free"
   },
   {
     "title": "Apple Books",
     "url": "https://books.apple.com/us/book/proudly-serving/id6761822948",
-    "icon": "fa-brands fa-apple",
+    "icon": "apple",
     "fee": "Free"
   },
   {
     "title": "Google Play Books",
     "url": "https://play.google.com/store/books/details?id=Z2TMEQAAQBAJ&pli=1",
-    "icon": "fa-brands fa-google-play",
+    "icon": "google-play",
     "fee": "Free"
   },
   {
     "title": "EPUB",
     "url": "/assets/docs/Proudly_Serving.epub",
-    "icon": "fa-solid fa-file-alt",
+    "icon": "file-lines",
     "fee": "Free"
   },
   {
     "title": "HTML",
     "url": "/assets/docs/proudly-serving.html",
-    "icon": "fa-solid fa-file-code",
+    "icon": "file-code",
     "fee": "Free"
   },
   {
     "title": "PDF",
     "url": "/assets/docs/Proudly-Serving.pdf",
-    "icon": "fa-solid fa-file-pdf",
+    "icon": "file-pdf",
     "fee": "Free"
   }
 ]

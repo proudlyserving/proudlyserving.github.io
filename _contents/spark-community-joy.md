@@ -2,7 +2,7 @@
 title: Spark community joy
 description: "Government work is essential yet humble — services are used constantly, yet recognized rarely. Showcasing and celebrating government services builds a foundation of community pride and creates a culture of service and professionalism."
 author: [Kirsten Wyatt]
-icon: fa fa-solid fa-wand-sparkles
+icon: wand-sparkles
 intro: #true
 chapters: true
 section: Inspiration

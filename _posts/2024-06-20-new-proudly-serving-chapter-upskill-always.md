@@ -3,7 +3,7 @@ title: "New Proudly Serving chapter: Upskill always"
 description: "'Upskill always' by Shira Honig is now published in Proudly Serving."
 date: 2024-06-20
 author: Proudly Serving
-icon: fa-solid fa-rocket
+icon: rocket
 ---
 
 ## New chapter

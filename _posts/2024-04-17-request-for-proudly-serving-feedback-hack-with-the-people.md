@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Hack with the people"
 description: "A new Proudly Serving chapter titled 'Hack with the people' by Lori McNeill and Carlos Moreno is ready for public review and feedback."
 date: 2024-04-17
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled [Hack with the people](/contents/hack-with-the-people) is ready for public review and feedback. This chapter was written by [Lori McNeill](/contributors/lori-mcneill) and [Carlos Moreno](/contributors/carlos-moreno).

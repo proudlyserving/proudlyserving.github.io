@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Upskill always"
 description: "A new Proudly Serving chapter titled 'Upskill always' by Shira Honig is ready for public review and feedback."
 date: 2023-05-24
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled **[Upskill always](/contents/upskill-always)** is ready for public review and feedback. This chapter was written by **[Shira Honig](/contributors/shira-honig)**.

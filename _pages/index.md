@@ -12,8 +12,6 @@ redirect_from:
   - /conduct/
   - /feedback/
   - /collaborate/
-  - /contribute/
-  - /feedback/
   - /license-policy/
   - /style/
   - /manuscript/

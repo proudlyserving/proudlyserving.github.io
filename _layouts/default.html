@@ -9,9 +9,9 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <articlebody>
-          {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" anchorClass="heading-hashtag" %}
-        </articlebody>
+        <article>
+          {% include anchor_headings.html html=content anchorBody="<svg class='icon' aria-hidden='true'><use href='#icon-link'></use></svg>" anchorClass="heading-hashtag" %}
+        </article>
         {% if page.title == "What they're saying" %}
           {% include card-quotes.html %}
         {% endif %}

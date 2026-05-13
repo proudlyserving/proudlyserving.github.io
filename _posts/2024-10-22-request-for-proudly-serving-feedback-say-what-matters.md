@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Say what matters"
 description: "A new Proudly Serving chapter titled 'Say what matters' by Morgan Griffin is ready for public review and feedback."
 date: 2024-10-22
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled [Say what matters](/contents/say-what-matters) is ready for public review and feedback. This chapter was written by [Morgan Griffin](/contributors/morgan-griffin).

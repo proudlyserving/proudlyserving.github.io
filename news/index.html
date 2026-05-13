@@ -28,7 +28,7 @@ redirect_from:
         {% for page in (1..paginator.total_pages) %}
           {% if page == paginator.page %}
             <li class="page-item active">
-              <a class="page-link" href="#">{{ page }}</a>
+              <span class="page-link" aria-current="page">{{ page }}</span>
             </li>
           {% elsif page == 1 %}
             <li class="page-item">

@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Speak plainly"
 description: "A new Proudly Serving chapter titled 'Speak plainly' by Echa Schneider is ready for public review and feedback."
 date: 2022-09-14
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled **[Speak plainly](/contents/speak-plainly)** is ready for public review and feedback. This chapter was written by **[Echa Schneider](/contributors/echa-schneider)**.

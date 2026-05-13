@@ -1,4 +1,0 @@
-{% assign _date = item.date | default: page.date | default: post.date %}
-{% if _date %}
-  {{ _date | date: site.date_format }}
-{% endif %}

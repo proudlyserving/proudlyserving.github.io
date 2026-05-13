@@ -14,14 +14,14 @@ layout: home
           <ul class="list-unstyled row mt-4">
             {% for item in site.data.get %}
               {% if item.url %}
-                <li class="col-12 col-md-4 col-lg-3 d-flex align-items-stretch card-shadow-wrap">
-                  <div class="card text-center rounded py-2 mx-0 my-2 bg-dark w-100">
+                <li class="col-12 col-md-4 col-lg-3 d-flex align-items-stretch card-shadow-wrap card-get">
+                  <div class="card text-center rounded bg-dark w-100">
                     <div class="card-body">
-                      <i class="{{ item.icon }} fa-2x mb-2" aria-label="{{ item.title }}"></i>
-                      <h2 class="h5">
+                      <svg class="icon icon-2x" aria-hidden="true"><use href="#icon-{{ item.icon }}"></use></svg>
+                      <h3 class="h5">
                         <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
-                      </h2>
-                      <p class="small mb-0">({{ item.fee }})</p>
+                      </h3>
+                      <p class="card-fee">({{ item.fee }})</p>
                     </div>
                   </div>
                 </li>
@@ -34,10 +34,10 @@ layout: home
     </div>
   </div>
   {% if site.data.quotes %}
-    <div class="container border-top pt-5 mt-4">
+    <div class="container home-section">
       <div class="row">
         <div class="col-12">
-          <h2 class="mb-3">{{ site.quotes-name }}</h2>
+          <h2>{{ site.quotes-name }}</h2>
         </div>
       </div>
       <div class="row">
@@ -52,11 +52,11 @@ layout: home
       </div>
     </div>
   {% endif %}
-  {% if site.contents %}
-    <div class="container border-top pt-5 mt-4">
+  {% if site.contents.size > 0 %}
+    <div class="container home-section">
       <div class="row">
         <div class="col-12">
-          <h2 class="mb-4">{{ site.contents-name }}</h2>
+          <h2>{{ site.contents-name }}</h2>
         </div>
       </div>
       <div class="row">
@@ -78,7 +78,7 @@ layout: home
     </div>
   {% endif %}
   {% if site.data.contributors %}
-    <div class="container border-top pt-5">
+    <div class="container home-section">
       <div class="row">
         <div class="col-sm-12">
           <h2>{{ site.contributors-name }}</h2>

@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Spark community joy"
 description: "A new Proudly Serving chapter titled 'Spark community joy' by Kirsten Wyatt is ready for public review and feedback."
 date: 2022-02-18
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 redirect_from:
   - /request-for-proudly-serving-feedback-spark-community-joy/
 ---

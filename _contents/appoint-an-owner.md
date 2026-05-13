@@ -2,8 +2,8 @@
 title: Appoint an owner
 description: To ensure the success of products and services, governments must identify and empower a single product owner as leader.
 img-feat: 
-author: Daniel Soto
-icon: fa-solid fa-user-check
+author: [Daniel Soto]
+icon: user-check
 intro: #true
 chapters: true
 section: Preparation

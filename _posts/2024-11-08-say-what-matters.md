@@ -3,7 +3,7 @@ title: "New Proudly Serving chapter: Say what matters"
 description: "'Say what matters' by Morgan Griffin is now published in Proudly Serving."
 date: 2024-11-08
 author: Proudly Serving
-icon: fa-solid fa-rocket
+icon: rocket
 ---
 
 ## New chapter

@@ -1,7 +1,20 @@
 {
-    "@context": "http://schema.org",
-    "@type": "{{ page.schematype }}",
-    "isAccessibleForFree": true,
-    "url": "{{ site.url }}",
-    "name": "{{ site.title }}"
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebSite",
+            "@id": "{{ site.url }}/#website",
+            "name": "{{ site.title }}",
+            "description": "{{ site.description }}",
+            "url": "{{ site.url }}",
+            "isAccessibleForFree": true
+        },
+        {
+            "@type": "Organization",
+            "@id": "{{ site.url }}/#organization",
+            "name": "{{ site.org-name }}",
+            "url": "{{ site.url }}",
+            "logo": "{{ site.url }}/assets/img/avatar.png"
+        }
+    ]
 }

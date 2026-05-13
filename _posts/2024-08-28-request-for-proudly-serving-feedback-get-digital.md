@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Get digital"
 description: "A new Proudly Serving chapter titled 'Get digital' by Artem Khomishen is ready for public review and feedback."
 date: 2024-08-28
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled [Get digital](/contents/get-digital) is ready for public review and feedback. This chapter was written by [Artem Khomishen](/contributors/artem-khomishen).

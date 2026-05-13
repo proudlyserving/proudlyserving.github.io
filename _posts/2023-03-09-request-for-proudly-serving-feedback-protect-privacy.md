@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Protect privacy"
 description: "A new Proudly Serving chapter titled 'Protect privacy' by Albert Gehami and Rob Lloyd is ready for public review and feedback."
 date: 2023-03-09
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled **[Protect privacy](/contents/protect-privacy)** is ready for public review and feedback. This chapter was written by **[Albert Gehami](/contributors/albert-gehami)** and **[Rob Lloyd](/contributors/rob-lloyd)**.

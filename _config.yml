@@ -2,7 +2,6 @@
 title: Proudly Serving
 description: Public service with and for the people
 url: https://proudlyservingbook.com
-#baseurl: ""
 
 # Sections
 quotes-name: What they're saying
@@ -11,12 +10,6 @@ contributors-name: Contributors
 contributors-url: /contributors
 contents-name: Contents
 contents-url: /book
-about-name: About
-about-url: /about
-book-name: book
-book-url: /book
-author-name: Author
-author-url: /author
 
 # Organization
 org-name: Proudly Serving
@@ -34,7 +27,6 @@ kramdown:
 
 # Build settings
 plugins:
-  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-feed
@@ -90,9 +82,6 @@ collections:
   posts:
     output: true
     permalink: /news/:title
-  contributors:
-    output: true
-    permalink: contributors/:title
   contents:
     output: true
     permalink: contents/:title
@@ -101,8 +90,3 @@ collections:
 paginate: 24
 paginate_path: "/news/:num"
 
-# Sections
-sections:
-  - "intro"
-  - "chapters"
-  - "about"

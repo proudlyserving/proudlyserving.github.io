@@ -2,7 +2,7 @@
 title: Clean the cruft
 description: "Every government solution — whether a policy, procedure, service, or system — follows a lifecycle. Gradually, these solutions become outdated, no longer solve the right problem, or get bogged down by aging processes or technology. Deprecation is a systematic way to phase out these unused or outdated solutions so government works better."
 author: [Lenae Storey]
-icon: fa-solid fa-soap
+icon: soap
 #intro: true
 chapters: true
 section: Implementation

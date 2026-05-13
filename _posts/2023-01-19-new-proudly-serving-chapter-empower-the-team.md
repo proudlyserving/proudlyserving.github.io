@@ -3,7 +3,7 @@ title: "New Proudly Serving chapter: Empower the team"
 description: "'Empower the team' by Karen Daly is now published in Proudly Serving."
 date: 2023-01-19
 author: Proudly Serving
-icon: fa-solid fa-rocket
+icon: rocket
 ---
 
 ## New chapter

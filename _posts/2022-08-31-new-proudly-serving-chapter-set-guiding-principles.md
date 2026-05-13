@@ -3,7 +3,7 @@ title: "New Proudly Serving chapter: Set guiding principles"
 description: "'Set guiding principles' by Laine Hendricks and Rebecca Woodbury is now published in Proudly Serving."
 date: 2022-08-31
 author: Proudly Serving
-icon: fa-solid fa-rocket
+icon: rocket
 ---
 
 ## New chapter

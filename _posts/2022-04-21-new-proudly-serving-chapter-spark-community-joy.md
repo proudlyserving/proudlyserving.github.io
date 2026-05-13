@@ -3,7 +3,7 @@ title: "New Proudly Serving chapter: Spark community joy"
 description: "'Spark community joy' by Kirsten Wyatt is now published in Proudly Serving."
 date: 2022-04-21
 author: Proudly Serving
-icon: fa-solid fa-rocket
+icon: rocket
 redirect_from:
   - /new-proudly-serving-chapter-spark-community-joy/
 ---

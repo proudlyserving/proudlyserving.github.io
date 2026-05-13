@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Clean the cruft"
 description: "A new Proudly Serving chapter titled 'Clean the cruft' by Lenae Storey is ready for public review and feedback."
 date: 2025-02-18
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled [Clean the cruft](/contents/clean-the-cruft) is ready for public review and feedback. This chapter was written by [Lenae Storey](/contributors/lenae-storey).

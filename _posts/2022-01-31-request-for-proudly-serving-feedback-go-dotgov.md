@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Go .gov"
 description: "A new Proudly Serving chapter titled 'Go .gov' by Luke Fretwell is ready for public review and feedback."
 date: 2022-01-31
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 redirect_from:
   - /request-for-proudly-serving-feedback-go-gov/
 ---

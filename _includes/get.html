@@ -1,13 +1,13 @@
 <div class="row mt-2 mb-2">
   {% for get in site.data.get %}
-    <div class="col-12 col-sm-6 col-md-3 d-flex align-items-stretch card-shadow-wrap">
-      <div class="card card-shadow text-center rounded py-2 mx-0 my-2 bg-dark w-100">
+    <div class="col-12 col-sm-6 col-md-3 d-flex align-items-stretch card-shadow-wrap card-get">
+      <div class="card text-center rounded bg-dark w-100">
         <div class="card-body">
-          <i class="{{ get.icon }} fa-2x mb-3" aria-label="{{ get.title }}"></i>
+          <svg class="icon icon-2x" aria-hidden="true"><use href="#icon-{{ get.icon }}"></use></svg>
           <h3 class="h5">
             <a href="{{ get.url }}" class="stretched-link">{{ get.title }}</a>
           </h3>
-          <p class="small mb-0">({{ get.fee }})</p>
+          <p class="card-fee">({{ get.fee }})</p>
         </div>
       </div>
     </div>

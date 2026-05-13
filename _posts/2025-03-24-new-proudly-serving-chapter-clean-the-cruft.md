@@ -3,7 +3,7 @@ title: "New Proudly Serving chapter: Clean the cruft"
 description: "'Clean the cruft' by Lenae Storey is now published in Proudly Serving."
 date: 2025-03-24
 author: Proudly Serving
-icon: fa-solid fa-rocket
+icon: rocket
 ---
 
 ## New chapter

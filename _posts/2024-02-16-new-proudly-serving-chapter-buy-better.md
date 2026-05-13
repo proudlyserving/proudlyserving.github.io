@@ -3,7 +3,7 @@ title: "New Proudly Serving chapter: Buy better"
 description: "'Buy better' by Rebecca Woodbury and Catherine Geanuracos is now published in Proudly Serving."
 date: 2024-02-16
 author: Proudly Serving
-icon: fa-solid fa-rocket
+icon: rocket
 ---
 
 ## New chapter

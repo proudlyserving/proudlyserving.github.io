@@ -2,7 +2,7 @@
 title: Purpose
 description: Proudly Serving purpose.
 author: 
-icon: fa-solid fa-asterisk
+icon: asterisk
 #intro: true
 chapters: true
 section: Initiation

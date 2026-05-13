@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Be participatory"
 description: "A new Proudly Serving chapter titled 'Be participatory' by Shari Davis, Rahel Mekdim Teka and Robbie Barton is ready for public review and feedback."
 date: 2023-03-29
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled **[Be participatory](/contents/be-participatory)** is ready for public review and feedback. This chapter was written by **[Shari Davis](/contributors/shari-davis)**,  **[Rahel Mekdim Teka](/contributors/rahel-mekdim-teka)**, and  **[Robbie Barton](/contributors/robbie-barton)**.

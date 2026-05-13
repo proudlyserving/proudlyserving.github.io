@@ -1,15 +1,15 @@
-<p class="social mt-4">
+<p class="social">
   {% assign data = author_data | default: page %}
 
   {% if data.website %}
-    <a href="{{ data.website }}" aria-label="Website">
-      <i class="fas fa-window-maximize fa-2x"></i>
+    <a href="{{ data.website }}" aria-label="Website" target="_blank" rel="noopener noreferrer">
+      <svg class="icon icon-2x" aria-hidden="true"><use href="#icon-window-maximize"></use></svg>
     </a>
   {% endif %}
 
   {% if data.linkedin %}
-    <a href="{{ data.linkedin }}" aria-label="LinkedIn">
-      <i class="fab fa-linkedin fa-2x"></i>
+    <a href="{{ data.linkedin }}" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+      <svg class="icon icon-2x" aria-hidden="true"><use href="#icon-linkedin"></use></svg>
     </a>
   {% endif %}
 </p>

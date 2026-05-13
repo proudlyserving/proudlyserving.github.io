@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: {TITLE}"
 description: "A new Proudly Serving chapter titled '{TITLE}' by {AUTHOR} is ready for public review and feedback."
 date: YYYY-MM-DD
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled [TITLE](/contents/{LINK}) is ready for public review and feedback. This chapter was written by [AUTHOR](/contributors/{AUTHORLINK}).

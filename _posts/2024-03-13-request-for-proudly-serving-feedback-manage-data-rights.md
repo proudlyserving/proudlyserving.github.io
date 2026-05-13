@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Manage data rights"
 description: "A new Proudly Serving chapter titled 'Manage data rights' by Joy Bonaguro is ready for public review and feedback."
 date: 2024-03-13
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled [Manage data rights](/contents/manage-data-rights) is ready for public review and feedback. This chapter was written by [Joy Bonaguro](/contributors/joy-bonaguro).

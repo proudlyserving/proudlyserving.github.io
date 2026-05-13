@@ -3,7 +3,7 @@ title: "New Proudly Serving chapter: Be accessible"
 description: "'Be accessible' by Stan Sarber is now published in Proudly Serving."
 date: 2024-02-15
 author: Proudly Serving
-icon: fa-solid fa-rocket
+icon: rocket
 ---
 
 ## New chapter

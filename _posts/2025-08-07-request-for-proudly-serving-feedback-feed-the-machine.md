@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Feed the machine"
 description: "A new Proudly Serving chapter titled 'Feed the machine' by Luke Fretwell is ready for public review and feedback."
 date: 2025-08-07
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled [Feed the machine](/contents/feed-the-machine) is ready for public review and feedback. This chapter was written by [Luke Fretwell](/contributors/luke-fretwell).

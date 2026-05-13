@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Buy better"
 description: "A new Proudly Serving chapter titled 'Buy better' by Rebecca Woodbury and Catherine Geanuracos is ready for public review and feedback."
 date: 2023-11-01
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled [Buy better](/contents/buy-better) is ready for public review and feedback. This chapter was written by [Rebecca Woodbury](/contributors/rebecca-woodbury) and [Catherine Geanuracos](/contributors/catherine-geanuracos).

@@ -1,12 +1,11 @@
 <header>
-  <!-- DEBUG: remove after fixing -->
-  <nav class="navbar navbar-expand-lg bg-dark border-bottom py-3{% if page.url == "/index" %} card-shadow-wrap{% endif %}">
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom" aria-label="Main">
     <div class="container">
       <!-- Brand: avatar + site title -->
       <a class="navbar-brand d-flex align-items-center gap-2" href="{{ site.baseurl }}/">
         <img
           src="{{ site.baseurl }}/assets/img/avatar.png"
-          alt="{{ site.title | escape }} icon"
+          alt="{{ site.title | escape }}"
           class="border"
           width="36"
           height="36">
@@ -25,12 +24,12 @@
       </button>
       <!-- Nav links -->
       <div class="collapse navbar-collapse" id="mainNav">
-        <ul class="navbar-nav ms-auto mb-0 gap-md-1">
+        <ul class="navbar-nav ms-auto">
           {% for item in site.data.nav %}
             {% if item.url %}
               {% assign item_url = site.baseurl | append: item.url %}
               <li class="nav-item">
-                <a class="nav-link px-2 py-2" href="{{ item_url }}">{{ item.title }}</a>
+                <a class="nav-link" href="{{ item_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
               </li>
             {% endif %}
           {% endfor %}

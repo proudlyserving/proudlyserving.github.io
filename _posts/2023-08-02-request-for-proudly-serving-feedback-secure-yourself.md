@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Secure yourself"
 description: "A new Proudly Serving chapter titled 'Secure yourself' by Shannah Hayley and Joel Peña is ready for public review and feedback."
 date: 2023-08-01
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled [Secure yourself](/contents/secure-yourself) is ready for public review and feedback. This chapter was written by [Shannah Hayley](/contributors/shannah-hayley) and [Joel Peña](/contributors/joel-pena).

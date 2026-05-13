@@ -1,6 +1,6 @@
-<div class="container mb-3 border-top pt-4">
+<div class="container next-nav">
   <div class="row">
-    <div class="col-12 d-flex gap-2 my-3">
+    <div class="col-12 d-flex btn-row">
 
       {% comment %}Build a flat ordered list of all chapters{% endcomment %}
       {% assign all_chapters = "" | split: "" %}
@@ -22,13 +22,13 @@
       {% endfor %}
 
       <a href="{{ site.baseurl }}/contents/" class="btn btn-primary btn-lg">
-        <i class="fa-solid fa-list"></i>
+        <svg class="icon" aria-hidden="true"><use href="#icon-list"></use></svg>
         Contents</a>
 
       {% assign next_chapter = all_chapters[next_index] %}
       {% if next_chapter %}
         <a href="{{ site.baseurl }}{{ next_chapter.url }}" class="btn btn-primary btn-lg">
-          <i class="fa-solid fa-arrow-right-long"></i>
+          <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right-long"></use></svg>
           Next chapter: {{ next_chapter.title }}
         </a>
       {% endif %}

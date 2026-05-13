@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Be accessible"
 description: "A new Proudly Serving chapter Be accessibled 'Be accessible' by Stan Sarber is ready for public review and feedback."
 date: 2023-08-23
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled [Be accessible](/contents/be-accessible) is ready for public review and feedback. This chapter was written by [Stan Sarber](/contributors/stan-sarber).

@@ -3,7 +3,7 @@ title: "New Proudly Serving chapter: Get digital"
 description: "'Get digital' by Artem Khomishen is now published in Proudly Serving."
 date: 2024-10-22
 author: Proudly Serving
-icon: fa-solid fa-rocket
+icon: rocket
 ---
 
 ## New chapter

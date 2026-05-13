@@ -1,13 +1,17 @@
 {
-    "@context": "http://schema.org",
-    "@type": "{{ page.schematype }}",
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
     "mainEntity": {
         "@type": "Person",
         "name": "{{ page.title }}",
-        "alternateName": "{{ page.firstName}}",
-        "description": "{{ page.description}}",
+        "description": "{{ page.description | default: site.description }}",
         "image": "{{ site.url }}/assets/img/{{ page.img-path }}/{{ page.img-feat }}",
-        "url": "{{ page.website }}",
-        "sameAs": "{{ page.linkedin }}"
+        {% if page.jobTitle %}"jobTitle": "{{ page.jobTitle }}",{% endif %}
+        {% if page.org %}"worksFor": {"@type": "Organization", "name": "{{ page.org }}"},{% endif %}
+        "sameAs": [
+            {% if page.website %}"{{ page.website }}"{% endif %}
+            {% if page.website and page.linkedin %},{% endif %}
+            {% if page.linkedin %}"{{ page.linkedin }}"{% endif %}
+        ]
     }
 }

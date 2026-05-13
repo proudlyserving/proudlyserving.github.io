@@ -3,7 +3,7 @@ title: "New Proudly Serving chapter: Secure yourself"
 description: "'Secure yourself' by Shannah Hayley and Joel Peña is now published in Proudly Serving."
 date: 2023-11-15
 author: Proudly Serving
-icon: fa-solid fa-rocket
+icon: rocket
 ---
 
 ## New chapter

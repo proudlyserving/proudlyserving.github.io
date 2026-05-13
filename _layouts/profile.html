@@ -8,29 +8,28 @@ layout: profile
   {% include jumbotron.html %}
   <div class="container">
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+      <div class="col-12 col-md-4">
         <img
           src="{{ site.baseurl }}/assets/img/contributors/{{ page.img-feat }}"
-          class="lg rounded-circle mb-5 card-shadow-wrap"
+          class="lg rounded-circle shadow-offset profile-avatar"
           alt="{{ page.title }}">
       </div>
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+      <div class="col-12 col-md-6">
         <div class="post">
-          <div class="mb-2 fs-5">
+          <div class="profile-bio">
             <h2>About</h2>
             {{ page.bio }}
           </div>
           {% include social.html %}
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
     </div>
   </div>
   {% assign chapters = site.contents | where: "author", page.title %}
   {% if chapters.size > 0 %}
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="col-12">
           <h2>Chapters</h2>
           <div class="card-group">
             {% for item in chapters %}

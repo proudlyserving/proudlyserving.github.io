@@ -3,7 +3,7 @@ title: "New Proudly Serving chapter: Manage data rights"
 description: "'Manage data rights' by Joy Bonaguro is now published in Proudly Serving."
 date: 2024-05-01
 author: Proudly Serving
-icon: fa-solid fa-rocket
+icon: rocket
 ---
 
 ## New chapter

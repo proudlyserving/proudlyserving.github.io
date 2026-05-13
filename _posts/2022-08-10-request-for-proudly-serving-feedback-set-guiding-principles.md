@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Set guiding principles"
 description: "A new Proudly Serving chapter titled 'Set guiding principles' by Laine Hendricks and Rebecca Woodbury is ready for public review and feedback."
 date: 2022-08-10
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled **[Set guiding principles](/contents/set-guiding-principles)** is ready for public review and feedback. This chapter was written by **[Laine Hendricks](/contributors/laine-hendricks)** and **[Rebecca Woodbury](/contributors/rebecca-woodbury)**.

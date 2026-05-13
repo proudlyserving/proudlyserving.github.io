@@ -3,7 +3,7 @@ title: "Welcome Kirsten Wyatt!"
 description: We're honored to have Kirsten Wyatt join us as a Proudly Serving maintainer!
 date: 2022-10-27
 author: Proudly Serving
-icon: fa-solid fa-hands-clapping
+icon: hands-clapping
 ---
 
 We're honored to have [Kirsten Wyatt](/contributors/kirsten-wyatt) join us as a [Proudly Serving](/) maintainer!

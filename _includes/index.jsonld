@@ -1,21 +1,21 @@
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "{{ page.schematype }}",
     "headline": "{{ page.title }}",
-    "description": "{{ page.description }}",
+    "description": "{{ page.description | default: site.description }}",
+    "url": "{{ site.url }}{{ page.url }}",
     "isAccessibleForFree": true,
     "datePublished": "{{ page.date | date_to_xmlschema }}",
-    "dateModified": "{{ site.time | date_to_xmlschema }}",
     "author": [
-        {
-            "@type": "Person",
-            "name": "{{ page.author }}"
-        }
+        {% for a in page.author %}
+            {"@type": "Person", "name": "{{ a }}"}{% unless forloop.last %},{% endunless %}
+        {% else %}
+            {"@type": "Organization", "name": "{{ site.author }}"}
+        {% endfor %}
     ],
-    "image": [
-        "{{ site.url }}/assets/img/img/avatar-og.png"
-    ],
+    "image": ["{{ site.url }}/assets/img/avatar-og.png"],
     "publisher": {
+        "@type": "Organization",
         "name": "{{ site.title }}",
         "url": "{{ site.url }}"
     }

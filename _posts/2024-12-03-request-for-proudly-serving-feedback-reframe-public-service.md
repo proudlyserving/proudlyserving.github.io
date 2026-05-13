@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Reframe public service"
 description: "A new Proudly Serving chapter titled 'Reframe public service' by Luke Fretwell is ready for public review and feedback."
 date: 2024-12-03
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled [Reframe public service](/contents/reframe-public-service) is ready for public review and feedback. This chapter was written by [Luke Fretwell](/contributors/luke-fretwell).

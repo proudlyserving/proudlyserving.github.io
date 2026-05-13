@@ -2,7 +2,7 @@
 title: Show the work
 description: "Working in the open makes things better. By sharing what a team is working on, people can follow progress and give input throughout a process rather than at the end. Updates and open collaboration tools help teams keep momentum, get feedback, build trust, and celebrate wins."
 author: [Rebecca Woodbury]
-icon: fa fa-solid fa-list-check
+icon: list-check
 intro: #true
 chapters: true
 section: Implementation

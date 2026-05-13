@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Design for everyone"
 description: "A new Proudly Serving chapter titled 'Design for everyone' by Mai-Ling Garcia is ready for public review and feedback."
 date: 2023-08-09
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 ---
 
 A new [Proudly Serving](/) chapter titled [Design for everyone](/contents/design-for-everyone) is ready for public review and feedback. This chapter was written by [Mai-Ling Garcia](/contributors/mai-ling-garcia).

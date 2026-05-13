@@ -2,7 +2,7 @@
 title: Swear yourself in
 description: "Take the Proudly Serving pledge."
 author: 
-icon: fa fa-solid fa-hand
+icon: hand
 intro: true
 chapters: true
 section: Initiation

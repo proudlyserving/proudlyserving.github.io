@@ -2,7 +2,7 @@
 title: Go official
 description: "Government must take every action it can to present itself as official on the internet, whether it’s websites, email, or social media. This lessens public confusion about what digital properties and sources are legitimate. It also builds trust in government institutions."
 author: [Luke Fretwell]
-icon: fa fa-solid fa-landmark
+icon: landmark
 intro: #true
 chapters: true
 section: Preparation

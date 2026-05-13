@@ -3,7 +3,7 @@ title:  "Request for Proudly Serving feedback: Default to open"
 description: "A new Proudly Serving chapter titled 'Default to open' by Luke Fretwell is ready for public review and feedback."
 date: 2021-10-22
 author: Proudly Serving
-icon: fa-solid fa-comments
+icon: comments
 redirect_from:
   - /request-for-proudly-serving-feedback-default-to-open/
 ---

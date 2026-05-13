@@ -2,7 +2,7 @@
 title: Say what matters
 description: "When you’re communicating with the public, it’s not about you (or your agency) — it’s about your users. Government must communicate in a way that helps people understand essential information and take action."
 author: [Morgan Griffin]
-icon: fa-solid fa-circle-exclamation
+icon: circle-exclamation
 #intro: true
 chapters: true
 section: 

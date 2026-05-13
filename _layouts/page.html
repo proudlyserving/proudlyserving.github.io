@@ -8,29 +8,29 @@ layout: page
   {% include jumbotron.html %}
   <div class="container">
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+      <div class="col-12 col-md-8">
         <div class="post">
           {% if page.author %}
             <p>
               {% include author.html %}
             </p>
           {% endif %}
-          <articlebody>
-            {% include anchor_headings.html html=content anchorBody="<i class='fa-solid fa-link'></i>" anchorClass="heading-hashtag" %}
-          </articlebody>
+          <article>
+            {% include anchor_headings.html html=content anchorBody="<svg class='icon' aria-hidden='true'><use href='#icon-link'></use></svg>" anchorClass="heading-hashtag" %}
+          </article>
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+      <div class="col-12 col-md-4">
         {% include toc.html html=content %}
       </div>
     </div>
   </div>
   {% if page.author %}
-    <div class="container mt-3">
+    <div class="container author-section">
       <div class="row">
-        <div class="col-12 mb-3">
-          <h2 class="mb-3">
-            {% if page.author.size > 1 %}Authors{% else %}Author{% endif %}
+        <div class="col-12">
+          <h2>
+            {% assign author_count = 0 %}{% for a in page.author %}{% assign author_count = author_count | plus: 1 %}{% endfor %}{% if author_count > 1 %}Authors{% else %}Author{% endif %}
           </h2>
         </div>
       </div>
@@ -38,22 +38,24 @@ layout: page
     {% for author in page.author %}
       {% assign author_data = site.data.contributors | where: "name", author | first %}
       {% if author_data %}
-        <div class="container mb-3">
+        <div class="container author-block">
           <div class="row">
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+            <div class="col-12 col-md-2">
               {% if author_data.img-feat %}
-                <a href="{{ site.baseurl }}/contributors/{{ author_data.name | slugify }}" title="{{ author_data.name }}">
+                <a href="{{ site.baseurl }}/contributors/{{ author_data.name | slugify }}">
                   <img
                     src="{{ site.baseurl }}/assets/img/contributors/{{ author_data.img-feat }}"
                     alt="{{ author_data.img-alt }}"
-                    title="{{ author_data.name }}"
-                    class="md rounded-circle card-shadow-wrap mb-3">
+                    class="md rounded-circle card-shadow-wrap author-photo"
+                    width="240"
+                    height="240"
+                    loading="lazy">
                 </a>
               {% endif %}
             </div>
-            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
-              <h3 class="mb-3">{{ author_data.name }}</h3>
-              <div class="mb-4">
+            <div class="col-12 col-md-10">
+              <h3>{{ author_data.name }}</h3>
+              <div class="author-bio">
                 {{ author_data.bio }}
               </div>
               {% include social.html %}

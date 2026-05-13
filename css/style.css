@@ -8,6 +8,7 @@
         url("/fonts/public-sans/PublicSans-Thin.woff") format("woff");
     font-weight: 100;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -16,6 +17,7 @@
         url("/fonts/public-sans/PublicSans-Light.woff") format("woff");
     font-weight: 300;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -24,15 +26,9 @@
         url("/fonts/public-sans/PublicSans-Regular.woff") format("woff");
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 }
 
-@font-face {
-    font-family: "Public Sans";
-    src: url("/fonts/public-sans/PublicSans-Medium.woff2") format("woff2"),
-        url("/fonts/public-sans/PublicSans-Medium.woff") format("woff");
-    font-weight: 500;
-    font-style: normal;
-}
 
 @font-face {
     font-family: "Public Sans";
@@ -40,6 +36,7 @@
         url("/fonts/public-sans/PublicSans-Bold.woff") format("woff");
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -48,6 +45,7 @@
         url("/fonts/public-sans/PublicSans-ExtraBold.woff") format("woff");
     font-weight: 800;
     font-style: normal;
+    font-display: swap;
 }
 
 
@@ -61,9 +59,8 @@
     --color-bg-brand: #3333A3;
     --color-primary-dark: #212463;
     --color-primary-light: #8484c7;
-    --color-primary-subtle: #eaeaf5;
     --color-body: #212121;
-    --color-muted: #757575;
+    --color-muted: #626262;
     --color-border: #c9c9c9;
     --color-white: #ffffff;
 
@@ -109,10 +106,14 @@
 
     /* Shadows */
     --shadow-card: drop-shadow(-8px 8px 0 var(--color-border));
-    --shadow-card-hover: drop-shadow(-8px 8px 0 var(--color-border));
+    --shadow-card-hover: drop-shadow(-10px 10px 0 #adadad);
     --shadow-btn: drop-shadow(-5px 5px 0 var(--color-border));
     --shadow-btn-hover: drop-shadow(-5px 5px 0 #adadad);
     --shadow-img: drop-shadow(-6px 6px 0 var(--color-border));
+
+    /* Transitions */
+    --transition-fast: 0.15s ease;
+    --transition-base: 0.2s ease;
 }
 
 
@@ -126,7 +127,6 @@
         --color-bg-brand: #3333A3;
         --color-primary-dark: #8484c7;
         --color-primary-light: #a5a5de;
-        --color-primary-subtle: #1e1e3a;
         --color-body: #e8e8e8;
         --color-muted: #a0a0a0;
         --color-border: #3a3a3a;
@@ -142,41 +142,10 @@
         --shadow-btn: drop-shadow(-5px 5px 0 #0a0a18);
         --shadow-btn-hover: drop-shadow(-5px 5px 0 #050510);
     }
-}
-
-[data-bs-theme="dark"] {
-    --color-primary: #6b6bd4;
-    --color-bg-brand: #3333A3;
-    --color-primary-light: #a5a5de;
-    --color-primary-subtle: #1e1e3a;
-    --color-body: #e8e8e8;
-    --color-muted: #a0a0a0;
-    --color-border: #3a3a3a;
-    --color-white: #1a1a2e;
-
-    --bs-body-bg: #121220;
-    --bs-body-color: var(--color-body);
-    --bs-link-color: #9f9fdf;
-    --bs-link-hover-color: #ffffff;
-
-    --shadow-card: drop-shadow(-8px 8px 0 #0a0a18);
-    --shadow-card-hover: drop-shadow(-8px 8px 0 #050510);
-    --shadow-btn: drop-shadow(-5px 5px 0 #0a0a18);
-    --shadow-btn-hover: drop-shadow(-5px 5px 0 #050510);
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --color-bg-brand: #3333A3;
-    }
 
     .rounded-circle {
         border-color: var(--color-bg-brand);
     }
-}
-
-[data-bs-theme="dark"] .rounded-circle {
-    border-color: var(--color-bg-brand);
 }
 
 /* =============================================================================
@@ -187,12 +156,32 @@ body {
     color: var(--color-body);
     font-family: var(--bs-body-font-family);
     background-color: var(--bs-body-bg, var(--color-white));
+    overflow-x: clip;
+}
+
+:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+.bg-dark :focus-visible {
+    outline-color: #ffffff;
 }
 
 a,
-a:visited,
-a:hover {
+a:visited {
     color: var(--bs-link-color);
+    text-underline-offset: 3px;
+    transition: color var(--transition-base);
+}
+
+a:hover {
+    color: var(--bs-link-hover-color);
+}
+
+.post a:visited,
+.author-bio a:visited {
+    color: var(--color-muted);
 }
 
 img {
@@ -255,15 +244,21 @@ h6 a, h6 a:visited,
     text-decoration-style: dotted !important;
 }
 
-/* Heading anchor — hidden until hover */
+/* Heading anchor — hidden until hover or keyboard focus */
 a.heading-hashtag {
     color: var(--bs-link-color);
     visibility: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    min-height: 24px;
 }
 
 h2:hover a.heading-hashtag,
 h3:hover a.heading-hashtag,
-h4:hover a.heading-hashtag {
+h4:hover a.heading-hashtag,
+a.heading-hashtag:focus-visible {
     visibility: visible;
 }
 
@@ -301,28 +296,6 @@ p.img-caption {
 /* =============================================================================
    ICONS
    ============================================================================= */
-
-.icon-primary {
-    color: var(--color-bg-brand);
-    filter: drop-shadow(-8px 8px 0 var(--color-border));
-}
-
-.icon {
-    background-color: var(--color-bg-brand);
-    border-radius: 0 var(--spacing-8) 0 var(--spacing-8);
-    border-right: var(--spacing-4) solid var(--color-primary-subtle);
-    border-top: var(--spacing-4) solid var(--color-primary-subtle);
-    border-left: var(--spacing-4) solid var(--color-primary);
-    border-bottom: var(--spacing-4) solid var(--color-primary);
-    color: var(--color-white);
-    padding: var(--spacing-9) var(--spacing-8);
-    margin-bottom: var(--spacing-5);
-    text-align: center;
-}
-
-.icon-2 {
-    color: var(--color-bg-brand);
-}
 
 .rounded-circle {
     border: var(--spacing-4) solid var(--color-bg-brand);
@@ -367,6 +340,11 @@ p.img-caption {
     box-shadow: none;
 }
 
+.navbar-toggler:focus-visible {
+    outline: 3px solid #ffffff;
+    outline-offset: 2px;
+}
+
 /* =============================================================================
    ALERTS
    ============================================================================= */
@@ -405,12 +383,6 @@ p.img-caption {
     color: var(--color-primary);
 }
 
-[data-bs-theme="dark"] .badge-light {
-    background-color: transparent;
-    border-color: #ffffff;
-    color: #ffffff;
-}
-
 @media (prefers-color-scheme: dark) {
     .badge-light {
         background-color: transparent;
@@ -428,6 +400,11 @@ p.img-caption {
     border-radius: 0.25rem;
     padding: var(--spacing-5);
     filter: var(--shadow-btn);
+    transition: filter var(--transition-fast);
+}
+
+.btn:hover {
+    filter: var(--shadow-btn-hover);
 }
 
 .btn-primary,
@@ -456,6 +433,18 @@ a.btn-primary:focus {
     box-shadow: none !important;
 }
 
+.btn:focus-visible,
+a.btn:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 3px;
+    box-shadow: none !important;
+}
+
+.bg-dark .btn:focus-visible,
+.bg-dark a.btn:focus-visible {
+    outline-color: #ffffff;
+}
+
 /* =============================================================================
    CARDS
    ============================================================================= */
@@ -469,10 +458,6 @@ a.btn-primary:focus {
     color: #ffffff;
 }
 
-[data-bs-theme="dark"] .card .stretched-link {
-    color: #ffffff;
-}
-
 @media (prefers-color-scheme: dark) {
     .card .stretched-link {
         color: #ffffff;
@@ -481,10 +466,30 @@ a.btn-primary:focus {
 
 .card-shadow-wrap {
     filter: var(--shadow-card);
+    transition: filter var(--transition-base);
 }
 
 .card-shadow-wrap:hover {
     filter: var(--shadow-card-hover);
+}
+
+/* Contributor photos: align shadow hover with card-level hover (matches scale behavior) */
+.card-contributor .card-shadow-wrap:hover {
+    filter: var(--shadow-card);
+}
+
+.card-contributor:hover .card-shadow-wrap {
+    filter: var(--shadow-card-hover);
+}
+
+/* Stretched-link cards: show focus ring on the card, suppress clipped inner outline */
+.card:has(.stretched-link:focus-visible) {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 3px;
+}
+
+.card .stretched-link:focus-visible {
+    outline: none;
 }
 
 /* =============================================================================
@@ -561,14 +566,303 @@ a.btn-primary:focus {
 
 
 /* =============================================================================
+   SVG ICONS
+   ============================================================================= */
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    vertical-align: -0.125em;
+}
+.icon-2x { width: 2em; height: 2em; }
+.icon-3x { width: 3em; height: 3em; }
+.icon-4x { width: 4em; height: 4em; }
+.icon-xl { width: 1.5em; height: 1.5em; }
+
+
+/* =============================================================================
    SOCIAL / FOOTER
    ============================================================================= */
 
+p.social {
+    margin-top: 1.5rem;
+}
+
 .footer-connect a,
 .social a {
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 .social a {
-    margin-right: var(--spacing-4) !important;
+    margin-right: var(--spacing-4);
+}
+
+
+/* =============================================================================
+   NAVBAR SPACING
+   ============================================================================= */
+
+.navbar {
+    --bs-navbar-padding-y: 1rem;
+}
+
+.navbar-nav {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav { gap: 0.25rem; }
+}
+
+.navbar-nav .nav-link {
+    padding: 0.5rem;
+}
+
+.navbar-nav .nav-link[aria-current="page"] {
+    border-bottom: 2px solid currentColor;
+    padding-bottom: calc(0.5rem - 2px);
+}
+
+
+/* =============================================================================
+   JUMBOTRON (PAGE HEADER)
+   ============================================================================= */
+
+.jumbotron {
+    padding: 3rem 0;
+    margin-bottom: 1.5rem;
+}
+
+.jumbotron h1 {
+    font-size: calc(1.425rem + 2.1vw);
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 1200px) {
+    .jumbotron h1 { font-size: 3rem; }
+}
+
+.jumbotron-home {
+    padding: 1.5rem 0;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.jumbotron-home h1 {
+    font-size: calc(1.525rem + 3.3vw);
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.jumbotron-home .lead {
+    font-size: 1.75rem;
+}
+
+.jumbotron-home .btn {
+    margin-top: 1.5rem;
+}
+
+@media (min-width: 1200px) {
+    .jumbotron-home h1 { font-size: 4rem; }
+}
+
+
+/* =============================================================================
+   HOME SECTIONS
+   ============================================================================= */
+
+.home-section {
+    padding-top: 3rem;
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--color-border);
+}
+
+.home-section h2 {
+    margin-bottom: 1rem;
+}
+
+
+/* =============================================================================
+   CARD COMPONENTS
+   ============================================================================= */
+
+.card-contents .card {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: 0.5rem;
+}
+
+.card-contents .icon {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-post .card {
+    margin: 0.5rem;
+}
+
+.card-post .card-header {
+    padding: 3rem 1rem;
+}
+
+.card-contributor .card {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+}
+
+.card-contributor .card-img-top {
+    margin-bottom: 1rem;
+    transition: transform var(--transition-base);
+}
+
+.card-contributor:hover .card-img-top {
+    transform: scale(1.03);
+}
+
+.card-get .card {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-get .icon {
+    margin-bottom: 1rem;
+}
+
+.card-get .card-fee {
+    font-size: 0.875em;
+    margin-bottom: 0;
+}
+
+
+/* =============================================================================
+   FOOTER CTA
+   ============================================================================= */
+
+.footer-cta {
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    border-top: 1px solid var(--color-border);
+}
+
+.footer-cta h2 {
+    margin: 0;
+    padding-top: 1.5rem;
+}
+
+.footer {
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footer .nav-link {
+    padding: 0;
+}
+
+.footer-logo {
+    margin-bottom: 1rem;
+    transition: opacity var(--transition-base);
+}
+
+.footer-logo:hover {
+    opacity: 0.75;
+}
+
+.footer-copyright p {
+    margin-bottom: 0;
+}
+
+
+/* =============================================================================
+   NEXT CHAPTER NAV
+   ============================================================================= */
+
+.next-nav {
+    margin-bottom: 1rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-border);
+}
+
+.next-nav .btn-row {
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* =============================================================================
+   TOC
+   ============================================================================= */
+
+.toc-nav p {
+    margin-bottom: 0.5rem;
+}
+
+.toc-nav li {
+    margin-bottom: 0.25rem;
+    font-size: 0.875em;
+}
+
+.toc-nav .toc-sub {
+    margin-left: 1rem;
+}
+
+.toc-nav a,
+.toc-nav a:visited {
+    text-decoration: none;
+    color: var(--color-muted);
+    transition: color var(--transition-base);
+}
+
+.toc-nav a:hover {
+    color: var(--color-primary);
+}
+
+
+/* =============================================================================
+   AUTHOR
+   ============================================================================= */
+
+.author-section {
+    margin-top: 1rem;
+}
+
+.author-section h2 {
+    margin-bottom: 1rem;
+}
+
+.author-block {
+    margin-bottom: 1rem;
+}
+
+.author-photo {
+    margin-bottom: 1rem;
+}
+
+.author-section h3 {
+    margin-bottom: 1rem;
+}
+
+.author-bio {
+    margin-bottom: 1.5rem;
+}
+
+
+/* =============================================================================
+   PROFILE
+   ============================================================================= */
+
+.profile-avatar {
+    margin-bottom: 3rem;
+}
+
+.profile-bio {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
 }
