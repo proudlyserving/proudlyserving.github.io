@@ -12,6 +12,8 @@ feedback: #true
 feedback-link: 
 launched: true
 redirect_from:
+    - /contents/empower-the-team
+    - /contents/empower-the-team/
     - /empower-the-team/
 ---
 

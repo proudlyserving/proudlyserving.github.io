@@ -42,7 +42,7 @@ layout: page
           <div class="row">
             <div class="col-12 col-md-2">
               {% if author_data.img-feat %}
-                <a href="{{ site.baseurl }}/contributors/{{ author_data.name | slugify }}">
+                <a href="{{ site.baseurl }}/contributors/{{ author_data.name | slugify: "latin" }}">
                   <img
                     src="{{ site.baseurl }}/assets/img/contributors/{{ author_data.img-feat }}"
                     alt="{{ author_data.img-alt }}"

@@ -12,6 +12,8 @@ feedback: #true
 feedback-link: 
 launched: true
 redirect_from:
+  - /contents/innovate-with-purpose
+  - /contents/innovate-with-purpose/
   - /innovate-with-purpose/
 ---
 

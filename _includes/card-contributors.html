@@ -14,11 +14,11 @@
 
       {% if page.title == "Contributors" %}
         <h2 class="h5">
-          <a href="{{ site.baseurl }}/contributors/{{ item.name | slugify }}" class="stretched-link">{{ item.name }}</a>
+          <a href="{{ site.baseurl }}/contributors/{{ item.name | slugify: "latin" }}" class="stretched-link">{{ item.name }}</a>
         </h2>
       {% else %}
         <h3 class="h5">
-          <a href="{{ site.baseurl }}/contributors/{{ item.name | slugify }}" class="stretched-link">{{ item.name }}</a>
+          <a href="{{ site.baseurl }}/contributors/{{ item.name | slugify: "latin" }}" class="stretched-link">{{ item.name }}</a>
         </h3>
       {% endif %}
 

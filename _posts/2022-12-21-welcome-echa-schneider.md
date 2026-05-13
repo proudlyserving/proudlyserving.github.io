@@ -14,4 +14,4 @@ About Echa:
 
 Echa is also the author of the Proudly Serving chapter [Speak plainly](/contents/speak-plainly).
 
-Connect with Echa on [LinkedIn](http://www.linkedin.com/in/echa-schneider) and [Twitter](https://mobile.twitter.com/echaschneider).
+Connect with Echa on [LinkedIn](https://www.linkedin.com/in/echa-schneider) and [Twitter](https://mobile.twitter.com/echaschneider).

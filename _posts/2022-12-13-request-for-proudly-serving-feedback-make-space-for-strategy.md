@@ -6,7 +6,7 @@ author: Proudly Serving
 icon: comments
 ---
 
-A new[ Proudly Serving](/) chapter titled [Make space for strategy](/contents/make-space-for-strategy) is ready for public review and feedback. This chapter was written by **[Zach Ratkai](/contributors/zach-ratkai)**.
+A new[ Proudly Serving](/) chapter titled [Make space for strategy](/contents/make-space-for-strategy) is ready for public review and feedback. This chapter was written by **Zach Ratkai**.
 
 We welcome[ your suggestions and ideas](/contents/make-space-for-strategy).
 

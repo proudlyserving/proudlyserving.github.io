@@ -12,6 +12,8 @@ feedback: #true
 feedback-link: 
 launched: true
 redirect_from:
+  - /contents/done-doing
+  - /contents/done-doing/
   - /share-the-work/
   - /share-the-done-doing/
   - /contents/share-the-done-doing/

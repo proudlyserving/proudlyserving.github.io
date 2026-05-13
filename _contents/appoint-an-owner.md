@@ -14,6 +14,8 @@ feedback-link:
 launched: true
 redirect_from:
 - /contents/appoint-a-leader/
+- /contents/appoint-a-product-leader
+- /contents/appoint-a-product-leader/
 - /appoint-a-leader/
 - /appoint-a-product-leader/
 ---

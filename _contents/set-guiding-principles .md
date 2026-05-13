@@ -12,6 +12,8 @@ feedback: #true
 feedback-link: https://docs.google.com/document/d/1rruJsEF8-E3qTVCv0Giw2mK43HcNS4d7233rgGk9wjw/edit?usp=sharing
 launched: true
 redirect_from:
+  - /contents/make-space-for-strategy
+  - /contents/make-space-for-strategy/
   - /set-guiding-principles/
 ---
 ## Overview

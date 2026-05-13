@@ -267,7 +267,7 @@ International Association for Public Participation. (2018). *Core Values, Ethics
 *Open Data Charter.* (2025, March 14). Open Data Charter. [https://opendatacharter.org/](https://opendatacharter.org/)
 
 <span id="reference-88">88.</span>
-*The 8 Principles of Open Government Data.* (n.d.). [Opengovdata.org](http://Opengovdata.org). [https://opengovdata.org/](https://opengovdata.org/)
+*The 8 Principles of Open Government Data.* (n.d.). [Opengovdata.org](https://opengovdata.org/). [https://opengovdata.org/](https://opengovdata.org/)
 
 <span id="reference-89">89.</span>
 Schema.org. (2019). Schema.org. [https://schema.org/](https://schema.org/)
@@ -333,7 +333,7 @@ Bellotti, M. (2021). *Kill it with fire : manage aging computer systems (and fut
 Pahlka, J., & Greenway, A. (2024). *The How We Need Now: A Capacity Agenda For 2025 And Beyond.* [https://www.niskanencenter.org/wp-content/uploads/2024/12/Niskanen-State-Capacity-Paper\_-Jen-Pahlka-and-Andrew-Greenway-2.pdf](https://www.niskanencenter.org/wp-content/uploads/2024/12/Niskanen-State-Capacity-Paper_-Jen-Pahlka-and-Andrew-Greenway-2.pdf)
 
 <span id="reference-110">110.</span>
-*City Hall Selfie Day — ELGL.* (2025, September 18). ELGL. [http://cityhallselfie.com](http://cityhallselfie.com)
+*City Hall Selfie Day — ELGL.* (2025, September 18). ELGL. [https://cityhallselfie.com](https://cityhallselfie.com)
 
 <span id="reference-111">111.</span>
 *Plain Language Guide Series.* (2025, September 23). Digital.gov. [https://digital.gov/guides/plain-language](https://digital.gov/guides/plain-language)

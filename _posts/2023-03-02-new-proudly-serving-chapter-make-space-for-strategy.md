@@ -12,4 +12,4 @@ icon: rocket
 
 ## Thank you
 
-Thank you **[Zach Ratkai](/contributors/zach-ratkai)** for contributing your wisdom to this chapter!
+Thank you **Zach Ratkai** for contributing your wisdom to this chapter!
