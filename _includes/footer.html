@@ -14,13 +14,14 @@
       <div class="row">
         <div class="col-12 col-sm-6 col-md-3">
           <a href="{{ site.baseurl }}/">
-            <img
-              src="{{ site.baseurl }}/assets/img/avatar.png"
-              alt="{{ site.title }}"
-              class="border sm footer-logo"
+            {% include picture.html
+              file="avatar.png"
+              widths="200,400"
+              sizes="200px"
               width="200"
               height="200"
-              loading="lazy">
+              alt=site.title
+              class="border sm footer-logo" %}
           </a>
         </div>
         <div class="col-12 col-sm-6 col-md-3">
@@ -60,5 +61,4 @@
     </div>
   </div>
 </footer>
-{% include analytics.html %}
 {% include js.html %}</body></html>

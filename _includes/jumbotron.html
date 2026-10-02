@@ -3,12 +3,16 @@
     <div class="row align-items-center">
       <div class="col-12 col-md-4 offset-md-1">
         <a href="{{ site.baseurl }}/book">
-          <img
-            src="{{ site.baseurl }}/assets/img/cover.png"
-            alt="{{ page.title }} cover image"
-            class="cover-home border shadow-offset"
+          {% capture cover_alt %}{{ page.title }} cover image{% endcapture %}
+          {% include picture.html
+            file="cover.png"
+            widths="400,800"
+            sizes="(min-width: 768px) 400px, 75vw"
             width="850"
-            height="1100">
+            height="1100"
+            alt=cover_alt
+            class="cover-home border shadow-offset"
+            eager=true %}
         </a>
       </div>
 

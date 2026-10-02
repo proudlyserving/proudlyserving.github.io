@@ -3,13 +3,15 @@
     <div class="card-body text-center">
 
       {% if item.img-feat %}
-        <img
-          src="{{ site.baseurl }}/assets/img/contributors/{{ item.img-feat }}"
-          alt="{{ item.img-alt }}"
-          class="card-img-top sm rounded-circle card-shadow-wrap"
+        {% capture photo %}contributors/{{ item.img-feat }}{% endcapture %}
+        {% include picture.html
+          file=photo
+          widths="400,800"
+          sizes="200px"
           width="200"
           height="200"
-          loading="lazy">
+          alt=item.img-alt
+          class="card-img-top sm rounded-circle card-shadow-wrap" %}
       {% endif %}
 
       {% if page.title == "Contributors" %}

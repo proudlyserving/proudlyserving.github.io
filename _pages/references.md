@@ -9,7 +9,7 @@ permalink: /references/
 Nhất Hạnh, Thích. (2012). *Good citizens : creating enlightened society.* Parallax Press. [https://www.parallax.org/product/good-citizens/](https://www.parallax.org/product/good-citizens/)
 
 <span id="reference-2">2.</span>
-*Open civic organizations.* (2025). Open Civic Organizations. [https://oco.govfresh.com](https://oco.govfresh.com)
+*Open civic organizations.* (2025). Open Civic Organizations. https://oco.govfresh.com
 
 <span id="reference-3">3.</span>
 *The Digital Services Playbook, Play 13 — from the U.S. Digital Service.* (2025). Cio.gov. [https://playbook.cio.gov/\#play13](https://playbook.cio.gov/#play13)

@@ -1,0 +1,16 @@
+{
+  "name": "proudlyserving.github.io",
+  "private": true,
+  "description": "Asset build tooling (images, fonts, CSS). Outputs are committed; Jekyll does not need Node to build.",
+  "scripts": {
+    "build:images": "node scripts/optimize-images.mjs",
+    "build:fonts": "bash scripts/subset-fonts.sh",
+    "build:css": "node scripts/build-css.mjs",
+    "build": "npm run build:images && npm run build:fonts && npm run build:css"
+  },
+  "devDependencies": {
+    "lightningcss": "^1.30.0",
+    "purgecss": "^7.0.0",
+    "sharp": "^0.34.0"
+  }
+}

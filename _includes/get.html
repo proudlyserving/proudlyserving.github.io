@@ -1,12 +1,13 @@
+{% if page.title == "Book" %}{% assign get_heading = "h2" %}{% else %}{% assign get_heading = "h3" %}{% endif %}
 <div class="row mt-2 mb-2">
   {% for get in site.data.get %}
     <div class="col-12 col-sm-6 col-md-3 d-flex align-items-stretch card-shadow-wrap card-get">
       <div class="card text-center rounded bg-dark w-100">
         <div class="card-body">
           <svg class="icon icon-2x" aria-hidden="true"><use href="#icon-{{ get.icon }}"></use></svg>
-          <h3 class="h5">
+          <{{ get_heading }} class="h5">
             <a href="{{ get.url }}" class="stretched-link">{{ get.title }}</a>
-          </h3>
+          </{{ get_heading }}>
           <p class="card-fee">({{ get.fee }})</p>
         </div>
       </div>
