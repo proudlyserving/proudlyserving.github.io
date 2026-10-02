@@ -3,7 +3,7 @@
     <div class="card-body">
       <svg class="icon icon-3x" aria-hidden="true"><use href="#icon-{{ item.icon }}"></use></svg>
 
-      {% if page.layout == "profile" %}
+      {% if page.layout == "profile" or page.url == "/contents/" %}
         <h3 class="h5">
           <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
         </h3>

@@ -1,2 +1,12 @@
-<script src="{{ site.baseurl }}/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/quotes.js"></script>
+<script>
+  // Mobile navigation toggle (replaces the Bootstrap JS bundle).
+  (function () {
+    var btn = document.querySelector('.navbar-toggler');
+    var menu = document.getElementById('mainNav');
+    if (!btn || !menu) return;
+    btn.addEventListener('click', function () {
+      var open = menu.classList.toggle('show');
+      btn.setAttribute('aria-expanded', open);
+    });
+  })();
+</script>

@@ -6,7 +6,6 @@ permalink: /contents/
 redirect_from:
   - /download/
   - /manuscript/
-  - /book/
 ---
 
 {% if site.contents %}
@@ -14,7 +13,7 @@ redirect_from:
     <div class="row">
       <div class="col-12">
         {% for section in site.data.contents.docs %}
-          <h3>{{ section.name | capitalize }}</h3>
+          <h2 class="h3">{{ section.name | capitalize }}</h2>
           <div class="card-group mt-4 mb-5">
             {% for chapter in section.chapters %}
               {% for item in site.contents %}

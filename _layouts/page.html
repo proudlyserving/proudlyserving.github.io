@@ -43,13 +43,15 @@ layout: page
             <div class="col-12 col-md-2">
               {% if author_data.img-feat %}
                 <a href="{{ site.baseurl }}/contributors/{{ author_data.name | slugify: "latin" }}">
-                  <img
-                    src="{{ site.baseurl }}/assets/img/contributors/{{ author_data.img-feat }}"
-                    alt="{{ author_data.img-alt }}"
-                    class="md rounded-circle card-shadow-wrap author-photo"
+                  {% capture photo %}contributors/{{ author_data.img-feat }}{% endcapture %}
+                  {% include picture.html
+                    file=photo
+                    widths="400,800"
+                    sizes="240px"
                     width="240"
                     height="240"
-                    loading="lazy">
+                    alt=author_data.img-alt
+                    class="md rounded-circle card-shadow-wrap author-photo" %}
                 </a>
               {% endif %}
             </div>

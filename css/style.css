@@ -2,19 +2,10 @@
    FONTS
    ============================================================================= */
 
-@font-face {
-    font-family: "Public Sans";
-    src: url("/fonts/public-sans/PublicSans-Thin.woff2") format("woff2"),
-        url("/fonts/public-sans/PublicSans-Thin.woff") format("woff");
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
 
 @font-face {
     font-family: "Public Sans";
-    src: url("/fonts/public-sans/PublicSans-Light.woff2") format("woff2"),
-        url("/fonts/public-sans/PublicSans-Light.woff") format("woff");
+    src: url("/fonts/public-sans/subset/PublicSans-Light.woff2") format("woff2");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -22,18 +13,15 @@
 
 @font-face {
     font-family: "Public Sans";
-    src: url("/fonts/public-sans/PublicSans-Regular.woff2") format("woff2"),
-        url("/fonts/public-sans/PublicSans-Regular.woff") format("woff");
+    src: url("/fonts/public-sans/subset/PublicSans-Regular.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
-
 @font-face {
     font-family: "Public Sans";
-    src: url("/fonts/public-sans/PublicSans-Bold.woff2") format("woff2"),
-        url("/fonts/public-sans/PublicSans-Bold.woff") format("woff");
+    src: url("/fonts/public-sans/subset/PublicSans-Bold.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -41,11 +29,20 @@
 
 @font-face {
     font-family: "Public Sans";
-    src: url("/fonts/public-sans/PublicSans-ExtraBold.woff2") format("woff2"),
-        url("/fonts/public-sans/PublicSans-ExtraBold.woff") format("woff");
+    src: url("/fonts/public-sans/subset/PublicSans-ExtraBold.woff2") format("woff2");
     font-weight: 800;
     font-style: normal;
     font-display: swap;
+}
+
+/* Metric-matched fallback so the swap to Public Sans does not shift layout. */
+@font-face {
+    font-family: "Public Sans Fallback";
+    src: local("Arial"), local("Helvetica Neue"), local("Roboto");
+    size-adjust: 105.6%;
+    ascent-override: 90%;
+    descent-override: 21.3%;
+    line-gap-override: 0%;
 }
 
 
@@ -67,7 +64,7 @@
     /* Bootstrap overrides */
     --bs-primary: var(--color-primary);
     --bs-body-color: var(--color-body);
-    --bs-body-font-family: "Public Sans", sans-serif;
+    --bs-body-font-family: "Public Sans", "Public Sans Fallback", sans-serif;
     --bs-body-font-size: 1.1rem;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
@@ -218,7 +215,7 @@ h1, h2, h3, h4, h5, h6,
 .display-1, .display-2, .display-3, .display-4, .display-5, .display-6,
 .navbar-brand,
 .breadcrumb {
-    font-family: "Public Sans", sans-serif;
+    font-family: "Public Sans", "Public Sans Fallback", sans-serif;
     font-weight: 800;
     letter-spacing: -0.02em;
 }

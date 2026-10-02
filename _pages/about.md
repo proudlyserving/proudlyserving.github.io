@@ -36,7 +36,7 @@ Whether you’re launching a new service, leading organizational change, or stri
 
 ## How we made this
 
-Proudly Serving is an [open civic organization](https://oco.govfresh.com). The project was managed openly on [GitHub](https://github.com/proudlyserving), led by [maintainers](https://github.com/proudlyserving/proudlyserving.github.io/wiki/Roles#maintainers) and supported by [contributors](https://github.com/proudlyserving/proudlyserving.github.io/wiki/Roles#contributors). We followed a [team agreement](https://github.com/proudlyserving/proudlyserving.github.io/wiki/Team-agreement) and [code of conduct](https://github.com/proudlyserving/proudlyserving.github.io/wiki/Code-of-conduct). Details on how we work can be found in our [documentation](https://github.com/proudlyserving/proudlyserving.github.io/wiki).
+Proudly Serving is an open civic organization. The project was managed openly on [GitHub](https://github.com/proudlyserving), led by [maintainers](https://github.com/proudlyserving/proudlyserving.github.io/wiki/Roles#maintainers) and supported by [contributors](https://github.com/proudlyserving/proudlyserving.github.io/wiki/Roles#contributors). We followed a [team agreement](https://github.com/proudlyserving/proudlyserving.github.io/wiki/Team-agreement) and [code of conduct](https://github.com/proudlyserving/proudlyserving.github.io/wiki/Code-of-conduct). Details on how we work can be found in our [documentation](https://github.com/proudlyserving/proudlyserving.github.io/wiki).
 
 ## Maintainers
 

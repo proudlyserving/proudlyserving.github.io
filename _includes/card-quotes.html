@@ -1,2 +1,28 @@
-<div id="quotes-container" class="row my-3" data-layout="{{ page.layout }}"></div>
-<script id="quotes-data" type="application/json">{{ site.data.quotes | jsonify }}</script>
+{% assign all_quotes = site.data.quotes %}
+{% if page.layout == "home" %}
+  {% assign shown = all_quotes | sample: 2 %}
+{% else %}
+  {% assign shown = all_quotes %}
+{% endif %}
+<div id="quotes-container" class="row my-3">
+  {% for q in shown %}
+    <div class="col-12 col-sm-6 d-flex align-items-stretch{% unless page.layout == "home" %} quote-item{% endunless %}">
+      <div class="card mb-3 mx-1 border-0 px-1">
+        <div class="card-body">
+          <p class="text-center m-0 p-0">
+            <svg class="icon icon-xl" aria-hidden="true"><use href="#icon-quote-left"></use></svg>
+          </p>
+          <p class="fs-5 my-1 py-1">{{ q.quote | escape }}</p>
+          <p class="text-center m-0 p-0">
+            <svg class="icon icon-xl" aria-hidden="true"><use href="#icon-quote-right"></use></svg>
+          </p>
+          <p class="text-center mt-3">
+            {{ q.name | escape }}
+            {% if q.title %}<span class="small"><br>{{ q.title | escape }}</span>{% endif %}
+            {% if q.organization %}<span class="small"><br>{{ q.organization | escape }}</span>{% endif %}
+          </p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

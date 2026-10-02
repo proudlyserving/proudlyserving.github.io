@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Title -->
     {% if page.layout == "home" %}
@@ -11,21 +13,27 @@
       <title>{{ site.title }}</title>
     {% endif %}
 
-    <!-- Resource hints -->
-    <link rel="preconnect" href="https://www.googletagmanager.com">
-    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <!-- Preload critical fonts and the LCP image -->
+    <link rel="preload" href="{{ site.baseurl }}/fonts/public-sans/subset/PublicSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ site.baseurl }}/fonts/public-sans/subset/PublicSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    {% if page.layout == "home" %}
+      <link rel="preload" as="image" type="image/webp" fetchpriority="high" href="{{ site.baseurl }}/assets/img/cover-400.webp" imagesrcset="{{ site.baseurl }}/assets/img/cover-400.webp 400w, {{ site.baseurl }}/assets/img/cover-800.webp 800w" imagesizes="(min-width: 768px) 400px, 75vw">
+    {% elsif page.layout == "profile" %}
+      {% assign photo_ext = page.img-feat | split: "." | last %}
+      {% assign photo_cut = page.img-feat.size | minus: photo_ext.size | minus: 1 %}
+      {% assign photo_stem = page.img-feat | slice: 0, photo_cut %}
+      <link rel="preload" as="image" type="image/webp" fetchpriority="high" href="{{ site.baseurl }}/assets/img/contributors/{{ photo_stem }}-400.webp" imagesrcset="{{ site.baseurl }}/assets/img/contributors/{{ photo_stem }}-400.webp 400w, {{ site.baseurl }}/assets/img/contributors/{{ photo_stem }}-800.webp 800w" imagesizes="300px">
+    {% endif %}
 
     <!-- Theme color -->
     <meta name="theme-color" content="#3333A3" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#121220" media="(prefers-color-scheme: dark)">
 
     <!-- Security -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none';">
     <meta name="referrer" content="strict-origin-when-cross-origin">
 
     <!-- Meta -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="{{ page.description | default: site.description }}">
     <meta name="author" content="{{ site.author }}">
     <meta name="robots" content="{{ page.robots | default: 'index, follow' }}">

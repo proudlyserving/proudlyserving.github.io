@@ -9,10 +9,16 @@ layout: profile
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-4">
-        <img
-          src="{{ site.baseurl }}/assets/img/contributors/{{ page.img-feat }}"
+        {% capture photo %}contributors/{{ page.img-feat }}{% endcapture %}
+        {% include picture.html
+          file=photo
+          widths="400,800"
+          sizes="(min-width: 768px) 300px, 300px"
+          width="300"
+          height="300"
+          alt=page.title
           class="lg rounded-circle shadow-offset profile-avatar"
-          alt="{{ page.title }}">
+          eager=true %}
       </div>
       <div class="col-12 col-md-6">
         <div class="post">
