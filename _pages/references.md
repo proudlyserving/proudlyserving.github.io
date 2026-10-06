@@ -210,7 +210,7 @@ NYC Digital. (2017, April 28). *Plain Language Speaks to Everyone.* Medium; city
 *Introduction to WAVE.* (n.d.). YouTube. [https://www.youtube.com/watch?v=ITUDiTgAZY0](https://www.youtube.com/watch?v=ITUDiTgAZY0)
 
 <span id="reference-69">69.</span>
-*Improving the Accessibility of Social Media in Government.* (2014, July 16). Digital.gov. [https://digital.gov/resources/improving-the-accessibility-of-social-media-in-government/](https://digital.gov/resources/improving-the-accessibility-of-social-media-in-government/)
+*Improving the Accessibility of Social Media in Government.* (2014, July 16). Digital.gov. https://digital.gov/resources/improving-the-accessibility-of-social-media-in-government/
 
 <span id="reference-70">70.</span>
 Initiative (WAI), W. W. A. (n.d.). *Developing an Accessibility Statement.* Web Accessibility Initiative (WAI). [https://www.w3.org/WAI/planning/statements/](https://www.w3.org/WAI/planning/statements/)
